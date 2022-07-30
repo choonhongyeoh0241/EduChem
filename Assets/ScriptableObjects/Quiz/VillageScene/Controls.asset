@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: Controls
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: What are the controls in this gamification
+    options:
+    - option: W, A, S, D
+      isAnswer: 1
+    - option: A, B, C, D
+      isAnswer: 0
+    - option: "\u2191, \u2190, \u2193, \u2192"
+      isAnswer: 1
+    - option: I'm not sure
+      isAnswer: 0
+  - question: Which key is the multiple usage key?
+    options:
+    - option: Space
+      isAnswer: 1
+    - option: A
+      isAnswer: 0
+    - option: I
+      isAnswer: 0
+    - option: Esc
+      isAnswer: 0
+  - question: ShortCut key to inventory
+    options:
+    - option: Space
+      isAnswer: 0
+    - option: U
+      isAnswer: 0
+    - option: I
+      isAnswer: 1
+    - option: Esc
+      isAnswer: 0
+  - question: Key to pause menu
+    options:
+    - option: Space
+      isAnswer: 0
+    - option: U
+      isAnswer: 0
+    - option: I
+      isAnswer: 0
+    - option: Esc
+      isAnswer: 1
+  - question: Key to dialogues, reading, picking up, etc.
+    options:
+    - option: Space
+      isAnswer: 1
+    - option: U
+      isAnswer: 0
+    - option: I
+      isAnswer: 0
+    - option: Esc
+      isAnswer: 0

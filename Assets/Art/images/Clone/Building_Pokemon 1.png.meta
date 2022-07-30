@@ -1,0 +1,7318 @@
+fileFormatVersion: 2
+guid: e33025aa80018a44089af45379d76f2e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Building_Pokemon 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 311
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edef6683746aacb4586035bdea8e6bce
+      internalID: -1020012602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bb27eec8e76af42a94dd1991fb55df
+      internalID: -1337543058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36308d4792c694eb68743bd773ec42
+      internalID: -1113810629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc16705a62923946894e35c999208ce
+      internalID: -1170105225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfc9af51fadf3d4f974c37fd5aaec9c
+      internalID: -1891402800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a5a857a50615840b4fedc7b6e782df
+      internalID: -1056345724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626a65c15743deb488267adab1f6336f
+      internalID: 611687536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15ee0bc279aed64c944784a23cf493b
+      internalID: -886912160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3882951e478aa845ba13e368db53049
+      internalID: -867673564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed8d0157c1454743aeabf8ce0149f92
+      internalID: 2135577812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1de811250cf3f84cb5b850ef4eae70a
+      internalID: -587809894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b89d4842bea754f8d4553e073cd7cd
+      internalID: -4442725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052ee538fbeccdd4fa624be2d315d86c
+      internalID: -1446586271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7dd4bec1bc6444d8c3ecfae12ac173
+      internalID: 524475987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b84c0c00ef662449fb9bc1882b780d
+      internalID: 291556062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913c914c155995c49bcc121867f7754a
+      internalID: 1708000495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a27555ea281bbd479f0d19efcaef600
+      internalID: 879165574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03b3edb7cd746341a2262ab0ad4797f
+      internalID: -1298772608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaf23b218197b84a94b23a9b16495aa
+      internalID: -1894432905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 295
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f25fa44613bc94387836aeef732efe
+      internalID: 1010683634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614e41155a3dd704d9ab57c541fbb452
+      internalID: -1752100626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91ee4fa18add604b98ecd14343b39d5
+      internalID: 2012825338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_23
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da104585384d33944b70c09e22bd3111
+      internalID: 1412531548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aa6ab55a3340e40a87d14e6c15b155
+      internalID: 381257365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe74cffa0720e54e85dc50d5f11f325
+      internalID: 585618842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99b4fbe8f9c57e47aba11a36e81ca47
+      internalID: -425912502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_27
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e31bf5612d2bd14c91629417bc92750
+      internalID: -162886537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_28
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d69574113aedc64b8ff1283b6d2e012
+      internalID: 2115027845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae85f8b7ae25c54bb9c45cf6967182b
+      internalID: -389943422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_30
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58992fd763fdf4148b5fbf54fd9c4f61
+      internalID: -1165953592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_31
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b84a7b450d3a64994004a1295115f1
+      internalID: -1474679399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 287
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75668c4d12b9f1f4382df3d0a0e390a7
+      internalID: 1803132743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_33
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 287
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dc80d2e49ae4e499329e693279b30f
+      internalID: -1067818087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_34
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 279
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c933a34316fc74fb36e49b9493e03e
+      internalID: -1142025864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_35
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d023dabb8e7105b4f8b9bfe299ca560e
+      internalID: -1091500221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c3a6b8323077e40ab8dc16492d0305
+      internalID: -881720801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f284b4cab027ca44bd824442c14a48b
+      internalID: 396439426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8070bc113f36b84082624a1fca18e95
+      internalID: -1529365471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_39
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf06d784df31c248b7be2a381513dbc
+      internalID: 1866580475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71e5db57873c2d4781ac6357b35f5ce
+      internalID: -1767912988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_41
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 279
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a111f4aa93dfb364c95f8f7c83f682f7
+      internalID: -2060962449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f412e076c12fc24d9794dcd8583967b
+      internalID: 575510087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e657409eab07ef646929cd9fc2721693
+      internalID: -1650879602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_45
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be32a5d00f4607d42a03c6067d630846
+      internalID: -1873748438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_46
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817a3fed392d81440abd236ba3d3cd58
+      internalID: -1318061831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_47
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a86dd91ecbc7384a9b201421b737b85
+      internalID: -754611881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d9d019f6e9404d8c3248b22c7c314
+      internalID: 1301464919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3337c3bdc0ba84b41b3479baab611570
+      internalID: 160239916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_50
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e714ca74dddb04248827477e085a9b10
+      internalID: -1623272181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_51
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de31f3f003ce8f41a2d9f1e60ff960e
+      internalID: 1031036603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_52
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ee38e2aab135a48bb3622c625cd377
+      internalID: -1803289380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_53
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35394d0159b5904bb00d14dc63a0024
+      internalID: -1399221216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_54
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397cbdd3b8d539f4bb8857be306e9469
+      internalID: -1307335672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 269
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb20e5747f81364c9399700443a926c
+      internalID: -52786098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 263
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4d243b7eee7c84aab87f00598124be
+      internalID: 1135941716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_57
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56829a15f4d679648ba1a4aff7dcc0c4
+      internalID: 1679152297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_58
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef9f05a48678fe468d31a9dc6ebc2f3
+      internalID: 265614898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db5e93ab1496c2419d7176b22323f14
+      internalID: -1690571656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_60
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d28eeb137c1b841aa6cf8821782e04
+      internalID: -222431827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_61
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede649988267c354baedf3423ec5f95f
+      internalID: -95373702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_62
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cf04d42add17e489a0b9d23c8756ea
+      internalID: 1524189834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_63
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cae063a0c0be0e4599164ac8fde8ea6
+      internalID: 152467689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_64
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c141240165eb04a478ef3b33d414944f
+      internalID: -277963716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_65
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbf9878eac6d0f458925edfd50b7835
+      internalID: 1496815508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_66
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddc75f6b1f5cbe46924cb7206ff77ed
+      internalID: 1121462745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_67
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4618e3cffc6d3478d8fd374addeee2
+      internalID: -258162513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_68
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a3b08d132158246bf7d3bc6d50fb06
+      internalID: 158068525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_69
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd83bfe902be9d4a890b37b307d4fb6
+      internalID: -1689723790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574d4207fc86a45418f7e0b891b55228
+      internalID: -1211477150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_71
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d30eea32d5b64b4cb08f5dbf771d6a8
+      internalID: -966534703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfda21a938a87ef44994dbae515e166a
+      internalID: -1462596051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_73
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a4e662f1d494f49ab03c60e8c8834e
+      internalID: -269646941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a093438165ea1a04399e3e5358ccc537
+      internalID: -1167732370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_75
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213dd260e0f81914cadc85be106366ec
+      internalID: 1132525529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_76
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0605dda59d8464db6f7583d3234de4
+      internalID: 1142952107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_77
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 250
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ce52db0810f03429632f0a0fbbe051
+      internalID: 947133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_78
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 250
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af1b4e468054cd4c82ec9fe0007f9c5
+      internalID: -1892453390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_79
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 247
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257a8116126bf0840b8dc8dfc36d614c
+      internalID: 360910607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_80
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcf6f51088a11d4980a3f6ccda29e92
+      internalID: -1048458726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_81
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d175aa819f6f4da658399e654c5dc
+      internalID: -1393569180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_82
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31748afc0f75fa34aabacadd673a7942
+      internalID: 1343908811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_83
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfe42c293e756d4b9c6539cd6b9dce4
+      internalID: 1249612109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_84
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a728b8ede95397e4caf2712b9e804fd7
+      internalID: 174903097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_85
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c9ca70fbea294e92d752fde33ec04
+      internalID: -1108022679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_86
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200023cb3312ef9438e81e963118ae18
+      internalID: 171387917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_87
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d51f5cb0c8b84f9ba00ff7223c6d0
+      internalID: 251479328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_88
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e83189dd59a84a8ffe6fc4b48fbb9
+      internalID: -1432452019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_89
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ab07fd85938e4418c7ef140af1e2e3
+      internalID: 2107624558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_90
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c81e53cd73a9c4e800a718a13d23d6
+      internalID: -1975520546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_91
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b82f9bcef76640be452d52036a58e
+      internalID: -1683058437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_92
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476c391ff567d514ea3bfd6f2b0074c0
+      internalID: 1961676847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_93
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b10fea886db8f45a088706cf658181
+      internalID: 897382777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_94
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cb7130ca74e6c40a8c211ca3cd6507
+      internalID: 817048301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_95
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b94a1d69b260c9449c982e05053a201
+      internalID: 1290819295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_96
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c16b0d360d170c40baea29a1e4a91ef
+      internalID: -355391400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_97
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469660a2590806b4e9fe05be379c34e5
+      internalID: -923646076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_98
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4824df63ec3974e970fd05c0e77dd4
+      internalID: -1691954005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_99
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 247
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec97e9a7de26f549b7f964a30b983a0
+      internalID: 466718522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_100
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ef3b891d93084397d622f62a71d48
+      internalID: -1734905860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_101
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5713acf68b943a3438bcea0808ed12f9
+      internalID: -281824706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_102
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fa22c99b089724089ef2a1ed065fc9
+      internalID: 1629399963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_103
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b48ea726de304985d003c907e83c3
+      internalID: -995090299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_104
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbe8b6d6d81cf441b2254ec9f8b5201
+      internalID: 588824082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_105
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e6d466c48387e4985f1a8c2fb05537
+      internalID: 1496827219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_106
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca50b1ce6edba184cafc2865e780028b
+      internalID: 1861674584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_107
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76a3600484bb2141a9b19e0124c11a4
+      internalID: -1226472002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_108
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029c357ce16e66c429f5552de5153698
+      internalID: 488940794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_109
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1322029a34c414abc9a77e35dc154b
+      internalID: -531658120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_110
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6173555e1e824c6499a0fc6170ca4db3
+      internalID: -1397582619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_111
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb8819b2ab40de41b0c1a5de51dfd96
+      internalID: 987050535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_112
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ef808189d8a604bb9616ddb7295e02
+      internalID: 815607823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_113
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656dfe485ee07974d85f448407945d5e
+      internalID: -1627534662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_114
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9dd7106a41ea14b8a112bfbe15f0dc
+      internalID: 1754676580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_115
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497601f9e11a89a488f603ce65ca1e86
+      internalID: -1070586940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_116
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bdfcb64fe9c2b43812ee4a54566b8d
+      internalID: 24851577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_117
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af539bbec8566c4a9a22c07a3b2d065
+      internalID: -1989092157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_118
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dd161780fc2874da749bf7d0100c62
+      internalID: -1677268684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_119
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce9fbf4e678359419d3c1c84e0b4f6d
+      internalID: -1416056773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_120
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75559c5c7ede662478d65bd6c3c671ab
+      internalID: 1616909027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_121
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debb02d71fddbf24f880c02c2dd1a7a1
+      internalID: 1333719801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd87ac40e45ebe469af89580f2831d3
+      internalID: -1051200097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_123
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e40db7168d033942b7d4948c1d28ed8
+      internalID: 1067922729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_124
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686d3c3b6b75d146a09b99a96936f82
+      internalID: 75777720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_125
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb2a7733b6890a49a3fc5774681d959
+      internalID: -2005051284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_126
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9424b514ff4c8b74aa45ce74521dd16b
+      internalID: -697975059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_127
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0dcc90bba975f43abcc59e8df5b0ae
+      internalID: -815173280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_128
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fbc496c057b9f4a876f1db773ed14e
+      internalID: 1642706584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_129
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01324b660762e05449de99e69a755cc9
+      internalID: -365522803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_130
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c60cc6de16099340a527746722cea29
+      internalID: -228086556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_131
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58229778b7abc844eaa02c11b84135c3
+      internalID: 1986918183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_132
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fd7c777c1da764bac84a72934a6411
+      internalID: -1526206753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_133
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c11a028cc700a4d927d5d8622f904a
+      internalID: 823385312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_134
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d56149b57f853c4c8d6ce4263a040de
+      internalID: 1120482443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_135
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38943455a9edb14bb7699c9f46aeab0
+      internalID: 1751128217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_136
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e435724779d86044b3cc6552f3626f3
+      internalID: 1552123078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_137
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7928d460579a8a1499c35bf5f0b19ccc
+      internalID: -777528740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_138
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8777216931a6df42a08edcab7e42b50
+      internalID: -476823893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_139
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16284cd147db4e4bb34d00c198017b1
+      internalID: -1011728293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_140
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff78f19e3c5bca4c84a0cb5d258784e
+      internalID: 913946493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_141
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f429c7e04bf0d2142a953f422e86265e
+      internalID: 1496746679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_142
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9966da81881d68499c695e9d2ef6c38
+      internalID: -327932294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc82f3a0de9f9d4d8e41841bdd2f6d2
+      internalID: -1120929799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_144
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad507d06ee2a18418b70f23cdf9a3b0
+      internalID: 1761680156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_145
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6f2aecff20e18449d09b0661122955
+      internalID: -174578568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_146
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ec1101703c3d44a2cd19184bdbcba
+      internalID: 514698108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_147
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3111f921a89bd4bb1605f8a6762b72
+      internalID: -518052144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_148
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a5422920fb5404bb34818602b202a5
+      internalID: 1617520421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_149
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c830a61540617254b82f7bf3449469fa
+      internalID: 1584815059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_150
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5b921cafc22b74bb24b77a843c6680
+      internalID: 368600129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_151
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a087f22e93674db48950b90b650442e0
+      internalID: -1710301459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_152
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd0fef59211e5e409b5b74cc402761e
+      internalID: 661491475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_153
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dade694ed0e2b44b287787edd0a48c
+      internalID: -1385399751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_154
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246f88ce256fa294498d7fb0b7db7ad3
+      internalID: -88448585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_155
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f9f91dc33e642488df89115668637e
+      internalID: -1534157335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_156
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007a5b7ea2f95604ea2decb58d1331f7
+      internalID: 1418593732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_157
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2230d548329124ab23fc004da56771
+      internalID: -1217199058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_158
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37848fbebc2a52046bdca2dd84e45388
+      internalID: -8605222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_159
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6019fbc0d56b11d4397e8e86c1a9b918
+      internalID: 1782266248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_160
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c98906978a4c49ac22920f9680fea
+      internalID: 1257445538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_161
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a0915fc02abd345b1eede4febba229
+      internalID: -31717997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_162
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ba6af5e2351e341b264ed94741d35c
+      internalID: 2046148449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_163
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f9f343742a634794c4d4fcc385abe
+      internalID: -424020495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_164
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88607e9c08de7854e9317ec1a6168e73
+      internalID: 1669984692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_165
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45257587694fdc44ca13be696a64a214
+      internalID: 299262952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_166
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cade52c4d59166a4f9ecce301a538fef
+      internalID: -1238485653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_167
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56ecc0a3d936ce4199c1cf61f661e94
+      internalID: 1116119980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_168
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c90c73875bad843831d4d7606f8775
+      internalID: 1002763138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_169
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4002db351606d4baebbf333f81dc90
+      internalID: 900505033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_170
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415308448e5b20842b90137c1342154c
+      internalID: -1341917241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_171
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d61073ed9e34b43ab4ed2627e6064c
+      internalID: 888959192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_172
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8465ee1cf771ead4ca16b401e4132db7
+      internalID: 1219914709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_173
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7843771cf92cb44e9c09f199fecc2bb
+      internalID: 118073180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_174
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f02e62dd0bd0042b1d3ee384713b80
+      internalID: 261966264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_175
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ccd59908f45bf4580f90e9178d88e1
+      internalID: -432243089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_176
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f31670017a52344a9c419210f9bcda
+      internalID: -253533145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_177
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee287101a2f9ee439aa63972db6addf
+      internalID: -1486212981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_178
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705239b1d2798e84395d10cd256d6721
+      internalID: 1651936731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_179
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068ef6014cc7cfc4d89c16844f20b261
+      internalID: -1178397967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_180
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb25605342906e4bafc778e7fca8520
+      internalID: 1262455648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_181
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d87fe19a9cf124c9d0d6e02e326050
+      internalID: -818045868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_182
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4422be86c9fc1f9458fd06a96cd843c9
+      internalID: 988843695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_183
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc78e1f43f2fe394ebc682b898f8e36d
+      internalID: 358381443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_184
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d90c264c9b0ae7499d0753ba6442fa3
+      internalID: -913034991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_185
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338c1001086980846ae28525f60899ce
+      internalID: -1912635450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_186
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86ee213e274e06479a0daff3e905638
+      internalID: -440215791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_187
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea48a2bd7a3408a4fb9206e5e7b92066
+      internalID: -851692828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_188
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb55369e2eabe5c47b6fcf36591e1b65
+      internalID: 1240261618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_189
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edd256689e5a344b8bf185e7995d380
+      internalID: -1077557594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_190
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a997702929b6034ca3860f6895d0167
+      internalID: 866238547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_191
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94778903c37c574cbf96c331ed73b7c
+      internalID: -1924288783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_192
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72400c43850f445a56a95915660b89
+      internalID: 762162206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_193
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6a6cb12268ec84b8e514431f203d60
+      internalID: -516598465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_194
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26bf0b080bc1c94f9c43fe31cfb4978
+      internalID: -1366489359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_195
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e031b9cea398c3d469c3ef5e4883d7fb
+      internalID: -1287816058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_196
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07fe7f6d95d6146844f8f9de8742a2
+      internalID: 1579891448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_197
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1250414baf7f8ab4099b2301a6cfb0a6
+      internalID: 72684117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_198
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813009b4d5ed38e44beeca951786d171
+      internalID: 810352864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_199
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee48ee2c4af2084eaac57d5c2e7a17c
+      internalID: 1691552471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_200
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d37ac932b6e6c64a8a3a3dfdaed5b9a
+      internalID: 1949247493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_201
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6257a5b49aa140438bd0632ceeb184c
+      internalID: 211333088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_202
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c26221465090ec4bbaaa8886cb74d5d
+      internalID: -567648195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_203
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc4878743b7f44d8c4f4815fbfa935
+      internalID: -2123494257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_204
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ccf786e13afb84f831ec23b2377d2c
+      internalID: -903966149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_205
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60a68b26f55ba94bb4e60172181df2f
+      internalID: 1031924749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_206
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83970c056192fcd41a62d75fd9812dc5
+      internalID: -566277898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_207
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271f263390066c341abbbfe6082da5a0
+      internalID: -1834091122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_208
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0981db6697eda2e4fa9bf6ce8782b8b5
+      internalID: -621155702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_209
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdc6753ffe16834e86e35b66133815a
+      internalID: 1822166671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_210
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9acb27fc2116142886d31cf023c7f6
+      internalID: 862272946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_211
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a1a3ed11d3a8747b15ea32002ae7c1
+      internalID: 1201106265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_212
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654e7bdadee824b4db7e6fb02bc0043d
+      internalID: -1982123888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_213
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf873d78306215c4c83defcda255435e
+      internalID: -1027744598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_214
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935a28002e36f3148b0440bc2c163ed6
+      internalID: 2062534341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_215
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7920e75f50930e49ad2c53bd759b6c4
+      internalID: -1798238175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_216
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c70983a349a034da7c65943ea1d4ac
+      internalID: 235761538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_217
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534b2b853a7ce164bafa00c7cb6e02b8
+      internalID: 379829745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_218
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5572540ea6e9b5f49abe0231978d4109
+      internalID: -1075069145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_219
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197b65296908d9541b1f89ef494c69c6
+      internalID: -698091662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_220
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe781f2c379693c4bafdee8f025bd4b9
+      internalID: -1578818209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_221
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e1f64bebe8174697a84cce9bc90b9
+      internalID: 1475970469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_222
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2db8460a8222342972139a896a8fd2
+      internalID: 320385147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_223
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57adb68332aed904c996b967ca103a57
+      internalID: -1171634542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_224
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752b42c812ff582449ae69f073b6146f
+      internalID: -1392844055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_225
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db7b49e82ba0ff4f84d89cd05af949e
+      internalID: 645473560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_226
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70a674eace0ae7458daa059e2dc376e
+      internalID: 1679641956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_227
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d319a68f415b094eb24db790f4bd5b2
+      internalID: 573446669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_228
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64da00ed4b0e6884f9bff96f5b2f35d3
+      internalID: -161860420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_229
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f062f21a8b1524183e44d10086510e
+      internalID: 1042368802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_230
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86262099796d5a64f8dc506382d22fa4
+      internalID: 2113404036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_231
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146507fbea10ac245836ee2c5d7d10be
+      internalID: -1200333361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_232
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04431d69279dbc4a8d127ce37a82764
+      internalID: -2013452020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_233
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a69dae5e8e002840ad42bc157ce2dc1
+      internalID: 883996003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_234
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7660affa76f63747ab05cd33e1e5af0
+      internalID: 1468140873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_235
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd13ab89ab04af4ab26bf832062377c
+      internalID: -248413130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_236
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbb2ed1aff54ec4ebbbf800c7203231
+      internalID: -1560886015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_237
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b8579852769f247a4cf0dc367ee8ff
+      internalID: -857128819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_238
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe43a625bdf8f9d47a07f54340faf467
+      internalID: -2096479177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_239
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6097974c322d48f4aaa3ef287e4a7f61
+      internalID: -451650784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_240
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87abaa7b90cec747be306ca3ff87078
+      internalID: -1609050951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_241
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c090084d2e78042b03b9a6b5b83db8
+      internalID: -270877325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_242
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92244246240fce489b57d6431738063
+      internalID: 666100427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_243
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6203e6e1850ff74c9e4ef5e4f719c59
+      internalID: -700306790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_244
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eab2515a383ec4c9b4cf2e5b87a672
+      internalID: -147872608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_245
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc80395b99dbb6744adc8a8e12109100
+      internalID: 80525632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_246
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb68773a28e9984b85c53d551293a01
+      internalID: 634053592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_247
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a808e640829dad547a3a77dccde38068
+      internalID: -923666531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_248
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32801a654f27bf4b8bcf81b840dfe72
+      internalID: -1510346796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_249
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a09a69222da85c43957a8d05b7051ae
+      internalID: -1799211823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_250
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443a4354cd8058740bd6a3de69bb26da
+      internalID: 1108174926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_251
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d3e49f0f7a8104a947e96d0d5877f4
+      internalID: -332888343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_252
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1653fba7fc156ec4aac8ec33cfcfe658
+      internalID: 816417964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_253
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e415e40158d67604e8345a6bd5735a9c
+      internalID: 251458264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_254
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f6bbc3378a1e2479c55d009389ec3f
+      internalID: 1197135024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_255
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b00d96da8e714caa7f15bb03002af
+      internalID: 1187343060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_256
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687121ca1cf7d814295449b73eaf5627
+      internalID: 1644382206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_257
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa0907bde8221643a63d5da320d832a
+      internalID: -1835187242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_258
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a95e32895a3324fa2d6eb89611c7fa
+      internalID: -330808842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_259
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cc3d190d43e514e898d2142719a236
+      internalID: 1594735329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_260
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beac7e54d9f9fce4084482d44102bfb6
+      internalID: -1165129386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_261
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88789abfc4109454da8756c1163d490a
+      internalID: 223940420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_262
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60b90f0d6db1fb4d8ee4e4e24c5563d
+      internalID: -44513996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_263
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed08f4d861c4f245ae992112035ac70
+      internalID: 623828630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_264
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb976e4f06cb94941ae229f37ce5f8c1
+      internalID: 209143769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_265
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48457f49afea7148823be90d20cf066
+      internalID: 741080975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_266
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672f1766c9d97dc4da6ab551037988cd
+      internalID: 407065563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_267
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfef367b0dbb97e43a5ba1e19ee4e16e
+      internalID: 1538164201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_268
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff511f45cc1e0d44812e2139d16331a
+      internalID: 1052037223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_269
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548109c35d6f35345bd276e485e53e00
+      internalID: -927593115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_270
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9f37c6c8973f94c9112dc4509b7f0e
+      internalID: -814243361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_271
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8159fadae76a99b409d2b16c2d64271c
+      internalID: -1200075436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_272
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695dfb9e56b679b409018bdf483e8588
+      internalID: -311778841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_273
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06d4bc2a88742c42a45880b58fcdda7
+      internalID: -1886615506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_274
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0728022b5f098408bded0b0eb4de44
+      internalID: -1972338060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_275
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65549e62b9bdd464484e77a08349e6e3
+      internalID: 1009494521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_276
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8846b46a5eb91846ba3c545b0e4c713
+      internalID: -1111799939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_277
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e310694be387741b5de08dd716fb11
+      internalID: 1186096045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_278
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e82e290740949439e990189d951862
+      internalID: 1685492177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_279
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4922633c6143a6f4bb2e1dd3e2a1edd1
+      internalID: 1834877235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_280
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700cfd1182e320c4098f9142a9454cd0
+      internalID: -577497471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_281
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34d62a263cc4514d8fbe9d3f9b3d389
+      internalID: 1719589030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_282
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046b6d5c65680554ca61a4a19fa19aa1
+      internalID: 1101511155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_283
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa88eec8470b8a409c2ac72731bf502
+      internalID: -1672314739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_284
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a965291ae2b7bda489bf5cc0dd19d064
+      internalID: 336344473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_285
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc1b0f96f643b049833c3031ff21cb1
+      internalID: 223257363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_286
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453590b3470b7d44f92021908048e993
+      internalID: 1786974123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_287
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04381c8db682b141a1ca8189127c178
+      internalID: 1754381519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_288
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4066400a3f0133547b590966767e0ff2
+      internalID: -1698604453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_289
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262465403cf8e6e49a8aec2fc0092b58
+      internalID: 1944111696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_290
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131786ebb3efd9d46afdac7049dadcf2
+      internalID: -875579620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_291
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbc111a935663b478ddeed54e3a68ba
+      internalID: 1771014855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_292
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6812fb2c17aa94f8897e9363d7fa36
+      internalID: -1407801422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_293
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398a9c3dc48eb1542b4868af747c92d0
+      internalID: 931533870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_294
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c756e5f7c0cc51a40b6a02b571fb056e
+      internalID: 1197623591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_295
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfb119770648224382072b0195ffaab
+      internalID: 953983970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_296
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdd7241b47525b49a2adc55df9e02c9
+      internalID: -2105400170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_297
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffdab4acc4f99848817495a7f6734cc
+      internalID: -407756160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_298
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d951ed1ee5c874047b9d087a81a76e69
+      internalID: -2095485116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_299
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b0806b860d6a2479b1b393be404347
+      internalID: -2144139203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_300
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684aefb0186f2fd47abbe2a351825a24
+      internalID: -1125527615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_301
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68e2e091dc2da045a5a0b9624b31a69
+      internalID: 492976356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_302
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1546af6c629124f9c1e62a2ed623b1
+      internalID: 239450681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_303
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d38bbc72a91324989a3da185a506a0
+      internalID: 1779992722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_304
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329f03bae4073444e98b223706a1666f
+      internalID: -1273379953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_305
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7380ed8fcd8cda4faf49484c15a507c
+      internalID: -430771346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_306
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fce40f7acf2e83488f92174e2c7b12d
+      internalID: -585097809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_307
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf611663fca5949b9f313bdca4a236
+      internalID: -5923797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_308
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd63a85587ab1b4ca1c4da75df35cf6
+      internalID: -1933385539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_309
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1dd4dbfb136fb4d96f05b3611e6dc3
+      internalID: -1833125139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_310
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42c1f05bae316d44aa36aa8de8ca4fa
+      internalID: 398654603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_311
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37605057ca2b5c4448f052ccae4cbeeb
+      internalID: 959866133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_312
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4846a5ae675e7e24bb9e3514f0758545
+      internalID: -1634493086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_313
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5d217edebfa784586cf56bb6f4cf3c
+      internalID: -1156204873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_314
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b5b7aace321b843b671a6d882abc00
+      internalID: 1331102276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_315
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a33a0a01ae3fc4e94b48b4f2222894
+      internalID: 24419204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_316
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e629cb3b663ad642a53830cf8c420a1
+      internalID: 1079519291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_317
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe1ebba42d26b4095781de6319688c
+      internalID: -2079416711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_318
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95492767f5681a43929bda226a4f942
+      internalID: -1928894668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_319
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83453faf6364394f943e4dec30ab046
+      internalID: -856124549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_320
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f16a773e9954c4494d99e1a425988f
+      internalID: -1221072212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_321
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62c2fd91b6676e4ba18c54c21984687
+      internalID: 1863656133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_322
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8710fa7914d374aa74d50c69af085f
+      internalID: -2074089110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_323
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109d94e6bffae64f9fdc37cb3f9b79c
+      internalID: 1446031174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_324
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8db93d83865fe40ba80c7b537cfb66
+      internalID: 25385417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_325
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420716bc7e96b6e4fb3020edc9a51d76
+      internalID: 1065256980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 279
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130a5973dac3c34ca1e382ce64c1ed7
+      internalID: -1696223840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Pokemon 1_42
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 304
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ffbc01e30ecc94a8152debed407684
+      internalID: -57108852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Building_Pokemon 1_120: 1616909027
+      Building_Pokemon 1_151: -1710301459
+      Building_Pokemon 1_217: 379829745
+      Building_Pokemon 1_15: 1708000495
+      Building_Pokemon 1_224: -1392844055
+      Building_Pokemon 1_265: 741080975
+      Building_Pokemon 1_64: -277963716
+      Building_Pokemon 1_59: -1690571656
+      Building_Pokemon 1_284: 336344473
+      Building_Pokemon 1_259: 1594735329
+      Building_Pokemon 1_128: 1642706584
+      Building_Pokemon 1_149: 1584815059
+      Building_Pokemon 1_3: -1170105225
+      Building_Pokemon 1_45: -1873748438
+      Building_Pokemon 1_86: 171387917
+      Building_Pokemon 1_139: -1011728293
+      Building_Pokemon 1_164: 1669984692
+      Building_Pokemon 1_241: -270877325
+      Building_Pokemon 1_4: -1891402800
+      Building_Pokemon 1_182: 988843695
+      Building_Pokemon 1_250: 1108174926
+      Building_Pokemon 1_179: -1178397967
+      Building_Pokemon 1_50: -1623272181
+      Building_Pokemon 1_147: -518052144
+      Building_Pokemon 1_242: 666100427
+      Building_Pokemon 1_255: 1187343060
+      Building_Pokemon 1_75: 1132525529
+      Building_Pokemon 1_137: -777528740
+      Building_Pokemon 1_162: 2046148449
+      Building_Pokemon 1_173: 118073180
+      Building_Pokemon 1_176: -253533145
+      Building_Pokemon 1_278: 1685492177
+      Building_Pokemon 1_318: -1928894668
+      Building_Pokemon 1_36: -881720801
+      Building_Pokemon 1_277: 1186096045
+      Building_Pokemon 1_83: 1249612109
+      Building_Pokemon 1_194: -1366489359
+      Building_Pokemon 1_215: -1798238175
+      Building_Pokemon 1_279: 1834877235
+      Building_Pokemon 1_293: 931533870
+      Building_Pokemon 1_302: 239450681
+      Building_Pokemon 1_296: -2105400170
+      Building_Pokemon 1_136: 1552123078
+      Building_Pokemon 1_319: -856124549
+      Building_Pokemon 1_264: 209143769
+      Building_Pokemon 1_287: 1754381519
+      Building_Pokemon 1_41: -2060962449
+      Building_Pokemon 1_163: -424020495
+      Building_Pokemon 1_77: 947133
+      Building_Pokemon 1_225: 645473560
+      Building_Pokemon 1_54: -1307335672
+      Building_Pokemon 1_197: 72684117
+      Building_Pokemon 1_192: 762162206
+      Building_Pokemon 1_131: 1986918183
+      Building_Pokemon 1_276: -1111799939
+      Building_Pokemon 1_85: -1108022679
+      Building_Pokemon 1_43: 575510087
+      Building_Pokemon 1_53: -1399221216
+      Building_Pokemon 1_285: 223257363
+      Building_Pokemon 1_28: 2115027845
+      Building_Pokemon 1_29: -389943422
+      Building_Pokemon 1_0: -1020012602
+      Building_Pokemon 1_309: -1833125139
+      Building_Pokemon 1_232: -2013452020
+      Building_Pokemon 1_174: 261966264
+      Building_Pokemon 1_247: -923666531
+      Building_Pokemon 1_87: 251479328
+      Building_Pokemon 1_57: 1679152297
+      Building_Pokemon 1_140: 913946493
+      Building_Pokemon 1_132: -1526206753
+      Building_Pokemon 1_323: 1446031174
+      Building_Pokemon 1_295: 953983970
+      Building_Pokemon 1_35: -1091500221
+      Building_Pokemon 1_32: 1803132743
+      Building_Pokemon 1_211: 1201106265
+      Building_Pokemon 1_227: 573446669
+      Building_Pokemon 1_135: 1751128217
+      Building_Pokemon 1_168: 1002763138
+      Building_Pokemon 1_256: 1644382206
+      Building_Pokemon 1_181: -818045868
+      Building_Pokemon 1_134: 1120482443
+      Building_Pokemon 1_25: 585618842
+      Building_Pokemon 1_67: -258162513
+      Building_Pokemon 1_322: -2074089110
+      Building_Pokemon 1_2: -1113810629
+      Building_Pokemon 1_129: -365522803
+      Building_Pokemon 1_321: 1863656133
+      Building_Pokemon 1_210: 862272946
+      Building_Pokemon 1_10: -587809894
+      Building_Pokemon 1_21: -1752100626
+      Building_Pokemon 1_79: 360910607
+      Building_Pokemon 1_82: 1343908811
+      Building_Pokemon 1_84: 174903097
+      Building_Pokemon 1_93: 897382777
+      Building_Pokemon 1_220: -1578818209
+      Building_Pokemon 1_9: 2135577812
+      Building_Pokemon 1_167: 1116119980
+      Building_Pokemon 1_6: 611687536
+      Building_Pokemon 1_12: -1446586271
+      Building_Pokemon 1_5: -1056345724
+      Building_Pokemon 1_274: -1972338060
+      Building_Pokemon 1_126: -697975059
+      Building_Pokemon 1_297: -407756160
+      Building_Pokemon 1_237: -857128819
+      Building_Pokemon 1_315: 24419204
+      Building_Pokemon 1_313: -1156204873
+      Building_Pokemon 1_314: 1331102276
+      Building_Pokemon 1_38: -1529365471
+      Building_Pokemon 1_185: -1912635450
+      Building_Pokemon 1_263: 623828630
+      Building_Pokemon 1_257: -1835187242
+      Building_Pokemon 1_100: -1734905860
+      Building_Pokemon 1_121: 1333719801
+      Building_Pokemon 1_113: -1627534662
+      Building_Pokemon 1_180: 1262455648
+      Building_Pokemon 1_17: -1298772608
+      Building_Pokemon 1_187: -851692828
+      Building_Pokemon 1_145: -174578568
+      Building_Pokemon 1_214: 2062534341
+      Building_Pokemon 1_92: 1961676847
+      Building_Pokemon 1_244: -147872608
+      Building_Pokemon 1_288: -1698604453
+      Building_Pokemon 1_289: 1944111696
+      Building_Pokemon 1_300: -1125527615
+      Building_Pokemon 1_46: -1318061831
+      Building_Pokemon 1_48: 1301464919
+      Building_Pokemon 1_123: 1067922729
+      Building_Pokemon 1_74: -1167732370
+      Building_Pokemon 1_223: -1171634542
+      Building_Pokemon 1_160: 1257445538
+      Building_Pokemon 1_301: 492976356
+      Building_Pokemon 1_305: -430771346
+      Building_Pokemon 1_34: -1142025864
+      Building_Pokemon 1_280: -577497471
+      Building_Pokemon 1_266: 407065563
+      Building_Pokemon 1_153: -1385399751
+      Building_Pokemon 1_156: 1418593732
+      Building_Pokemon 1_203: -2123494257
+      Building_Pokemon 1_116: 24851577
+      Building_Pokemon 1_190: 866238547
+      Building_Pokemon 1_101: -281824706
+      Building_Pokemon 1_11: -4442725
+      Building_Pokemon 1_205: 1031924749
+      Building_Pokemon 1_324: 25385417
+      Building_Pokemon 1_172: 1219914709
+      Building_Pokemon 1_105: 1496827219
+      Building_Pokemon 1_258: -330808842
+      Building_Pokemon 1_111: 987050535
+      Building_Pokemon 1_56: 1135941716
+      Building_Pokemon 1_161: -31717997
+      Building_Pokemon 1_117: -1989092157
+      Building_Pokemon 1_63: 152467689
+      Building_Pokemon 1_115: -1070586940
+      Building_Pokemon 1_119: -1416056773
+      Building_Pokemon 1_183: 358381443
+      Building_Pokemon 1_14: 291556062
+      Building_Pokemon 1_130: -228086556
+      Building_Pokemon 1_195: -1287816058
+      Building_Pokemon 1_198: 810352864
+      Building_Pokemon 1_299: -2144139203
+      Building_Pokemon 1_199: 1691552471
+      Building_Pokemon 1_169: 900505033
+      Building_Pokemon 1_42: -57108852
+      Building_Pokemon 1_127: -815173280
+      Building_Pokemon 1_306: -585097809
+      Building_Pokemon 1_146: 514698108
+      Building_Pokemon 1_307: -5923797
+      Building_Pokemon 1_221: 1475970469
+      Building_Pokemon 1_18: -1894432905
+      Building_Pokemon 1_308: -1933385539
+      Building_Pokemon 1_69: -1689723790
+      Building_Pokemon 1_61: -95373702
+      Building_Pokemon 1_171: 888959192
+      Building_Pokemon 1_104: 588824082
+      Building_Pokemon 1_31: -1474679399
+      Building_Pokemon 1_317: -2079416711
+      Building_Pokemon 1_213: -1027744598
+      Building_Pokemon 1_286: 1786974123
+      Building_Pokemon 1_109: -531658120
+      Building_Pokemon 1_33: -1067818087
+      Building_Pokemon 1_70: -1211477150
+      Building_Pokemon 1_138: -476823893
+      Building_Pokemon 1_110: -1397582619
+      Building_Pokemon 1_170: -1341917241
+      Building_Pokemon 1_204: -903966149
+      Building_Pokemon 1_102: 1629399963
+      Building_Pokemon 1_226: 1679641956
+      Building_Pokemon 1_216: 235761538
+      Building_Pokemon 1_311: 959866133
+      Building_Pokemon 1_20: -1696223840
+      Building_Pokemon 1_228: -161860420
+      Building_Pokemon 1_165: 299262952
+      Building_Pokemon 1_270: -814243361
+      Building_Pokemon 1_282: 1101511155
+      Building_Pokemon 1_272: -311778841
+      Building_Pokemon 1_144: 1761680156
+      Building_Pokemon 1_124: 75777720
+      Building_Pokemon 1_66: 1121462745
+      Building_Pokemon 1_148: 1617520421
+      Building_Pokemon 1_1: -1337543058
+      Building_Pokemon 1_267: 1538164201
+      Building_Pokemon 1_320: -1221072212
+      Building_Pokemon 1_252: 816417964
+      Building_Pokemon 1_80: -1048458726
+      Building_Pokemon 1_152: 661491475
+      Building_Pokemon 1_246: 634053592
+      Building_Pokemon 1_281: 1719589030
+      Building_Pokemon 1_49: 160239916
+      Building_Pokemon 1_78: -1892453390
+      Building_Pokemon 1_253: 251458264
+      Building_Pokemon 1_94: 817048301
+      Building_Pokemon 1_175: -432243089
+      Building_Pokemon 1_55: -52786098
+      Building_Pokemon 1_47: -754611881
+      Building_Pokemon 1_125: -2005051284
+      Building_Pokemon 1_260: -1165129386
+      Building_Pokemon 1_73: -269646941
+      Building_Pokemon 1_19: 1010683634
+      Building_Pokemon 1_96: -355391400
+      Building_Pokemon 1_13: 524475987
+      Building_Pokemon 1_207: -1834091122
+      Building_Pokemon 1_8: -867673564
+      Building_Pokemon 1_24: 381257365
+      Building_Pokemon 1_27: -162886537
+      Building_Pokemon 1_196: 1579891448
+      Building_Pokemon 1_62: 1524189834
+      Building_Pokemon 1_65: 1496815508
+      Building_Pokemon 1_143: -1120929799
+      Building_Pokemon 1_231: -1200333361
+      Building_Pokemon 1_233: 883996003
+      Building_Pokemon 1_212: -1982123888
+      Building_Pokemon 1_97: -923646076
+      Building_Pokemon 1_108: 488940794
+      Building_Pokemon 1_98: -1691954005
+      Building_Pokemon 1_273: -1886615506
+      Building_Pokemon 1_292: -1407801422
+      Building_Pokemon 1_52: -1803289380
+      Building_Pokemon 1_222: 320385147
+      Building_Pokemon 1_275: 1009494521
+      Building_Pokemon 1_206: -566277898
+      Building_Pokemon 1_178: 1651936731
+      Building_Pokemon 1_90: -1975520546
+      Building_Pokemon 1_304: -1273379953
+      Building_Pokemon 1_189: -1077557594
+      Building_Pokemon 1_7: -886912160
+      Building_Pokemon 1_99: 466718522
+      Building_Pokemon 1_186: -440215791
+      Building_Pokemon 1_16: 879165574
+      Building_Pokemon 1_290: -875579620
+      Building_Pokemon 1_184: -913034991
+      Building_Pokemon 1_249: -1799211823
+      Building_Pokemon 1_193: -516598465
+      Building_Pokemon 1_254: 1197135024
+      Building_Pokemon 1_218: -1075069145
+      Building_Pokemon 1_325: 1065256980
+      Building_Pokemon 1_219: -698091662
+      Building_Pokemon 1_316: 1079519291
+      Building_Pokemon 1_122: -1051200097
+      Building_Pokemon 1_71: -966534703
+      Building_Pokemon 1_191: -1924288783
+      Building_Pokemon 1_235: -248413130
+      Building_Pokemon 1_240: -1609050951
+      Building_Pokemon 1_230: 2113404036
+      Building_Pokemon 1_236: -1560886015
+      Building_Pokemon 1_30: -1165953592
+      Building_Pokemon 1_202: -567648195
+      Building_Pokemon 1_291: 1771014855
+      Building_Pokemon 1_200: 1949247493
+      Building_Pokemon 1_251: -332888343
+      Building_Pokemon 1_157: -1217199058
+      Building_Pokemon 1_312: -1634493086
+      Building_Pokemon 1_234: 1468140873
+      Building_Pokemon 1_106: 1861674584
+      Building_Pokemon 1_44: -1650879602
+      Building_Pokemon 1_239: -451650784
+      Building_Pokemon 1_22: 2012825338
+      Building_Pokemon 1_248: -1510346796
+      Building_Pokemon 1_81: -1393569180
+      Building_Pokemon 1_166: -1238485653
+      Building_Pokemon 1_294: 1197623591
+      Building_Pokemon 1_303: 1779992722
+      Building_Pokemon 1_269: -927593115
+      Building_Pokemon 1_60: -222431827
+      Building_Pokemon 1_118: -1677268684
+      Building_Pokemon 1_271: -1200075436
+      Building_Pokemon 1_310: 398654603
+      Building_Pokemon 1_155: -1534157335
+      Building_Pokemon 1_89: 2107624558
+      Building_Pokemon 1_150: 368600129
+      Building_Pokemon 1_283: -1672314739
+      Building_Pokemon 1_91: -1683058437
+      Building_Pokemon 1_95: 1290819295
+      Building_Pokemon 1_114: 1754676580
+      Building_Pokemon 1_177: -1486212981
+      Building_Pokemon 1_142: -327932294
+      Building_Pokemon 1_88: -1432452019
+      Building_Pokemon 1_262: -44513996
+      Building_Pokemon 1_103: -995090299
+      Building_Pokemon 1_141: 1496746679
+      Building_Pokemon 1_209: 1822166671
+      Building_Pokemon 1_133: 823385312
+      Building_Pokemon 1_26: -425912502
+      Building_Pokemon 1_261: 223940420
+      Building_Pokemon 1_58: 265614898
+      Building_Pokemon 1_39: 1866580475
+      Building_Pokemon 1_76: 1142952107
+      Building_Pokemon 1_51: 1031036603
+      Building_Pokemon 1_159: 1782266248
+      Building_Pokemon 1_112: 815607823
+      Building_Pokemon 1_208: -621155702
+      Building_Pokemon 1_68: 158068525
+      Building_Pokemon 1_37: 396439426
+      Building_Pokemon 1_23: 1412531548
+      Building_Pokemon 1_107: -1226472002
+      Building_Pokemon 1_40: -1767912988
+      Building_Pokemon 1_72: -1462596051
+      Building_Pokemon 1_229: 1042368802
+      Building_Pokemon 1_245: 80525632
+      Building_Pokemon 1_268: 1052037223
+      Building_Pokemon 1_154: -88448585
+      Building_Pokemon 1_201: 211333088
+      Building_Pokemon 1_243: -700306790
+      Building_Pokemon 1_238: -2096479177
+      Building_Pokemon 1_298: -2095485116
+      Building_Pokemon 1_188: 1240261618
+      Building_Pokemon 1_158: -8605222
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

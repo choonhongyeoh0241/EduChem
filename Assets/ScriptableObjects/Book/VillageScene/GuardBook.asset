@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: GuardBook
+  m_EditorClassIdentifier: 
+  _color: {r: 1, g: 0.84313726, b: 0, a: 1}
+  _title: Guard Book
+  _pages:
+  - You might think that this book is yellow.. HOWEVER, IT IS NOT! It consists of
+    things you need to know about this world!
+  - This world is all about CHEMISTRY! If you have spoken with the GODS...DO UNDERSTAND
+    YOUR GOAL!
+  - Do pamper yourself and get prepared. You will need to read tons of books..answer
+    tons of quizzes..However, it is all for your own goods
+  - Revision to face the real tests makes your score to improve, to motivate in terms
+    of learning Chemistry
+  - Do EMBRACE YOURSELF and find the fun of learning Chemistry! GOOD LUCK! >.<

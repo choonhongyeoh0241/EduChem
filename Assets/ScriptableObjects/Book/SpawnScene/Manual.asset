@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Manual
+  m_EditorClassIdentifier: 
+  _color: {r: 0, g: 0.12516737, b: 1, a: 1}
+  _title: Manual Book
+  _pages:
+  - "<u><b>Controls</b></u> \n\n\n\n W   \u2191\n\n  A    \u2190  \n\nS   \u2193\n\nD   
+    \u2192"
+  - '<u><b>Space</b></u>
+
+
+
+    Most of the controls using space.
+
+
+    Be it talking
+    to NPCs, reading or collecting
+
+
+'
+  - '<u><b>Inventory</b></u>
+
+
+
+    Inventory can be accessed through Key ''I''
+
+
+    Through
+    Pause Menu can access Inventory as well'
+  - '<u><b>Pause Menu</b></u>
+
+
+
+    Through ''Esc'' key can access Pause Menu
+
+
+    Pause
+    Menu has Inventory, Save, Exit and Back
+
+
+'
+  - "<u><b>Reminder</b></u>\n\n\nDo remember to save your game progress whenever
+    you play \n\nNo auto save system available thus you need to save it before exiting\n"
+  - '
+
+
+
+    Students are encouraged to upload your saved progression online at the
+    main menu
+
+
+    An external player also encouraged to do so'

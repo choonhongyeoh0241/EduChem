@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: Group1Quiz
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: 'Select the answer (1 + 1)
+
+      After that -2 '
+    options:
+    - option: 1
+      isAnswer: 0
+    - option: 2
+      isAnswer: 0
+    - option: 0
+      isAnswer: 1
+    - option: 4
+      isAnswer: 0
+  - question: The fruit with same name as its color
+    options:
+    - option: Orange
+      isAnswer: 1
+    - option: Strawberry
+      isAnswer: 0
+    - option: Pineapple
+      isAnswer: 0
+    - option: Apple
+      isAnswer: 0
+  - question: The fruit with same name as its color
+    options:
+    - option: Orange
+      isAnswer: 1
+    - option: Strawberry
+      isAnswer: 0
+    - option: Pineapple
+      isAnswer: 0
+    - option: Apple
+      isAnswer: 0
+  - question: The fruit with same name as its color
+    options:
+    - option: Orange
+      isAnswer: 1
+    - option: Strawberry
+      isAnswer: 0
+    - option: Pineapple
+      isAnswer: 0
+    - option: Apple
+      isAnswer: 0
