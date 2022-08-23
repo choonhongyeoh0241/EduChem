@@ -15,11 +15,20 @@ EditorBuildSettings:
     path: Assets/Scenes/VillageScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/PeriodicTown.unity
+    path: Assets/Scenes/Periodic/PeriodicTown.unity
     guid: 9b7f67175d08d03409aab797227b9ba6
   - enabled: 1
-    path: Assets/Scenes/StructureTown.unity
+    path: Assets/Scenes/Periodic/PeriodicCampus.unity
+    guid: 78c231112827ecf4a835ee9cbcd5b0be
+  - enabled: 1
+    path: Assets/Scenes/Structure/StructureTown.unity
     guid: 48adca4f5759cec4bb7f9eaed6b710f2
+  - enabled: 1
+    path: Assets/Scenes/BondingTown.unity
+    guid: abee6d308b093c74e91b6a94167fb730
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 691c36f5b13741e44b2bcdd31bdad5d7
   - enabled: 1
     path: Assets/Scripts/SaveSystem/_Preload.unity
     guid: d228550b0abec7f4ca9d2fb12842f047

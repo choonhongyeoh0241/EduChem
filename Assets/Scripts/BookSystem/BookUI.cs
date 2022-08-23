@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using Pause;
 
@@ -12,6 +13,8 @@ public class BookUI : MonoBehaviour, IPauser
     [SerializeField] private GameObject leftButton;
     [SerializeField] private GameObject rightButton;
     [SerializeField] private GameObject closeButton;
+    [SerializeField] private Image leftImage;
+    [SerializeField] private Image rightImage;
 
     private Canvas bookCanvas;
     private BookData currentBook;
@@ -60,7 +63,6 @@ public class BookUI : MonoBehaviour, IPauser
     {
         var isEven = (page % 2 == 0);
         var text = isEven ? leftText : rightText;
-
         if (page < currentBook.pages.Length)
         {
             text.text = currentBook.pages[page];

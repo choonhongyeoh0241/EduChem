@@ -2073,6 +2073,7 @@ MonoBehaviour:
   mainCanvas: {fileID: 2143334554}
   SuccessBG: {fileID: 2028409015}
   submitButton: {fileID: 1705507224}
+  clearButton: {fileID: 1485634239}
 --- !u!1 &513828748
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,6922 @@
+fileFormatVersion: 2
+guid: e24e21cec47607c4c8eac1fcc50cbe77
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon_public_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171b6b46262fba94ab65dae3892a9868
+      internalID: 710119117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238eba9f000c34e488c7905bfcc3d6f7
+      internalID: 1555483085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4c6b45943b094da29ee1b9ad281d6
+      internalID: 1445548574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2351
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e734717e2491e4f8d7f9c10e7bd8e7
+      internalID: -947180158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2360
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2328b0a08ccd39a4886ad4e6b21a9984
+      internalID: -650277503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2359
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae376b59772c9bc428d2a56901e302fd
+      internalID: -752315161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2351
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bd20df2c79edd468c936d139e135d6
+      internalID: -1421248966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2351
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf68e4e900d232b49adf12222cdfa219
+      internalID: 443738000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2351
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f788b5bb0dbec35428edd556b80a4d7d
+      internalID: 722949130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2351
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef80d30a2c3e81458cfff7ad55cc797
+      internalID: 1472522772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2361
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cabbfb0f431124fbdc7b35a856a157
+      internalID: -2117289762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 2359
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48508d0549c95534d9c8ffbaf69b9761
+      internalID: -2055290378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2348
+        width: 192
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f5fba117f0c504596d377ac53c3849
+      internalID: -1123178497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2357
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4923af55d729c4c84d561336f959c5
+      internalID: 2018531108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2357
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ba8a90bd35bb748a18f84123678cd9
+      internalID: 646370723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55974136d88bc448691eb2928e541b
+      internalID: 50653979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b44b951a00ba841a3858bac77f88c1
+      internalID: -5779427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ac03d24e412414d8415b92cffa6eb7
+      internalID: -2069302844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2348
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a72fba945d02b408a065290a893f6e
+      internalID: -26793461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2361
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f15f60393302941b018e9774e76f1e
+      internalID: -1063484073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2355
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76ad4758eff8464098f86312af03471
+      internalID: -480595939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2344
+        width: 433
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78967e88a2bd891429976f769799593b
+      internalID: -562997990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 2303
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266bb17774137e04e91a1b3ac5e47104
+      internalID: -247707897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2303
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98b02285d0147c45b27d06fd8e646c5
+      internalID: -2133164777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2266
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be11650c78c97cc40b14cc4e509a1b4b
+      internalID: 1246164509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2266
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91381f68481412345ab93096111dc937
+      internalID: 1480380761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2266
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48fce821d8e46048973e15b2eb9138b
+      internalID: -710735551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2266
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b6790b71a0234082d670463c4e628
+      internalID: 72644054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2279
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7456e1bc05c86e24d901aaf27fa25f43
+      internalID: 1987313245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2280
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151c47ab3e6fbf04dab321f6437623ed
+      internalID: 75561467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2262
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd3e303c62f7bf408821f8abc479eda
+      internalID: 494789213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2262
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d071f4ea9230d428005b28b1d6481b
+      internalID: -1783223707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2262
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365d5a2b3882e594187ad9b5dbcd83c7
+      internalID: 861400844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2262
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f4857b9f653a14a860d753605848b1
+      internalID: -116086373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2280
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a415f2852fd0248a403313377261d5
+      internalID: -185324067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2282
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83baa951d145c6b4092b43a74ea4e5c0
+      internalID: -620450631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2262
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d847c9c817ce6468d35d137a02a633
+      internalID: 1932911936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2262
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c268dc5c5545f4b9b14a745b20468a
+      internalID: -2101959530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2262
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8799735711e27424ab1662560dffccec
+      internalID: -635619757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2262
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63195847d415b4c43beb710026408b8c
+      internalID: 368361078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2285
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0845d669cec6d9f4e8bbf76313705b35
+      internalID: -1563096453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 2286
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26be566d420622a4987ec573162810f1
+      internalID: 502475874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 2268
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b93fc6dad3e5f46bb76877f4ed744e
+      internalID: 1032077172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2268
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a20610572ec784f8cd99581f8e4185
+      internalID: 126524392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 2268
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601e9206755d3a04192434e300e7a48d
+      internalID: 2077891396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2268
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993166658c669814c81bd7e0cdffd3de
+      internalID: 464373181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 2279
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f11b1b6e272cd44a691b9148943145
+      internalID: 1011094088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2279
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b713c67b27757b43bd11c7906888609
+      internalID: -806587916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2173
+        width: 242
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6230f3d375752e94cb6ddce41b72ade7
+      internalID: 2077862836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2207
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3933ece32bc97243924af0d78491d1c
+      internalID: 831812529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2207
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f719a5466f7814bb001f2e3c843029
+      internalID: -1925057158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2207
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc906eed16ebc948a95ad958b15511e
+      internalID: -550801099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2207
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dae98058ba6644ca6310049fd31865
+      internalID: -279948418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2207
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7626d63419eeb6043a2130813c8493a0
+      internalID: -1438169394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2207
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56f742b8023c2349b1028c909880883
+      internalID: 839538713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2204
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6880c31916f177d43b3019604937b91e
+      internalID: 1628386564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2205
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f048247e1e457cf46b2f6df00d06f948
+      internalID: 668222924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2207
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109cb23d7519bc34cbbc185057101fa4
+      internalID: -309044573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2200
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684a5265d19b6504183978df3e100657
+      internalID: -938730019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2183
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a560f9bade7dfd1408b6a67d923f91c6
+      internalID: -899679106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2204
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64342b75630357d4597107a01f5fd915
+      internalID: 1246372120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 2189
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e288b9dfc1143034bbf18057a0e8641a
+      internalID: 1023600815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2193
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81081163284d2c5498d3939ad89c4ca5
+      internalID: 70167730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 2207
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59b7ba1cfc47846a8406a906c1f601
+      internalID: 1445092645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2204
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ae6c90b3a4cc0448b4954df24cf4d9
+      internalID: 1472726867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2190
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52fd730f9a1f47439a04d76bcb43992
+      internalID: 373117625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2125
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dadda12b63ed442a177e11640d752c
+      internalID: -1762658530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 2125
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec3ab7ef935eb4583591c9b6550723
+      internalID: 1528579601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2125
+        width: 84
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e436765d46823c498020025d5522870
+      internalID: 975540552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 2125
+        width: 84
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38183ac3c63b34f409076737188438ae
+      internalID: -427714478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2207
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d2e644d1f47c3439dd28bb210069a6
+      internalID: 263462768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f59146551751f84990fc07bd9bcfe4c
+      internalID: -419902854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 2223
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ac5968cff042145884053ff980e839
+      internalID: 1973596294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0721916270a6c4ead227560afb8e97
+      internalID: -825403889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2227
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f54791d7b52c694b9210218979efe02
+      internalID: 989941480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2220
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf0366a6a490294b842bcef02d477b2
+      internalID: 313100696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea93c59b03c3ff144af03f101ae98555
+      internalID: 722370083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2173
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2fd5ca511cee040a9a14ea0735a55f
+      internalID: 1157600012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2175
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55a9046e1af9345a92d6ebabc1d899
+      internalID: 1174351765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15887f3879955ae49ab115b679bf46d3
+      internalID: 1309522232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_80
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 2191
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e038fc3d22131c40b2a3381eeef9468
+      internalID: -1014605883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904975fa0e041604c9db4354baf1a098
+      internalID: 633179010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_82
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2194
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e79c60673bbf2488823c2da0b383a9
+      internalID: -1754992869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2031
+        width: 562
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8682bdb46011046aee575ff9af1552
+      internalID: 852906653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_84
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d2ff1a802655d45a661faa40a735a1
+      internalID: -458326822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_85
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 2183
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f2e26bb5ff6d34c813a5ca1f91c14f
+      internalID: 1807861266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_86
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2016
+        width: 466
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fbb83438fb6f84dabf3e8d508ee45d
+      internalID: 2108607480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_87
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2116
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8eb03167d9723d429003aaa36a329e3
+      internalID: 1037371140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_88
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2116
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21ca7d32ca702d4781010a768c95df6
+      internalID: -150525407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_89
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2011
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad5df3fa77021f458893266ef1df966
+      internalID: 441728954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_90
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2016
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b53e5dbfcc1744f96e06bbbf08816e
+      internalID: -841926010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_91
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2036
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03adf2fe5fe1cfa4b9453d83368a8a9a
+      internalID: -110348687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_92
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2016
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f757c7374f504114c90cfa86ec1ce577
+      internalID: -807067179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_93
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1903
+        width: 530
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17797c28a7f62f45a641fde3d4c4db7
+      internalID: -1748873663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_94
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1903
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7c069c2242a4a489496bdcc0d68189
+      internalID: -1093380311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_95
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1903
+        width: 241
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5363f9256518e4e9edf1d2345371ac
+      internalID: -990748568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_96
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1935
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcb66f69a95f404cb8414bf0a31a2b2
+      internalID: -642789141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_97
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1935
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc4e1ac0d78224db388a453159fb7c
+      internalID: -1238781408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_98
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1903
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d33ba562cc1ca440938adef75330e95
+      internalID: -1587723365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_99
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1903
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182fd9fda2a80cc4c9d1992250345735
+      internalID: -2032994242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_100
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1807
+        width: 287
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08de767c4a2348b44a7f04996624ccd4
+      internalID: -171201834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_101
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1680
+        width: 834
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89b168918c5ed340aee0afabeed1ec3
+      internalID: -2095070375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_102
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1791
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc8162ce48ab424494ea0ac00bb7e2b
+      internalID: 551343576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_103
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1759
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd2194bfc3b2744bac96a736b697ca
+      internalID: 1001331207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_104
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1759
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6cc46e4fe6aec4d897636a94886042
+      internalID: -2062114863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_105
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1759
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9a494769d9b8549936225bd0ecb236
+      internalID: 104590821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_106
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1759
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3195ae44f351c419286568ba974398
+      internalID: -652069771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_107
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1733
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051ed5fb282100649ae2427002793d7c
+      internalID: -1219467705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_108
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1711
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ae734764507ea4c95629d63e0b292f
+      internalID: -225246392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_109
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1711
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2451ce575cbd40845a3be94b3e2e291d
+      internalID: 626885213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_110
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1711
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4451e977e424140a5a8388c4a6da4b
+      internalID: 1388147557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_111
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1711
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698cb2218fb080b4b884184418aa72e7
+      internalID: -1266181536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_112
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1527
+        width: 338
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cfafbf6d4d4a2488f80ea96c77e7d9
+      internalID: 1943905989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_113
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1535
+        width: 254
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20fde994c464d144b86b08f043f6c68
+      internalID: -1687294084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_114
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1519
+        width: 493
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73f7d0e16df0514988bb6a6e0814457
+      internalID: -535936988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_115
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1634
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f9370ad9a583349bb970c5c9e35570
+      internalID: -354503092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_116
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1631
+        width: 142
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7ffc870af403245a16dbfe5c9d8cd6
+      internalID: 126972309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_117
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1664
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cb83a131a115e4d99069f62caceeac
+      internalID: 1528241588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_118
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1670
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d16805254c2574fae4e4cbf122112e
+      internalID: 2059809092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_119
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1583
+        width: 242
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6701982732b88d84b958688b93d61afa
+      internalID: -1277850749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_120
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1631
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119ec288f9923ba49ad9f70e319b4374
+      internalID: 1419088964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_121
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1638
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603162e9581a3b44487dd9d77919f9ee
+      internalID: 217183704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_122
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1561
+        width: 130
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327f579c61589f24e87ec043f96df66d
+      internalID: 1175612904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_123
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1613
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de191685f38ee54ab34015c9c55a507
+      internalID: 1555620886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1552
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b5884870a2c0e4c95199d9903581f5
+      internalID: 704329372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_125
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1403
+        width: 384
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0495f1305d0e2334f96864b177f0d036
+      internalID: 305077825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_126
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1568
+        width: 115
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82817673f5579d743acd47a79bad32e4
+      internalID: -2132806127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_127
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1569
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12781e8bd6f4ff24bbf640ae49ef29ba
+      internalID: -239753557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_128
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1567
+        width: 143
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e057442a9bd2664786669f965c2675d
+      internalID: 125037026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_129
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1553
+        width: 81
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab7ad9effc98644920ddd448394f1c
+      internalID: -437366354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_130
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1589
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765b58ae68037104c9ad1a8b845841ee
+      internalID: 1587551881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_131
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1541
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f825825a1347a4ea8bda718dc8d899
+      internalID: -1295626946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_132
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1535
+        width: 111
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985d2f61c6880d24f9019bbb7dceb005
+      internalID: -152923579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_133
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1424
+        width: 62
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8b85457fa8861468587434add3458f
+      internalID: 604402579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_134
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1489
+        width: 110
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ccb7395699c2a4fb33fc91eabeee6f
+      internalID: 192195531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_135
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1439
+        width: 140
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9026b89e3c81af9459fe90e6a1fe96c5
+      internalID: -866297675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_136
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1439
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb855dda23f7b704c8b9ab1675ef95ed
+      internalID: 372817727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_137
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1471
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab08260674054ac498d24e6019ae0afb
+      internalID: 1433234121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_138
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1491
+        width: 60
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5677f7737e1235e40afeab4ef1b98106
+      internalID: -2071297207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_139
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1455
+        width: 193
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee31caad98d060c45b4b0d04b4fcaa23
+      internalID: 1620561573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_140
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1375
+        width: 49
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940970728f6c2de47851c7b43608b101
+      internalID: -939043851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_141
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1391
+        width: 41
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7313976330887489a2740a7e907454
+      internalID: 1596621191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_142
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1344
+        width: 55
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd220c7af599eb649ba581ae67170e43
+      internalID: 697056221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_143
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1423
+        width: 38
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8a72439bded054bac07fdbbb689c20
+      internalID: -1969943877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_144
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1409
+        width: 154
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4294cf0eeaf144980aa56c2779f03d
+      internalID: 726894251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_145
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1457
+        width: 10
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5db937948b8404480e4bc2bbef91e3
+      internalID: -410694106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_146
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1359
+        width: 329
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e5f87d06a1ba84fb44c6ce99ae7d49
+      internalID: -17419825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_147
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1423
+        width: 163
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d039b9556bc8a042a40cf35c0452f0a
+      internalID: -1331980586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_148
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1471
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db8b810494aad44db3c340b6308e38f
+      internalID: -1237058044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_149
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1471
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223980998a6e2cf42a7202b75da8a027
+      internalID: -1183826819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_150
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1362
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812707b81cfd8684eaddf61c712c4041
+      internalID: -177112936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_151
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1389
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26206925662bae4590a96841a6b80d9
+      internalID: 981369841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_152
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1389
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216ef23dcf9362348854e5a9fe519e0f
+      internalID: 1740539505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_153
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1402
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f2cb49765d47a42a01e46de5ec8c82
+      internalID: -84207012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_154
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1446
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d010cb90635e6ba429303588c9d69738
+      internalID: -813977967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_155
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1439
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9798380c723e4a43a5c9d1a0011c9d7
+      internalID: -313119488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_156
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1382
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673a25097f4215349bd2a670d6454d38
+      internalID: -267879247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_157
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1430
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7edcc92e28de94fac6a4c63da24d83
+      internalID: 897178016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_158
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1375
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f26327490f0314f82f1be129c67c4d
+      internalID: 614879619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_159
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1391
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7648c81b9ebd47b8f43180dbd041f
+      internalID: -405340319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_160
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1391
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43731dcb3b768742ac6a47800ee00dd
+      internalID: 291996046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_161
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1391
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e284343eacfff409c39e5f84ea16f7
+      internalID: -157649442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_162
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1391
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ed0b460501dda428ebd604d4f8b9db
+      internalID: 807177188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_163
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1391
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69f3f67fc7b86247be3fe42e3275725
+      internalID: 1461856113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_164
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1423
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc49a73e668b9b64b9f83dc101fd497f
+      internalID: 1178228677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_165
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1425
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ab06534efdf65429c598f5c01414a8
+      internalID: 1075063870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_166
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1405
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f77af18b8a9646b9c198c1d26ef64
+      internalID: -438191150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_167
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1389
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e56b51a652f00a45b4b9ce0af315185
+      internalID: 87247503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_168
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1409
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314bfe3c02aeb834ba8ed1142e8bfe01
+      internalID: 1904223394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_169
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1375
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175bb47f6757d4944b8bc13ad3eb2b9b
+      internalID: -425844734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_170
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1247
+        width: 258
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d886d9b9f5a5ce2488be5e54e32ac9d7
+      internalID: 26689856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_171
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1356
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96f4205e31c6b24e90f1076a91ac2b1
+      internalID: 25828926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_172
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1341
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f443ab4f65d79c243a90b96252f941ff
+      internalID: 1438642287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_173
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1328
+        width: 96
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a51107e372f9814886578d2f482d057
+      internalID: -341632426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_174
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1343
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63280544509e8aa4ebfe6825a3996466
+      internalID: -490975241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_175
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1343
+        width: 129
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5744dd63c027ea84c87697f787049276
+      internalID: 226336425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_176
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1313
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c5c3a74e268ee43a6ce5c3db4ce57f
+      internalID: 681040749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_177
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1328
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073e2714d2edea2468d2f36eb7beb98e
+      internalID: -160282616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_178
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1328
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9592cb67601b7774a9041b8caca38eea
+      internalID: -975173037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_179
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1343
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5334832b4b94747a414f5a064ee944
+      internalID: -1396956798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_180
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1328
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa23a26ea4b37ec40b6a9758e920e346
+      internalID: -1488511098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_181
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1343
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6d6021f6a1c3840abd6b10fb52e0ca
+      internalID: -1721541057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_182
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1344
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba814ba1989a9af438a6e3cce9857297
+      internalID: -591630825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_183
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1032
+        width: 514
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d66c350c9a0af64fbb357a88254b5c0
+      internalID: -1632883291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_184
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1191
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22453e514d8c6f247993c2748296d5fd
+      internalID: 1314496933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_185
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1198
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b43cfbe6ffdb4e4e869e81bf6b59582
+      internalID: 80972341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_186
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1192
+        width: 99
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5860decd6fccefb46ab158e7efb5f612
+      internalID: -1918254345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_187
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1201
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b691913d920ab0f4cb88a0be0db3b7cb
+      internalID: -2079893798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_188
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1196
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e08450706190e84194024ee951abc7e
+      internalID: -1723471505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_189
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1196
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a978b25ae6069347bb5140187d90a05
+      internalID: -1157792060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_190
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1196
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d58bdda7b7551946a7ab87090dd14de
+      internalID: -249918879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_191
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1196
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b603dc9ce97c74883cb99756ee7b8b
+      internalID: 1565500285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_192
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1181
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52db7a77bab93f8469f18ed568a709f9
+      internalID: -415072446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_193
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1194
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a17318ded6d3d4fa2f4b7bcf59e5a0
+      internalID: 1873974825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_194
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1181
+        width: 92
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1588375ead15746824326cf5c87c33
+      internalID: 1036554401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_195
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1194
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69eee49d3869f6244bbc74524319e24b
+      internalID: -1792001187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_196
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1043
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e15323d8bbb4447bab309c6eaee1c6
+      internalID: 1434529565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_197
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1048
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523fffe6bf1272d439eda0b954e3564e
+      internalID: 2143988616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_198
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1046
+        width: 81
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3dd1db8ab159948ae006ec2f9371c8
+      internalID: 1919862654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_199
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1046
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1803bbe88ffb8941a4f473256a2648f
+      internalID: -1670001324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_200
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1051
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a24ad145a67434da40f26405075353
+      internalID: 1912025857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_201
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1051
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd5169822befe842b82af2f7d9ead9f
+      internalID: -2122755929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_202
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1038
+        width: 74
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af4d0cac3f4ce84fb403e45bc02bbe2
+      internalID: 1410641782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_203
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1046
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c96263c0da1e744ae8b998450651da
+      internalID: 202028101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_204
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1046
+        width: 73
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499866c39287bd040b732e07ec455adc
+      internalID: 1977576427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_205
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1049
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefa074c863cb5149a99ff28650bbfe3
+      internalID: 204995669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_206
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1031
+        width: 95
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429888a2f771543478d5d366e96280aa
+      internalID: 452850454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_207
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1031
+        width: 95
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a2c0d321309f5448ebd275c88b6fe4
+      internalID: -853101781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_208
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1024
+        width: 99
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d089da18154e37409656042e19e13a9
+      internalID: -925155709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_209
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1020
+        width: 112
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9511dfc74de2104ba5af179128a5178
+      internalID: -372850730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_210
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1011
+        width: 121
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729e46f4799b30744aa1adb811115eee
+      internalID: 1534769769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_211
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 784
+        width: 514
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342d2905f8337164d8c391cd3ac2fbc9
+      internalID: 344637474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_212
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 899
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c6ce2c122292e46b535add8be9b804
+      internalID: -818141985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_213
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 905
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fb6fbfcb61c854286d7cda7e110e55
+      internalID: -1196586108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_214
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 902
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662c8e755a9bcb44d80595711d634a27
+      internalID: -1422929461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_215
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 902
+        width: 99
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db02a0ac7930da8488ba8c4ee84fd911
+      internalID: -1555560664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_216
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 907
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761b970ee7815254c9abfaa76f8a04c3
+      internalID: -662939889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_217
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 907
+        width: 90
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cb25a61af5bbc4a9172a3314f4e1b0
+      internalID: 2080153383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_218
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 894
+        width: 74
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5a4d2adc88e834e8e8dade0148950f
+      internalID: 762753082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_219
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 902
+        width: 75
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c553767504c826049a2c564b375b6869
+      internalID: -1290951518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_220
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 902
+        width: 73
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf08c0429ab94848861aeaa9ae4002a
+      internalID: 1674837393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_221
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 905
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109b19a29cd8d149bc7eed32d4158a1
+      internalID: 461111874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_222
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 885
+        width: 93
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44950a9f43e18e45a4bc3dc821020f0
+      internalID: 442298313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_223
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 878
+        width: 75
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f3386260081784c95648f20d3b1f12
+      internalID: 1598331761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_224
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 895
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123e50b0ddad10d419cf624de0792bb6
+      internalID: -689727837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_225
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 896
+        width: 75
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d914234e14482542971ac2ba4557d7f
+      internalID: 793821517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_226
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 896
+        width: 75
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57c3a9cf9125fb48869d3a3701e7a25
+      internalID: -953057366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_227
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 896
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49fbec3200a80a4c849f0a1cfaeac20
+      internalID: -14800844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_228
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 896
+        width: 75
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dbf9e2c3c73ac4cae68835211f43a6
+      internalID: 1070930216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_229
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 891
+        width: 86
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b867fac94843e9a4cb428fc114c5a420
+      internalID: 995195862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_230
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 728
+        width: 81
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041a0c20c4c0c074e9d20c039dde871c
+      internalID: 49108931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_231
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 728
+        width: 80
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388b9e5c02f86064b98c427a4c838c5d
+      internalID: -559865468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_232
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 735
+        width: 127
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d487cca2974d624e8c6a94468232f2b
+      internalID: -285460458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_233
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 732
+        width: 88
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cea6eaff24b333488658dd309d1d18c
+      internalID: -2051937221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_234
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 742
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e185f2c69a120c479041edefdee747b
+      internalID: 1612626159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_235
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 741
+        width: 73
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d11417be3ca741bccc28b75d53702
+      internalID: -1195226611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_236
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 762
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802b9c49c23158a4ab505b5b8af9041f
+      internalID: -89670178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_237
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 755
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4975ec2d4d3661e4a988423cc8197b6a
+      internalID: -1893096306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_238
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 755
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20c2f1d280ba954f8ad4fb2ff156da9
+      internalID: 2099764842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_239
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 735
+        width: 158
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb195d79084fdc4087262064ae3f44c
+      internalID: -1187051241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_240
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 623
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aa70217ccf78544990c949d5540559
+      internalID: -1471393800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_241
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 620
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fd5cb8a27f09d49b1d6be4312fb858
+      internalID: -502784619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_242
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 623
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555bf9688e449674b88d5a43b06ece5a
+      internalID: -894769379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_243
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 609
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10302761b4a54f42bce69d092b2ec3c
+      internalID: 663452795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_244
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 636
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6994cd5a4c9f54a8d35ccaabc5b739
+      internalID: -1056353991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_245
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 639
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202dc70144ad4c34eaffe2090bce7bdf
+      internalID: 1476609272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_246
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 623
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58684cf6af134f4ea077203cc11846b
+      internalID: 1831884163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_247
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 623
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c497341df97c21439e04cb8d54550ec
+      internalID: -216003705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_248
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 638
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e5d58465e964a47aa851157edae96e
+      internalID: 453990523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_249
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 636
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c61d0e697f216748a779a9a82c89bd3
+      internalID: 1518078338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_250
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 623
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e677ed957449fd4080464427d79978f
+      internalID: 1429553298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_251
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 623
+        width: 82
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d73119784c14ee4499bacab377da381
+      internalID: -153811598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_252
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 641
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741184c77ab9aec44a53e70b053c1a74
+      internalID: -303476904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_253
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 639
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4dde3b449598845814106efa433964
+      internalID: -940430868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_254
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 649
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972c86065943f814ea0305e991e6d351
+      internalID: -498492065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_255
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 640
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef34590e9992a047a903b63c9cd49cc
+      internalID: 633282295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_256
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 632
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a739ef2473d56e343a76246b0aba7ba5
+      internalID: -1105150630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_257
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 628
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e042f424503bf4f86af0feecb28151
+      internalID: -1188157270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_258
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 639
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0689dd21fe13245b40371bb64ad31a
+      internalID: 68591501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_259
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 639
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f99d9f870eb404bb068f8d0f9c96cb
+      internalID: -1236033647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_260
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 639
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4b6fe44a7b7864995d297235f945b8
+      internalID: 1135524039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_261
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 639
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ab0d4829f06724f9b7ba41e2b8b2bd
+      internalID: 64424851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_262
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 623
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef00f6d491cebb4fa6ff54ab0bcdaa2
+      internalID: -806965345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_263
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 623
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b61c55bd3cbbc9478c9706274ce000e
+      internalID: -1147607272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_264
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 623
+        width: 62
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0219cbb7dd4a2044b9f6b80f56e1f1b
+      internalID: 2041963125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_265
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 623
+        width: 79
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc0083dd3ebf9641b3036c6bc7559ea
+      internalID: 1869203782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_266
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 623
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f270bae41b2cdbf4b91e899f6310e1c3
+      internalID: -1922713013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_267
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 623
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfff116492bd8904e9f330f5fe7ae908
+      internalID: 1202960057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_268
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 623
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5fc085f8f5c6f42b21cce2ecad17f0
+      internalID: -1422827538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_269
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 623
+        width: 61
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb0a9d0844cf2c4aadb4505417f39a3
+      internalID: -1732742878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_270
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 622
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8eb1e7066014a41a0b1235b9468802
+      internalID: 756516369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_271
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 622
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9688a6d2dbfc91b42b08d5e39102326c
+      internalID: 617291179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_272
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 622
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdabdefa1bbe5443b55e76edb83faa7
+      internalID: -229566650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_273
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 622
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dc456a356c1ba44b374ae2903f1c43
+      internalID: -290209462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_274
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 622
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6525e41112edeb489add7766165e900
+      internalID: -1152996239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_275
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 622
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d306674a35e0349af00f24ca5c8281
+      internalID: 969379552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_276
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 620
+        width: 74
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d328ccc0ef78e4bad139dce179fb51
+      internalID: -309012390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_277
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 620
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448676971f6410f4a8b2afc5ae9044dc
+      internalID: 664177957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_278
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 620
+        width: 74
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b48c92bdefa7d42ac680807ea0b43f
+      internalID: 1856430762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_279
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 609
+        width: 51
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18281fb86b90554baeb022caaa5de07
+      internalID: -1490922156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_280
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 428
+        width: 103
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b579cdd9a75d54990629736bdecd93
+      internalID: -718199207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_281
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 446
+        width: 119
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f55c85ca8b4c514da554ca1723a0563
+      internalID: -126986536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_282
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 439
+        width: 109
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aae07977eaf8f64087a505f982b90ab
+      internalID: 1067806975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_283
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 429
+        width: 161
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb2f835bc3a0ea45ac7993c45979a4c
+      internalID: -1267970208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_284
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 441
+        width: 131
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651cb2437b3034449ba2693845c8cfa2
+      internalID: -1065048664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_285
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 446
+        width: 97
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4e248b8c6cd9c409005eddc6720ff0
+      internalID: -1910309617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_286
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 461
+        width: 119
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc15fd1339563d42b0f06980af84f4f
+      internalID: -1710277927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_287
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 441
+        width: 116
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f2a774668bbf4f8a0ca363a8ebffe
+      internalID: -1805257526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_288
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 448
+        width: 134
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ee6f8e48425d542ae714a45a2c8993
+      internalID: -687311044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_289
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 442
+        width: 143
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7054c1602a16f4eb1785c49a3fc944
+      internalID: 2123518941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_290
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 348
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecd92ca6d8bf0b43b1646a952c8b32c
+      internalID: -1656663431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_291
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 309
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a50b00014c905247ba4a89b0c187dc8
+      internalID: -1402105432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_292
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 84
+        width: 119
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7ed707ec918c14f9b59656ca6519e1
+      internalID: -832354102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_293
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 334
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319e9aa02c057c34f95097314da05b6a
+      internalID: -1033783166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_294
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 116
+        width: 94
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14db3d71f05fd094abe721b9231bdc8b
+      internalID: 837175250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_295
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 129
+        width: 76
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc9c3b3d70491f49aaf7d15d93a5c94
+      internalID: -1209630905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_296
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 121
+        width: 152
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dddcf032c2a0fc45a379887162602b6
+      internalID: -1248531553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_297
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 189
+        width: 220
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa90771f92e81e4e9a5a6a7b7adf69c
+      internalID: -845376639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_298
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 107
+        width: 103
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8fb8cd577eb97428eda3f7d19b7a53
+      internalID: 1978884945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_299
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 113
+        width: 118
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b073a4bd094a97f4aa0b94e74e9d55a6
+      internalID: -1686919295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_300
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 110
+        width: 194
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec020298a7f59144a3ea2bf85ac1a7e
+      internalID: -1176792969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_301
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 146
+        width: 106
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fd1cac88e871646ba655da06eed880
+      internalID: 99926411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_302
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 150
+        width: 178
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ed9b8452f09fb42bf4d061efcc8968
+      internalID: 1186787296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_303
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 177
+        width: 108
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5382a4ce831bd6d4ba87d19cd471751f
+      internalID: 454677131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_304
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 191
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7191a6ba51f215b47894ec6ebd1bfa2b
+      internalID: -451368202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_305
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 156
+        width: 131
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7367e174f8dc65049afc1e3dfb717cb5
+      internalID: 494884230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_306
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 179
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c3a53012387244954b1d133a62e96
+      internalID: 1061749242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_public_tiles_307
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1382
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816daa32516a9ed47ac55f50ebd1d19d
+      internalID: 823050536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pokemon_public_tiles_40: -1563096453
+      pokemon_public_tiles_194: 1036554401
+      pokemon_public_tiles_210: 1534769769
+      pokemon_public_tiles_88: -150525407
+      pokemon_public_tiles_214: -1422929461
+      pokemon_public_tiles_36: 1932911936
+      pokemon_public_tiles_269: -1732742878
+      pokemon_public_tiles_290: -1656663431
+      pokemon_public_tiles_250: 1429553298
+      pokemon_public_tiles_16: -5779427
+      pokemon_public_tiles_206: 452850454
+      pokemon_public_tiles_142: 697056221
+      pokemon_public_tiles_174: -490975241
+      pokemon_public_tiles_159: -405340319
+      pokemon_public_tiles_1: 1555483085
+      pokemon_public_tiles_30: 494789213
+      pokemon_public_tiles_244: -1056353991
+      pokemon_public_tiles_180: -1488511098
+      pokemon_public_tiles_262: -806965345
+      pokemon_public_tiles_223: 1598331761
+      pokemon_public_tiles_130: 1587551881
+      pokemon_public_tiles_177: -160282616
+      pokemon_public_tiles_7: 443738000
+      pokemon_public_tiles_38: -635619757
+      pokemon_public_tiles_128: 125037026
+      pokemon_public_tiles_172: 1438642287
+      pokemon_public_tiles_85: 1807861266
+      pokemon_public_tiles_274: -1152996239
+      pokemon_public_tiles_237: -1893096306
+      pokemon_public_tiles_196: 1434529565
+      pokemon_public_tiles_46: 1011094088
+      pokemon_public_tiles_106: -652069771
+      pokemon_public_tiles_107: -1219467705
+      pokemon_public_tiles_143: -1969943877
+      pokemon_public_tiles_277: 664177957
+      pokemon_public_tiles_154: -813977967
+      pokemon_public_tiles_105: 104590821
+      pokemon_public_tiles_64: 1472726867
+      pokemon_public_tiles_287: -1805257526
+      pokemon_public_tiles_66: -1762658530
+      pokemon_public_tiles_145: -410694106
+      pokemon_public_tiles_167: 87247503
+      pokemon_public_tiles_19: -1063484073
+      pokemon_public_tiles_231: -559865468
+      pokemon_public_tiles_265: 1869203782
+      pokemon_public_tiles_205: 204995669
+      pokemon_public_tiles_288: -687311044
+      pokemon_public_tiles_248: 453990523
+      pokemon_public_tiles_285: -1910309617
+      pokemon_public_tiles_301: 99926411
+      pokemon_public_tiles_41: 502475874
+      pokemon_public_tiles_148: -1237058044
+      pokemon_public_tiles_273: -290209462
+      pokemon_public_tiles_79: 1309522232
+      pokemon_public_tiles_102: 551343576
+      pokemon_public_tiles_272: -229566650
+      pokemon_public_tiles_150: -177112936
+      pokemon_public_tiles_125: 305077825
+      pokemon_public_tiles_39: 368361078
+      pokemon_public_tiles_76: 722370083
+      pokemon_public_tiles_168: 1904223394
+      pokemon_public_tiles_50: -1925057158
+      pokemon_public_tiles_176: 681040749
+      pokemon_public_tiles_232: -285460458
+      pokemon_public_tiles_78: 1174351765
+      pokemon_public_tiles_153: -84207012
+      pokemon_public_tiles_84: -458326822
+      pokemon_public_tiles_286: -1710277927
+      pokemon_public_tiles_122: 1175612904
+      pokemon_public_tiles_307: 823050536
+      pokemon_public_tiles_199: -1670001324
+      pokemon_public_tiles_293: -1033783166
+      pokemon_public_tiles_14: 646370723
+      pokemon_public_tiles_238: 2099764842
+      pokemon_public_tiles_77: 1157600012
+      pokemon_public_tiles_140: -939043851
+      pokemon_public_tiles_242: -894769379
+      pokemon_public_tiles_120: 1419088964
+      pokemon_public_tiles_60: 1246372120
+      pokemon_public_tiles_271: 617291179
+      pokemon_public_tiles_203: 202028101
+      pokemon_public_tiles_161: -157649442
+      pokemon_public_tiles_47: -806587916
+      pokemon_public_tiles_160: 291996046
+      pokemon_public_tiles_63: 1445092645
+      pokemon_public_tiles_17: -2069302844
+      pokemon_public_tiles_218: 762753082
+      pokemon_public_tiles_114: -535936988
+      pokemon_public_tiles_53: -1438169394
+      pokemon_public_tiles_164: 1178228677
+      pokemon_public_tiles_58: -938730019
+      pokemon_public_tiles_21: -562997990
+      pokemon_public_tiles_139: 1620561573
+      pokemon_public_tiles_113: -1687294084
+      pokemon_public_tiles_257: -1188157270
+      pokemon_public_tiles_258: 68591501
+      pokemon_public_tiles_70: 263462768
+      pokemon_public_tiles_298: 1978884945
+      pokemon_public_tiles_280: -718199207
+      pokemon_public_tiles_22: -247707897
+      pokemon_public_tiles_90: -841926010
+      pokemon_public_tiles_184: 1314496933
+      pokemon_public_tiles_163: 1461856113
+      pokemon_public_tiles_252: -303476904
+      pokemon_public_tiles_179: -1396956798
+      pokemon_public_tiles_266: -1922713013
+      pokemon_public_tiles_146: -17419825
+      pokemon_public_tiles_198: 1919862654
+      pokemon_public_tiles_110: 1388147557
+      pokemon_public_tiles_165: 1075063870
+      pokemon_public_tiles_98: -1587723365
+      pokemon_public_tiles_95: -990748568
+      pokemon_public_tiles_57: -309044573
+      pokemon_public_tiles_92: -807067179
+      pokemon_public_tiles_86: 2108607480
+      pokemon_public_tiles_226: -953057366
+      pokemon_public_tiles_0: 710119117
+      pokemon_public_tiles_138: -2071297207
+      pokemon_public_tiles_268: -1422827538
+      pokemon_public_tiles_240: -1471393800
+      pokemon_public_tiles_18: -26793461
+      pokemon_public_tiles_10: -2117289762
+      pokemon_public_tiles_282: 1067806975
+      pokemon_public_tiles_200: 1912025857
+      pokemon_public_tiles_289: 2123518941
+      pokemon_public_tiles_227: -14800844
+      pokemon_public_tiles_279: -1490922156
+      pokemon_public_tiles_185: 80972341
+      pokemon_public_tiles_255: 633282295
+      pokemon_public_tiles_27: 72644054
+      pokemon_public_tiles_121: 217183704
+      pokemon_public_tiles_34: -185324067
+      pokemon_public_tiles_94: -1093380311
+      pokemon_public_tiles_219: -1290951518
+      pokemon_public_tiles_9: 1472522772
+      pokemon_public_tiles_96: -642789141
+      pokemon_public_tiles_241: -502784619
+      pokemon_public_tiles_245: 1476609272
+      pokemon_public_tiles_236: -89670178
+      pokemon_public_tiles_296: -1248531553
+      pokemon_public_tiles_251: -153811598
+      pokemon_public_tiles_117: 1528241588
+      pokemon_public_tiles_169: -425844734
+      pokemon_public_tiles_20: -480595939
+      pokemon_public_tiles_222: 442298313
+      pokemon_public_tiles_253: -940430868
+      pokemon_public_tiles_136: 372817727
+      pokemon_public_tiles_97: -1238781408
+      pokemon_public_tiles_62: 70167730
+      pokemon_public_tiles_81: 633179010
+      pokemon_public_tiles_264: 2041963125
+      pokemon_public_tiles_131: -1295626946
+      pokemon_public_tiles_91: -110348687
+      pokemon_public_tiles_33: -116086373
+      pokemon_public_tiles_192: -415072446
+      pokemon_public_tiles_260: 1135524039
+      pokemon_public_tiles_171: 25828926
+      pokemon_public_tiles_73: -825403889
+      pokemon_public_tiles_183: -1632883291
+      pokemon_public_tiles_212: -818141985
+      pokemon_public_tiles_56: 668222924
+      pokemon_public_tiles_52: -279948418
+      pokemon_public_tiles_147: -1331980586
+      pokemon_public_tiles_3: -947180158
+      pokemon_public_tiles_24: 1246164509
+      pokemon_public_tiles_215: -1555560664
+      pokemon_public_tiles_59: -899679106
+      pokemon_public_tiles_134: 192195531
+      pokemon_public_tiles_141: 1596621191
+      pokemon_public_tiles_275: 969379552
+      pokemon_public_tiles_124: 704329372
+      pokemon_public_tiles_29: 75561467
+      pokemon_public_tiles_42: 1032077172
+      pokemon_public_tiles_127: -239753557
+      pokemon_public_tiles_170: 26689856
+      pokemon_public_tiles_295: -1209630905
+      pokemon_public_tiles_8: 722949130
+      pokemon_public_tiles_109: 626885213
+      pokemon_public_tiles_151: 981369841
+      pokemon_public_tiles_104: -2062114863
+      pokemon_public_tiles_6: -1421248966
+      pokemon_public_tiles_118: 2059809092
+      pokemon_public_tiles_89: 441728954
+      pokemon_public_tiles_209: -372850730
+      pokemon_public_tiles_302: 1186787296
+      pokemon_public_tiles_75: 313100696
+      pokemon_public_tiles_175: 226336425
+      pokemon_public_tiles_292: -832354102
+      pokemon_public_tiles_225: 793821517
+      pokemon_public_tiles_51: -550801099
+      pokemon_public_tiles_144: 726894251
+      pokemon_public_tiles_306: 1061749242
+      pokemon_public_tiles_72: 1973596294
+      pokemon_public_tiles_111: -1266181536
+      pokemon_public_tiles_246: 1831884163
+      pokemon_public_tiles_35: -620450631
+      pokemon_public_tiles_178: -975173037
+      pokemon_public_tiles_119: -1277850749
+      pokemon_public_tiles_93: -1748873663
+      pokemon_public_tiles_157: 897178016
+      pokemon_public_tiles_11: -2055290378
+      pokemon_public_tiles_189: -1157792060
+      pokemon_public_tiles_234: 1612626159
+      pokemon_public_tiles_259: -1236033647
+      pokemon_public_tiles_2: 1445548574
+      pokemon_public_tiles_87: 1037371140
+      pokemon_public_tiles_235: -1195226611
+      pokemon_public_tiles_132: -152923579
+      pokemon_public_tiles_15: 50653979
+      pokemon_public_tiles_243: 663452795
+      pokemon_public_tiles_152: 1740539505
+      pokemon_public_tiles_254: -498492065
+      pokemon_public_tiles_45: 464373181
+      pokemon_public_tiles_80: -1014605883
+      pokemon_public_tiles_82: -1754992869
+      pokemon_public_tiles_23: -2133164777
+      pokemon_public_tiles_211: 344637474
+      pokemon_public_tiles_108: -225246392
+      pokemon_public_tiles_181: -1721541057
+      pokemon_public_tiles_281: -126986536
+      pokemon_public_tiles_197: 2143988616
+      pokemon_public_tiles_116: 126972309
+      pokemon_public_tiles_25: 1480380761
+      pokemon_public_tiles_217: 2080153383
+      pokemon_public_tiles_186: -1918254345
+      pokemon_public_tiles_213: -1196586108
+      pokemon_public_tiles_228: 1070930216
+      pokemon_public_tiles_239: -1187051241
+      pokemon_public_tiles_26: -710735551
+      pokemon_public_tiles_291: -1402105432
+      pokemon_public_tiles_188: -1723471505
+      pokemon_public_tiles_294: 837175250
+      pokemon_public_tiles_270: 756516369
+      pokemon_public_tiles_135: -866297675
+      pokemon_public_tiles_99: -2032994242
+      pokemon_public_tiles_221: 461111874
+      pokemon_public_tiles_49: 831812529
+      pokemon_public_tiles_202: 1410641782
+      pokemon_public_tiles_297: -845376639
+      pokemon_public_tiles_247: -216003705
+      pokemon_public_tiles_278: 1856430762
+      pokemon_public_tiles_123: 1555620886
+      pokemon_public_tiles_204: 1977576427
+      pokemon_public_tiles_103: 1001331207
+      pokemon_public_tiles_256: -1105150630
+      pokemon_public_tiles_112: 1943905989
+      pokemon_public_tiles_48: 2077862836
+      pokemon_public_tiles_83: 852906653
+      pokemon_public_tiles_230: 49108931
+      pokemon_public_tiles_305: 494884230
+      pokemon_public_tiles_74: 989941480
+      pokemon_public_tiles_208: -925155709
+      pokemon_public_tiles_115: -354503092
+      pokemon_public_tiles_32: 861400844
+      pokemon_public_tiles_67: 1528579601
+      pokemon_public_tiles_129: -437366354
+      pokemon_public_tiles_193: 1873974825
+      pokemon_public_tiles_156: -267879247
+      pokemon_public_tiles_267: 1202960057
+      pokemon_public_tiles_190: -249918879
+      pokemon_public_tiles_216: -662939889
+      pokemon_public_tiles_101: -2095070375
+      pokemon_public_tiles_191: 1565500285
+      pokemon_public_tiles_166: -438191150
+      pokemon_public_tiles_44: 2077891396
+      pokemon_public_tiles_54: 839538713
+      pokemon_public_tiles_13: 2018531108
+      pokemon_public_tiles_207: -853101781
+      pokemon_public_tiles_28: 1987313245
+      pokemon_public_tiles_137: 1433234121
+      pokemon_public_tiles_195: -1792001187
+      pokemon_public_tiles_126: -2132806127
+      pokemon_public_tiles_68: 975540552
+      pokemon_public_tiles_162: 807177188
+      pokemon_public_tiles_233: -2051937221
+      pokemon_public_tiles_299: -1686919295
+      pokemon_public_tiles_100: -171201834
+      pokemon_public_tiles_155: -313119488
+      pokemon_public_tiles_37: -2101959530
+      pokemon_public_tiles_12: -1123178497
+      pokemon_public_tiles_276: -309012390
+      pokemon_public_tiles_173: -341632426
+      pokemon_public_tiles_263: -1147607272
+      pokemon_public_tiles_224: -689727837
+      pokemon_public_tiles_300: -1176792969
+      pokemon_public_tiles_261: 64424851
+      pokemon_public_tiles_4: -650277503
+      pokemon_public_tiles_55: 1628386564
+      pokemon_public_tiles_43: 126524392
+      pokemon_public_tiles_69: -427714478
+      pokemon_public_tiles_182: -591630825
+      pokemon_public_tiles_201: -2122755929
+      pokemon_public_tiles_303: 454677131
+      pokemon_public_tiles_61: 1023600815
+      pokemon_public_tiles_71: -419902854
+      pokemon_public_tiles_5: -752315161
+      pokemon_public_tiles_187: -2079893798
+      pokemon_public_tiles_229: 995195862
+      pokemon_public_tiles_220: 1674837393
+      pokemon_public_tiles_133: 604402579
+      pokemon_public_tiles_149: -1183826819
+      pokemon_public_tiles_249: 1518078338
+      pokemon_public_tiles_158: 614879619
+      pokemon_public_tiles_65: 373117625
+      pokemon_public_tiles_283: -1267970208
+      pokemon_public_tiles_284: -1065048664
+      pokemon_public_tiles_31: -1783223707
+      pokemon_public_tiles_304: -451368202
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,4 @@
-using UnityEngine;
+using System.Collections.Generic;
 
 [System.Serializable]
 public class User
@@ -19,4 +19,10 @@ public class User
         totalCrates = PlayerData.completedCrates;
         totalQuizzes = PlayerData.completeCounts;
     }
+}
+
+[System.Serializable]
+public class UserMap
+{
+    public Dictionary<string, User> userData;
 }

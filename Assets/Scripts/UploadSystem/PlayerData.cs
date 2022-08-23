@@ -5,6 +5,7 @@ using Proyecto26;
 using TMPro;
 using LitJson;
 using System.IO;
+using System.Collections.Generic;
 
 public class PlayerData : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class PlayerData : MonoBehaviour
     [SerializeField] private Canvas mainCanvas;
     [SerializeField] private Image SuccessBG;
     [SerializeField] private Button submitButton;
+    [SerializeField] private Button clearButton;
 
     [SerializeField] private static string _schoolName;
     public static string schoolName {get => _schoolName; set{_schoolName = value;}}
@@ -35,6 +37,8 @@ public class PlayerData : MonoBehaviour
     [SerializeField] private static int _completeCounts;
     public static int completeCounts {get =>_completeCounts; set {_completeCounts = value;}}
 
+    private bool activeLoad => BackToMain.isActiveAndEnabled;
+    private bool activeSubmit => WaitLoading.isActiveAndEnabled;
     private User user;
     private string jsonString;
     private JsonData itemData;
@@ -73,7 +77,16 @@ public class PlayerData : MonoBehaviour
     {
         string player = nameText.text;
         string school = schoolText.text;
-        CheckInput(player, school);
+
+        if (activeLoad || activeSubmit)
+        {
+            submitButton.interactable = false;
+        }
+        else
+        {
+            clearButton.interactable = true;
+            CheckInput(player, school);
+        } 
     }
 
     private void UpdateCounts()
@@ -131,6 +144,7 @@ public class PlayerData : MonoBehaviour
 
         nameText.interactable = false;
         schoolText.interactable = false;
+
         PostToDatabase();
         StartCoroutine(LoadBack());
     }
@@ -143,10 +157,21 @@ public class PlayerData : MonoBehaviour
         schoolText.text = string.Empty;
         nameText.interactable = true;
         schoolText.interactable = true;
+        // RestClient.Get<UserMap>($"{databaseURL}").Then(res =>
+        // {
+        //     schoolName = PlayerPrefs.GetString("school");
+        //     foreach(string schoolName in res.userData.Keys)
+        //     {
+        //         Debug.Log("Key");
+        //         Debug.Log(schoolName);
+        //     }
+        // });
+
     }
 
     private IEnumerator LoadBack()
     {
+        clearButton.interactable = false;
         WaitLoading.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         WaitLoading.gameObject.SetActive(false);
@@ -163,7 +188,7 @@ public class PlayerData : MonoBehaviour
     private void PostToDatabase()
     {
         User user = new User();
-        RestClient.Put<User>($"{databaseURL}/{playerName}.json", user);
+        RestClient.Put<User>($"{databaseURL}{schoolName}/{playerName}.json", user);
     }
     
 }

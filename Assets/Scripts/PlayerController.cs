@@ -10,11 +10,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private RestrictData _restrict;
     public RestrictData restrict => _restrict;
     [SerializeField] private Canvas keyCanvas; 
-    [SerializeField] private float speed = 5;
+    [SerializeField] private float _speed = 5;
+    public float speed {get => _speed; set{_speed = value;}}
 
     private new Rigidbody2D rigidbody;
     private Animator animator;
-    private Vector3 direction;
+    public Vector3 direction;
 
     private void Awake()
     {

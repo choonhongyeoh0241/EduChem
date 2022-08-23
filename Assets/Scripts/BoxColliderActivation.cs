@@ -9,11 +9,21 @@ public class BoxColliderActivation : MonoBehaviour
     [SerializeField] protected BoxCollider2D[] tilesCollider;
     protected bool playerInRange;
 
+    private void Start() 
+    {
+        setBridge3rd();
+    }
     protected virtual void Update() 
     {
         if (playerInRange)
         {
-            bridge.GetComponent<SpriteRenderer>().sortingLayerID = SortingLayer.NameToID("3rd");
+            setBridge3rd();
+        }
+    }
+
+    private void setBridge3rd()
+    {
+        bridge.GetComponent<SpriteRenderer>().sortingLayerID = SortingLayer.NameToID("3rd");
 
             foreach(var box in boxCollider2Ds)
             {
@@ -24,7 +34,6 @@ public class BoxColliderActivation : MonoBehaviour
             {
                 box.enabled = true;
             }
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
