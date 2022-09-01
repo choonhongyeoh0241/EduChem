@@ -14,4 +14,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   books:
   - {fileID: 11400000, guid: 53ae1721219f4194aa9df8063ec153c3, type: 2}
-  - {fileID: 11400000, guid: 7c5d4c07bf863d24a8a9a84c20bdc603, type: 2}

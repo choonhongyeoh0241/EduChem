@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     private new Rigidbody2D rigidbody;
     private Animator animator;
-    public Vector3 direction;
+    private Vector3 direction;
 
     private void Awake()
     {

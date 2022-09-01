@@ -21,7 +21,7 @@ public class SceneTransition : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
@@ -30,7 +30,7 @@ public class SceneTransition : MonoBehaviour
         }
     }
 
-    public IEnumerator FadeCo() 
+    private IEnumerator FadeCo() 
     {
         if (fadeOutPanel != null)
         {

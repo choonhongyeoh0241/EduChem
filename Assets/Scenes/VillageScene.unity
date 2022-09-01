@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &13771153
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34078,8 +34078,6 @@ MonoBehaviour:
   leftButton: {fileID: 2129078587}
   rightButton: {fileID: 1764024575}
   closeButton: {fileID: 1009661236}
-  leftImage: {fileID: 0}
-  rightImage: {fileID: 0}
 --- !u!1001 &1117077105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36466,6 +36464,7 @@ MonoBehaviour:
   - {fileID: 841247266}
   restrictData: {fileID: 11400000, guid: 5eb165fa3248ff04c87166f630db793f, type: 2}
   player: {fileID: 1657714250}
+  inventory: {fileID: 0}
   feedbackText: {fileID: 244361770}
   pass: Congratulation. You may proceed!
   fail: Sorry. Please try again!
@@ -40656,7 +40655,6 @@ MonoBehaviour:
   _restrict: {fileID: 11400000, guid: 5eb165fa3248ff04c87166f630db793f, type: 2}
   keyCanvas: {fileID: 1911694685}
   _speed: 5
-  direction: {x: 0, y: 0, z: 0}
 --- !u!1 &1661212893
 GameObject:
   m_ObjectHideFlags: 0

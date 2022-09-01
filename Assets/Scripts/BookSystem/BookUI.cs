@@ -13,8 +13,6 @@ public class BookUI : MonoBehaviour, IPauser
     [SerializeField] private GameObject leftButton;
     [SerializeField] private GameObject rightButton;
     [SerializeField] private GameObject closeButton;
-    [SerializeField] private Image leftImage;
-    [SerializeField] private Image rightImage;
 
     private Canvas bookCanvas;
     private BookData currentBook;

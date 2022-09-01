@@ -13931,6 +13931,7 @@ MonoBehaviour:
   - {fileID: 435432157}
   restrictData: {fileID: 11400000, guid: 5eb165fa3248ff04c87166f630db793f, type: 2}
   player: {fileID: 1439559615}
+  inventory: {fileID: 0}
   feedbackText: {fileID: 174677354}
   pass: Congratulation. You may proceed!
   fail: Sorry. Please try again!
@@ -20646,7 +20647,7 @@ MonoBehaviour:
   _inventory: {fileID: 11400000, guid: c0ad670485821954eabc0c0eed6136d6, type: 2}
   _restrict: {fileID: 11400000, guid: 5eb165fa3248ff04c87166f630db793f, type: 2}
   keyCanvas: {fileID: 1087925333}
-  speed: 5
+  _speed: 5
 --- !u!95 &1439559616
 Animator:
   serializedVersion: 4
@@ -42545,7 +42546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933561973}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7801929, y: 0.84475577, z: -13.957938}
+  m_LocalPosition: {x: 3.62, y: 2.63, z: -13.957938}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

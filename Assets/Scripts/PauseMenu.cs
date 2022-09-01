@@ -34,7 +34,7 @@ public class PauseMenu : MonoBehaviour, IPauser
     {
         if (active && notActivated && Input.GetKeyDown(KeyCode.Escape)) CloseMenu();
     }
-     public void Inventory()
+    public void Inventory()
     {
         CloseMenu(); // To close pause menu first then request for Inventory
         InventoryUI.RequestInventory(inventory);

@@ -23,6 +23,7 @@ public class QuizManager : MonoBehaviour, IPauser
    [SerializeField] private QuizOption[] options;
    [SerializeField] private RestrictData restrictData;
    [SerializeField] private PlayerController player;
+   [SerializeField] private Inventory inventory;
 
    [Header("Feedback")]
    [SerializeField] private TextMeshProUGUI feedbackText;
@@ -140,6 +141,11 @@ public class QuizManager : MonoBehaviour, IPauser
         if (option.response.isAnswer) score++;
         option.AnswerColor(option.response.isAnswer);
         activeCoroutine = StartCoroutine(NextQuestionDelay());
+    }
+
+    public void OpenInventory()
+    {
+        InventoryUI.RequestInventory(inventory);
     }
 
     public void Exit()
