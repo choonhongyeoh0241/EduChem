@@ -11,7 +11,11 @@ public class NPCAI : MonoBehaviour
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private bool playerInRange;
     [SerializeField] private GameObject Bubble;
-    [SerializeField] private DialogueData dialogue;
+    [SerializeField] private BookData collectedBook;
+    [SerializeField] private DialogueData firstDialogue;
+    [SerializeField] private DialogueData secondDialogue;
+    [SerializeField] private Inventory inventory;
+    private bool bookExists;
     private void Start()
     {
         transform = GetComponent<Transform>();
@@ -22,10 +26,23 @@ public class NPCAI : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
+        checkCollectedBook();
+
+        if (!bookExists)
         {
-            Bubble.SetActive(false);
-            DialogueManager.RequestDialogue(dialogue);
+            if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
+            {
+                Bubble.SetActive(false);
+                DialogueManager.RequestDialogue(firstDialogue);
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
+            {
+                Bubble.SetActive(false);
+                DialogueManager.RequestDialogue(secondDialogue);
+            }
         }
     }
 
@@ -41,6 +58,17 @@ public class NPCAI : MonoBehaviour
             else 
             {
                 ChangeDirection();
+            }
+        }
+    }
+
+    private void checkCollectedBook()
+    {
+        for (int i = 0; i < inventory.books.Count; i++)
+        {
+            if (inventory.Contains(collectedBook))
+            {
+                bookExists = true;
             }
         }
     }

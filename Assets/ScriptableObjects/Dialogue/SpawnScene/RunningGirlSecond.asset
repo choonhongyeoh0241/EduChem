@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b38095faf5c1e214aa7e663a8a66589e, type: 3}
-  m_Name: OldMan
+  m_Name: RunningGirlSecond
   m_EditorClassIdentifier: 
-  _npcname: OldMan
+  _npcname: Running Girl
   _lines:
-  - How are you?
-  - You might want to talk to others? Take a hint ! >v<
+  - 'Yes, you''ve collected it! '
+  - Now, LEAVE ME alone! >,<

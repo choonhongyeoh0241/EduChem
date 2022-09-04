@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Inventory _inventory;
     public Inventory inventory => _inventory;
-    [SerializeField] private RestrictData _restrict;
-    public RestrictData restrict => _restrict;
+    [SerializeField] private QuizScriptable _restrict;
+    public QuizScriptable restrict => _restrict;
     [SerializeField] private Canvas keyCanvas; 
     [SerializeField] private float _speed = 5;
     public float speed {get => _speed; set{_speed = value;}}

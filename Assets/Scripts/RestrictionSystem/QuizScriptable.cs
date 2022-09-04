@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Scriptable Object/Restirct Data")]
-public class RestrictData : ScriptableObject
+public class QuizScriptable : ScriptableObject
 {
     public List<QuizData> completedQuiz;
 

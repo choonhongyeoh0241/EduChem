@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b38095faf5c1e214aa7e663a8a66589e, type: 3}
-  m_Name: NobleMan
+  m_Name: OldManSecond
   m_EditorClassIdentifier: 
-  _npcname: NobleMan
+  _npcname: OldMan
   _lines:
-  - Hoho What a wonderful life you have there
-  - 'Good Luck on the journey! '
-  - Oh, and try to get some hints from the girl at the North West from here. She
-    is moving fast! Running FAST!
+  - Hoho ~~ Seems like you can perform what is told!
+  - Not bad kiddo, Good Luck on the journey. You shall do what has to be done

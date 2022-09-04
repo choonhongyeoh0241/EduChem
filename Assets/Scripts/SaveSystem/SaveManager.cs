@@ -146,7 +146,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    public void LoadRestrictOverwrite(RestrictData restrictData)
+    public void LoadRestrictOverwrite(QuizScriptable restrictData)
     {
         restrictData.Clear();
 

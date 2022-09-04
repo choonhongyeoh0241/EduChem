@@ -21,7 +21,7 @@ public class QuizManager : MonoBehaviour, IPauser
    [SerializeField] private TextMeshProUGUI scoreText;
    [SerializeField] private TextMeshProUGUI questionCounter;
    [SerializeField] private QuizOption[] options;
-   [SerializeField] private RestrictData restrictData;
+   [SerializeField] private QuizScriptable restrictData;
    [SerializeField] private PlayerController player;
    [SerializeField] private Inventory inventory;
 

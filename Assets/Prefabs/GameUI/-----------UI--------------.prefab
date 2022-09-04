@@ -122,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8633916385099683287}
         m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
@@ -2403,7 +2403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.456726, y: -11.327698}
+  m_AnchoredPosition: {x: -10.456726, y: -11.327759}
   m_SizeDelta: {x: -115.14502, y: -75.95532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8633916384597902897
@@ -4988,7 +4988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.456726, y: -11.327698}
+  m_AnchoredPosition: {x: -10.456726, y: -11.327759}
   m_SizeDelta: {x: -115.145, y: -75.9552}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8633916384844278574
@@ -6548,6 +6548,7 @@ GameObject:
   - component: {fileID: 8633916385040218122}
   - component: {fileID: 8633916385040218123}
   - component: {fileID: 8633916385040218120}
+  - component: {fileID: 6937558053058841669}
   m_Layer: 5
   m_Name: BookCanvas
   m_TagString: Untagged
@@ -6655,6 +6656,19 @@ MonoBehaviour:
   leftButton: {fileID: 8633916385034166265}
   rightButton: {fileID: 8633916384942141176}
   closeButton: {fileID: 8633916385866564643}
+--- !u!114 &6937558053058841669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8633916385040218118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e527797a84fb3f44b3c9080ebfa941d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookCanvas: {fileID: 8633916385040218125}
 --- !u!1 &8633916385060868512
 GameObject:
   m_ObjectHideFlags: 0
