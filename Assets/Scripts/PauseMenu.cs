@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using Pause;
 
@@ -12,6 +13,7 @@ public class PauseMenu : MonoBehaviour, IPauser
 
     [Header("Components")]
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private Image volumeSetting;
 
     private void OnEnable() => OnPauseMenuRequested += OpenMenu;
     private void OnDisable() => OnPauseMenuRequested -= OpenMenu;
@@ -38,6 +40,12 @@ public class PauseMenu : MonoBehaviour, IPauser
     {
         CloseMenu(); // To close pause menu first then request for Inventory
         InventoryUI.RequestInventory(inventory);
+    }
+
+    public void Volume()
+    {
+        pauseMenu.SetActive(false);
+        volumeSetting.gameObject.SetActive(true);
     }
 
     public void Save()

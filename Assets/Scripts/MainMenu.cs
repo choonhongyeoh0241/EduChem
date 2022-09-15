@@ -6,10 +6,6 @@ using UnityEngine.Networking;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private Image NetworkFail;
-    [SerializeField] private Image NetworkSuccess;
-    [SerializeField] private Canvas mainCanvas;
-    [SerializeField] private Image Checking;
     [SerializeField] private GameObject overwriteWarning;
     [SerializeField] private Button loadButton;
 
@@ -22,7 +18,6 @@ public class MainMenu : MonoBehaviour
         {
             loadButton.interactable = false;
         }
-        
     }
 
     public void PlayGame()
@@ -40,6 +35,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         SaveManager.Instance.New();
+        PlayerPrefs.DeleteKey("timeline");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -58,48 +54,9 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    public void Upload()
-    {
-        mainCanvas.enabled = false;
-        Checking.gameObject.SetActive(true);
-        StartCoroutine(CheckingScreen());
-    }
-
     public void ExitGame()
     {
         Debug.Log("Quit");
         Application.Quit();
-    }
-
-    public IEnumerator CheckConnection()
-    {
-        UnityWebRequest request = new UnityWebRequest("https://google.com");
-
-        yield return request.SendWebRequest();
-
-        if (request.error != null)
-        {
-            NetworkFail.gameObject.SetActive(true);
-            NetworkSuccess.gameObject.SetActive(false);
-            Checking.gameObject.SetActive(false);
-        }
-        else
-        {
-            NetworkSuccess.gameObject.SetActive(true);
-            NetworkFail.gameObject.SetActive(false);
-            Checking.gameObject.SetActive(false);
-        }
-    }
-
-    public void TryAgain()
-    {
-        StartCoroutine(CheckConnection());
-    }
-
-    private IEnumerator CheckingScreen()
-    {
-        yield return new WaitForSeconds(3);
-    
-        StartCoroutine(CheckConnection());
     }
 }

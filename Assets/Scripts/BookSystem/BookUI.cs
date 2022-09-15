@@ -6,7 +6,7 @@ using Pause;
 
 public class BookUI : MonoBehaviour, IPauser
 {
-    private static event Action<BookData> OnBookRead;
+    private static Action<BookData> OnBookRead;
     public static void ReadBook(BookData book) => OnBookRead?.Invoke(book);
     [SerializeField] private TextMeshProUGUI leftText;
     [SerializeField] private TextMeshProUGUI rightText;

@@ -8,7 +8,7 @@ using Pause;
 
 public class QuizManager : MonoBehaviour, IPauser
 {
-   private static event Action<QuizData, QuizNPC> OnQuizRequested;
+   private static Action<QuizData, QuizNPC> OnQuizRequested;
    public static void RequestQuiz(QuizData quiz, QuizNPC npc = null) => OnQuizRequested?.Invoke(quiz, npc);
 
    public bool active => quizPanel.activeSelf;

@@ -19,7 +19,7 @@ public class InventoryUI : MonoBehaviour, IPauser
     private Inventory inventory;
     private InventorySlot[] slots;
     private BookData bookSelected;
-    private static event Action<Inventory> OnInventoryRequested;
+    private static Action<Inventory> OnInventoryRequested;
     public static void RequestInventory(Inventory inventory) => OnInventoryRequested?.Invoke(inventory); 
 
     public bool active => inventoryPanel.activeSelf;

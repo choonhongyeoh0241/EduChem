@@ -3,6 +3,7 @@ using UnityEngine;
 using System;
 using Ink.Runtime;
 using UnityEngine.UI;
+using Pause;
 
 public class DialogueChoiceManager : MonoBehaviour
 {
@@ -31,7 +32,6 @@ public class DialogueChoiceManager : MonoBehaviour
             dialogueBG.gameObject.SetActive(true);
             SetStory(currentValue);
             RefreshView();
-            Time.timeScale = 0f;
         }
         else
         {
@@ -118,6 +118,5 @@ public class DialogueChoiceManager : MonoBehaviour
         }
         dialogueChoicePanel.SetActive(false);
         dialogueBG.gameObject.SetActive(false);
-        Time.timeScale = 1f;
     }
 }

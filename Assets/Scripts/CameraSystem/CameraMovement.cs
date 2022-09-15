@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     public static void RaiseCameraBoundsChange(Bounds bounds) => OnCameraBoundsChange?.Invoke(bounds);
-    private static event Action<Bounds> OnCameraBoundsChange;
+    private static Action<Bounds> OnCameraBoundsChange;
 
     [SerializeField] private Transform target = default;
     [SerializeField] private float smoothing = 5;

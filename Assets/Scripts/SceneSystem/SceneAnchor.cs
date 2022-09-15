@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class SceneAnchor : MonoBehaviour
 {
-    public static event Action<Vector2> OnSceneTransition;  // Create Action to take in Vector2 type and event for methods to subscribe
+    public static Action<Vector2> OnSceneTransition;  // Create Action to take in Vector2 type and event for methods to subscribe
     // event is convenient use as there is no direct reference between two classes which might cause conflicts
     private static Vector2? _transitionPosition; // All scene anchor has same value for Vector2, with ? allows it to be null as of out of runtime
     public static Vector2 transitionPosition {

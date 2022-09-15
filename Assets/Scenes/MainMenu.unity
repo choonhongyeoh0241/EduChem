@@ -7517,10 +7517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d127072ec3a76324883bf31d95ffb9fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NetworkFail: {fileID: 1599689304}
-  NetworkSuccess: {fileID: 2028409015}
-  mainCanvas: {fileID: 2143334554}
-  Checking: {fileID: 1502629195}
   overwriteWarning: {fileID: 248724747}
   loadButton: {fileID: 322987378}
 --- !u!114 &2143334552
