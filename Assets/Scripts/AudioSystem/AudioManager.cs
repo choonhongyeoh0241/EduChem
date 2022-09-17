@@ -29,18 +29,15 @@ public class AudioManager : MonoBehaviour
     public void ChangeVolume(float value)
     {
         AudioListener.volume = value;
-        PlayerPrefs.Save();
     }
 
     public void ToggleEffect()
     {
         _soundEffect.mute = !_soundEffect.mute;
-        PlayerPrefs.Save();
     }
 
     public void ToggleMusic()
     {
         _music.mute = !_music.mute;
-        PlayerPrefs.Save();
     }
 }

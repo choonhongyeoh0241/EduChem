@@ -1,13 +1,15 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.Networking;
+using LitJson;
+using System.IO;
 
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject overwriteWarning;
     [SerializeField] private Button loadButton;
+    [SerializeField] private GameObject scorePanel;
+    [SerializeField] private GameObject MenuCanvas;
 
     private bool saveExists => System.IO.File.Exists(SaveManager.path);
     
@@ -52,6 +54,12 @@ public class MainMenu : MonoBehaviour
             SceneManager.LoadScene(SaveManager.Instance.location.scene);
             SceneAnchor.transitionPosition = SaveManager.Instance.location.position;
         }
+    }
+
+    public void ViewScore()
+    {
+        MenuCanvas.SetActive(false);
+        scorePanel.SetActive(true);
     }
 
     public void ExitGame()

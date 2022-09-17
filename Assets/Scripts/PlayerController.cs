@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     private new Rigidbody2D rigidbody;
     private Animator animator;
-    private Vector3 direction;
+    private Vector3 _direction;
 
     private void Awake()
     {
@@ -44,8 +44,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I)) InventoryUI.RequestInventory(inventory);
         else if (Input.GetKeyDown(KeyCode.Escape)) PauseMenu.RequestMenu();
         
-        direction.x = Input.GetAxisRaw("Horizontal");
-        direction.y = Input.GetAxisRaw("Vertical");
+        _direction.x = Input.GetAxisRaw("Horizontal");
+        _direction.y = Input.GetAxisRaw("Vertical");
 
         UpdateAnimator();
     }
@@ -63,9 +63,9 @@ public class PlayerController : MonoBehaviour
         }
         
         
-        if (direction != Vector3.zero)
+        if (_direction != Vector3.zero)
         {
-            var delta = direction.normalized * speed * Time.deltaTime;
+            var delta = _direction.normalized * speed * Time.deltaTime;
             rigidbody.MovePosition(transform.position + delta);
         }
         else
@@ -76,10 +76,10 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        if (direction != Vector3.zero)
+        if (_direction != Vector3.zero)
         {
-            animator.SetFloat("moveX", direction.x);
-            animator.SetFloat("moveY", direction.y);
+            animator.SetFloat("moveX", _direction.x);
+            animator.SetFloat("moveY", _direction.y);
             animator.SetBool("moving", true);
         }
         else
@@ -87,5 +87,4 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("moving", false);
         }
     }
-    
 }
