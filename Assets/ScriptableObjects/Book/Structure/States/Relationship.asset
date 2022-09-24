@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Relationship
+  m_EditorClassIdentifier: 
+  _color: {r: 0.4433962, g: 0, b: 0, a: 1}
+  _title: Kinectic&States
+  _pages:
+  - "{Extended} \n[Relationship between state changes and kinetic theory]"
+  - "\u2022When substances are heated, the particles absorb thermal energy which
+    is converted into kinetic energy. This is the basis of the kinetic theory of
+    matter\r\n\n\n\u2022Heating a solid causes its particles to vibrate more and
+    as the temperature increases, they vibrate so much that the solid expands until
+    the structure breaks and the solid melts\r\n"
+  - "\u2022On further heating, the now liquid substance expands more and some particles
+    at the surface gain sufficient energy to overcome the intermolecular forces and
+    evaporate\r\n\n\n\u2022When the b.p. temperature is reached, all the particles
+    gain enough energy to escape and the liquids boils\r\n"
+  - "\u2022These changes in state can be shown on a graph called a heating curve\r\n\n\n\u2022Cooling
+    down a gas has the reverse effect, and this would be called a cooling curve\r\n\n\n\u2022These
+    curves are used to show how changes in temperature affect changes of state\r\n"
+  - "[Heating Curve] \n\n"
+  - -->
+  - <size=600><sprite="HeatingCurve" index=0> </size>
+  - <size=600><sprite="HeatingCurve" index=1> </size>
+  - '[Cooling Curve]
+
+
+
+'
+  - -->
+  - <size=600><sprite="CoolingCurve" index=0> </size>
+  - <size=600><sprite="CoolingCurve" index=1> </size>

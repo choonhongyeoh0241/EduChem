@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Isotopes
+  m_EditorClassIdentifier: 
+  _color: {r: 1, g: 0.47684106, b: 0, a: 1}
+  _title: Isotopes
+  _pages:
+  - "[Isotopes]\r\n\n\u2022Isotopes are different atoms of the same element that
+    contain the same number of protons but a different number of neutrons\r\n\n\u2022The
+    symbol for an isotope is the chemical symbol (or word) followed by a dash and
+    then the mass number\r\n\n\u2022C-14 ( or carbon-14) is the isotope of carbon
+    which contains 6 protons, 6 electrons and 14 - 6 = 8 neutrons\r\n\t-It can also
+    be written as 14C or  \r\n"
+  - <sprite="Isotopes" index=0>
+  - '[Why Isotopes share properties?]'
+  - "\u2022Isotopes of the same element display the same chemical characteristics\r\n\n\n\u2022This
+    is because they have the same number of electrons in their outer shells and,
+    therefore, the same electronic configuration and this is what determines an atom's
+    chemistry\r\n"
+  - "\u2022The difference between isotopes is the number of neutrons which are neutral
+    particles within the nucleus and add mass only\r\n\n\u2022The difference in mass
+    affects the physical properties, such as density, boiling point and melting point\r\n\n\u2022Isotopes
+    are identical in appearance, so a sample of C-14 would look no different from
+    C-12\r\n"
+  - "\u2022Water made from deuterium oxide is known as 'heavy' water, and has a relative
+    formula of mass 20, compared to 18 for water, so it is 20% heavier, but it would
+    look, taste, and feel just like normal water\r\n\t-However, it wouldn't be a
+    good idea to drink it because it is toxic as it interferes with biochemical reactions
+    in your cells\r\n"
+  - '[Calculating Relative Atomic Mass]'
+  - "\u2022The symbol for the relative atomic mass is Ar\r\n\n\u2022The relative
+    atomic mass for each element can be found in the Periodic Table along with the
+    atomic number\r\n\n\u2022The atomic number is shown above the atomic symbol and
+    the relative atomic mass is shown below the atomic symbol\r\n"
+  - "\u2022Atoms are too small to accurately weigh but scientists needed a way to
+    compare the masses of atoms \r\n\n\u2022The carbon-12 is used as the standard
+    atom and has a fixed mass of 12 units \r\n\n\u2022It is against this atom which
+    the masses of all other atoms are compared \r\n"
+  - "\u2022Relative atomic mass (Ar) can therefore be defined as:\r\n\t-the average
+    mass of the isotopes of an element compared to 1/12th of the mass of an atom
+    of 12C \r\n"
+  - "\u2022The relative atomic mass of carbon is 12\r\n\t-The relative atomic mass
+    of magnesium is 24 which means that magnesium is twice as heavy as carbon \r\n\t-The
+    relative atomic mass of hydrogen is 1 which means it has one-twelfth the mass
+    of one carbon-12 atom \r\n"
+  - "\u2022The relative atomic mass of an element can be calculated from the mass
+    number and relative abundances of all the isotopes of a particular element using
+    the following equation\n\n-->"
+  - Ar = (% of isotope 1 x mass number of isotope 1) + (% of isotope 2 x mass number
+    of isotop 2) / 100
+  - '<sprite="IsotopeEquation" index=0>
+
+
+'
+  - '<-- Previous Equation
+
+
+
+    Ar = (72 x 85) + (28 x 87) / 100 = 85.6'
+  - '[Mass Number and Relative Atomic Mass same?]'
+  - "\u2022On the Periodic Table provided in your exam you will see that lithium
+    has a relative atomic mass of 7\r\n\n\n\u2022Although it seems that this is the
+    same as the mass number, they are not the same thing because the relative atomic
+    mass is a rounded number\r\n"
+  - "\u2022Relative atomic mass takes into account the existence of isotopes when
+    calculating the mass\r\n\n\u2022Relative atomic mass is an average mass of all
+    the isotopes of that element\r\n\n\u2022For simplicity relative atomic masses
+    are often shown to the nearest whole number\r\n"

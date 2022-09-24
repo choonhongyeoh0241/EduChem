@@ -12,22 +12,28 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 608e6791a989721428db3d0d087c39b8
   - enabled: 1
-    path: Assets/Scenes/SpawnScene.unity
+    path: Assets/Scenes/SpawnScene/SpawnScene.unity
     guid: 78b37d709dbe1aa4bad78e157d5f3dcd
+  - enabled: 1
+    path: Assets/Scenes/SpawnScene/SpawnSceneT.unity
+    guid: 5d92ac0b45c6de5448b483f6627050b8
   - enabled: 1
     path: Assets/Scenes/VillageScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Periodic/PeriodicTown.unity
+    path: Assets/Scenes/Structure/StructureTown.unity
     guid: 9b7f67175d08d03409aab797227b9ba6
   - enabled: 1
-    path: Assets/Scenes/Periodic/PeriodicCampus.unity
+    path: Assets/Scenes/Structure/StructureCampus.unity
     guid: 78c231112827ecf4a835ee9cbcd5b0be
   - enabled: 1
-    path: Assets/Scenes/Structure/StructureTown.unity
+    path: Assets/Scenes/Structure/StructureBooks.unity
+    guid: 56a985894324a9e4d854e2640ab3ccbd
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingTown.unity
     guid: 48adca4f5759cec4bb7f9eaed6b710f2
   - enabled: 1
-    path: Assets/Scenes/BondingTown.unity
+    path: Assets/Scenes/Periodic/PeriodicTown.unity
     guid: abee6d308b093c74e91b6a94167fb730
   - enabled: 1
     path: Assets/Scenes/FinalScene.unity

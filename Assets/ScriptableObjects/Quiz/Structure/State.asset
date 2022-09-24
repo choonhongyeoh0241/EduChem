@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: State
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: According to Kinetic Theory, how many states are there?
+    options:
+    - option: 1
+      isAnswer: 0
+    - option: 2
+      isAnswer: 0
+    - option: 3
+      isAnswer: 1
+    - option: 4
+      isAnswer: 0
+  - question: Solids have a fixed ___ and ___, and they have a ___
+    options:
+    - option: Volume, Shape, Low Density
+      isAnswer: 0
+    - option: Volume, Shape, High Density
+      isAnswer: 1
+    - option: Shape, Not Volume, High Density
+      isAnswer: 0
+    - option: Volume, Shape, Density
+      isAnswer: 0
+  - question: Why liquids adopt the shape of container?
+    options:
+    - option: I don't know
+      isAnswer: 0
+    - option: Particles move freely
+      isAnswer: 0
+    - option: Particles slide past
+      isAnswer: 1
+    - option: Particles far apart
+      isAnswer: 0
+  - question: Why gases can be compressed?
+    options:
+    - option: Particles have a lot of space
+      isAnswer: 1
+    - option: Particles can move freely
+      isAnswer: 0
+    - option: I don't know
+      isAnswer: 0
+    - option: Particles can move randomly
+      isAnswer: 0
+  - question: 'Which state has particles collide with each other? '
+    options:
+    - option: Solid
+      isAnswer: 0
+    - option: Liquid
+      isAnswer: 0
+    - option: Liquid and Gas
+      isAnswer: 0
+    - option: Gas
+      isAnswer: 1

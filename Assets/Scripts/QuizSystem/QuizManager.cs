@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using TMPro;
 using Random = UnityEngine.Random;
@@ -24,6 +25,7 @@ public class QuizManager : MonoBehaviour, IPauser
    [SerializeField] private QuizScriptable restrictData;
    [SerializeField] private PlayerController player;
    [SerializeField] private Inventory inventory;
+   [SerializeField] private Button detect;
 
    [Header("Feedback")]
    [SerializeField] private TextMeshProUGUI feedbackText;
@@ -50,6 +52,7 @@ public class QuizManager : MonoBehaviour, IPauser
             Initialise(quiz);
             GenerateQuestion();
             quizPanel.SetActive(true);
+            detect.gameObject.SetActive(true);
         }
         else
         {
@@ -82,6 +85,7 @@ public class QuizManager : MonoBehaviour, IPauser
     private void ShowResults()
     {
         quizPanel.SetActive(false);
+        detect.gameObject.SetActive(false);
         resultPanel.SetActive(true);
         scoreText.text = score + "/" + currentQuiz.MCQ.Length;
         passed = score >= currentQuiz.MCQ.Length;
@@ -160,5 +164,10 @@ public class QuizManager : MonoBehaviour, IPauser
         }
         resultPanel.SetActive(false); 
         ClearData(); 
+    }
+
+    public void Detect()
+    {
+        if (active) quizPanel.SetActive(false);
     }
 }

@@ -36,7 +36,13 @@ public class CameraMovement : MonoBehaviour
         if (camera == null) camera = GetComponent<Camera>(); 
 
         var halfSize = new Vector2(camera.orthographicSize * camera.aspect, camera.orthographicSize); 
+        Debug.Log("Aspect: " + camera.aspect);
+        Debug.Log("halfSize: " + halfSize);
+        
         minPosition = (Vector2)bounds.min + halfSize; 
-        maxPosition = (Vector2)bounds.max - halfSize; 
+        Debug.Log("Minimal Bound: " + bounds.min);
+        Debug.Log("MinimumPosition: " + minPosition);
+        maxPosition = (Vector2)bounds.max - halfSize;
+        Debug.Log(maxPosition); 
     }
 }

@@ -19,6 +19,9 @@ public class AudioManager : MonoBehaviour
     private void Start() 
     {
         _music.loop = true;
+
+        var value = PlayerPrefs.GetFloat("Volume");
+        AudioListener.volume = value;    
     }
 
     public void PlaySound (AudioClip clip)
@@ -29,15 +32,5 @@ public class AudioManager : MonoBehaviour
     public void ChangeVolume(float value)
     {
         AudioListener.volume = value;
-    }
-
-    public void ToggleEffect()
-    {
-        _soundEffect.mute = !_soundEffect.mute;
-    }
-
-    public void ToggleMusic()
-    {
-        _music.mute = !_music.mute;
     }
 }

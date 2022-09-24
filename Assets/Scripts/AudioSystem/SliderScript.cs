@@ -14,7 +14,7 @@ public class SliderScript : MonoBehaviour
         _slider.onValueChanged.AddListener((value) => {
             value = PlayerPrefs.GetFloat("Volume");
             value *= 100;
-            _sliderText.text = value.ToString("0");
+            _sliderText.text = $"{"Volume:"}{value.ToString("0")}";
         });
     }
 

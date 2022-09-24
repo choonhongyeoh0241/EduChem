@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 using Pause;
 
@@ -106,4 +106,8 @@ public class BookUI : MonoBehaviour, IPauser
         Render();
     }
 
+    public void Detect()
+    {
+        if (active) CloseBook();
+    }
 }

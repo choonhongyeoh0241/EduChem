@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: ElecConfig
+  m_EditorClassIdentifier: 
+  _color: {r: 1, g: 0.7959469, b: 0.6556604, a: 1}
+  _title: Electron Config
+  _pages:
+  - '[Electronic Configuration]
+
+
+
+    We can represent the structure of the atom
+    in two ways: using diagrams called electron shell diagrams or by writing out
+    a special notation called the electronic configuration (or electronic structure)
+
+'
+  - "[Electron Shell Diagrams]\r\n\n\u2022Electrons orbit the nucleus in shells (or
+    energy levels) and each shell has a different amount of energy associated with
+    it\r\n\n\u2022The further away from the nucleus, the more energy a shell has\r\n\n\u2022Electrons
+    fill the shell closest to the nucleus \r\n"
+  - "\u2022When a shell becomes full of electrons, additional electrons have to be
+    added to the next shell\r\n\n\u2022The first shell can hold 2 electrons\r\n\n\u2022The
+    second shell can hold 8 electrons \r\n\n\u2022The outermost shell of an atom
+    is called the outer shell and an atom is much more stable if it can manage to
+    completely fill this shell with electrons \r\n"
+  - '[Electron Shell Diagram]
+
+
+    -->'
+  - <sprite="ElectronShell" index=0>
+  - <sprite="ElectronShell" index=1>
+  - "[Writing electronic configuration]\r\n\n\u2022The arrangement of electrons in
+    shells can also be explained using numbers\r\n\n\u2022Instead of drawing electron
+    shell diagrams, the number of electrons in each electron shell can be written
+    down, separated by commas\r\n\n\u2022This notation is called the electronic configuration
+    (or electronic structure)\r\n\t-E.g., Carbon has 6 electrons, 2 in the 1st shell
+    and 4 in the 2nd shell\r\n"
+  - "\u2022Its electronic configuration is 2,4\r\n\n\u2022Electronic configurations
+    can also be written for ions\r\n\t-E.g., A sodium atom has 11 electrons, a sodium
+    ion has lost one electron, therefore has 10 electrons: 2 in the first shell and
+    8 in the 2nd shell\r\n\n\u2022Its electronic configuration is 2,8\r\n"
+  - '[Relationship between Electron Shells and Periodic Table]'
+  - '-There is a clear relationship between the electronic configuration and how
+    the Periodic Table is designed
+
+
+
+    -The number of notations in the electronic
+    configuration will show the number of occupied shells of electrons the atom has,
+    showing the period in which, that element is in
+
+'
+  - "-The last notation shows the number of outer electrons the atom has, showing
+    the group that element is in (for elements in Groups I to VII)\r\n\n\n-Elements
+    in the same group have the same number of outer shell electrons \r\n"
+  - '[Diagram Explanation]
+
+
+    -->'
+  - <sprite="ElectNota" index=0>
+  - <sprite="ElectNota" index=1>
