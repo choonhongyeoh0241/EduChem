@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Formation
+  m_EditorClassIdentifier: 
+  _color: {r: 0.05576191, g: 0.5566038, b: 0, a: 1}
+  _title: Ionic Bonds
+  _pages:
+  - '[Formation of Ionic Bonds]'
+  - "\u2022Ionic compounds are formed when metal atoms react with non-metal atoms\r\n\n\n\u2022Metal
+    atoms lose their outer electrons which the non-metal atoms gain to form positive
+    and negative ions\r\n"
+  - "\u2022The positive and negative ions are held together by strong electrostatic
+    forces of attraction between opposite charges\r\n\n\n\u2022This force of attraction
+    is known as an ionic bond, and they hold ionic compounds together\r\n"
+  - '[Dots-and-cross diagram]
+
+
+    -->'
+  - "\u2022Dot and cross diagrams are diagrams that show the arrangement of the outer-shell
+    electrons in an ionic or covalent compound or element\r\n\n\toThe electrons are
+    shown as dots and crosses\r\n"
+  - "\u2022In a dot and cross diagram:\r\n\n\toOnly the outer electrons are shown\r\n\toThe
+    charge of the ion is spread evenly which is shown by using brackets\r\n\toThe
+    charge on each ion is written at the top right-hand corner\r\n"
+  - <sprite="NACL" index=0>
+  - <sprite="NACL" index=1>
+  - '[Ionic Bonds between Group 1 and 7 elements]'
+  - <sprite="Group1&7" index=0>
+  - <sprite="Group1&7" index=1>
+  - "Explanation:\r\n\n\u2022Sodium is a Group I metal so will lose one outer electron
+    to another atom to gain a full outer shell of electrons\r\n\n\u2022A positive
+    sodium ion with the charge 1+ is formed\r\n"
+  - "\u2022Chlorine is a Group VII non-metal so will need to gain an electron to
+    have a full outer shell of electrons\r\n\n\u2022One electron will be transferred
+    from the outer shell of the sodium atom to the outer shell of the chlorine atom\r\n"
+  - "\u2022A chlorine atom will gain an electron to form a negatively charged chloride
+    ion with a charge of 1-\r\n\n\u2022The oppositely charged ions are held together
+    by strong electrostatic forces of attraction\r\n\n\u2022The ionic compound has
+    no overall charge\r\n"
+  - "[Properties of Ionic Compound]\r\n\n\u2022Ionic compounds are usually solid
+    at room temperature \r\n\n\u2022They have high melting and boiling points\r\n"
+  - "\u2022Ionic compounds are good conductors of electricity in the molten state
+    or in solution \r\n\n\n\u2022They are poor conductors in the solid state\r\n"

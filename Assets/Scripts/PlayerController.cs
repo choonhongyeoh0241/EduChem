@@ -24,10 +24,10 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();  
     }
 
-    private void OnEnable() => SceneAnchor.OnSceneTransition += InitialisePosition; // When player is in scene and actie
+    private void OnEnable() => SceneAnchor.OnSceneTransition += InitialisePosition; // When player is in scene and active
     private void OnDisable() => SceneAnchor.OnSceneTransition -= InitialisePosition; // When player goes to another scene will deactive 
 
-    private void InitialisePosition(Vector2 position) => transform.position = position; // To get player last stop position
+    private void InitialisePosition(Vector2 position) => transform.position = position; 
 
     private void Update() 
     {

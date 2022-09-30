@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Covalent
+  m_EditorClassIdentifier: 
+  _color: {r: 0.7881317, g: 1, b: 0.7688679, a: 1}
+  _title: Covalent
+  _pages:
+  - "[Covalent Bonds]\r\n\n\u2022Covalent compounds are formed when pairs of electrons
+    are shared between atoms\r\n\n\u2022Only non-metal elements participate in covalent
+    bonding\r\n"
+  - "\u2022As in ionic bonding, each atom gains a full outer shell of electrons,
+    giving them a noble gas electronic configuration\r\n\n\u2022When two or more
+    atoms are covalently bonded together, we describe them as \u2018molecules\u2019\r\n"
+  - "\u2022Dot-and-cross diagrams can be used to show the electric configurations
+    in simple molecules\r\n\n\u2022Electrons from one atom are represented by a dot,
+    and the electrons of the other atom are represented by a cross\r\n"
+  - "\u2022The electron shells of each atom in the molecule overlap and the shared
+    electrons are shown in the area of overlap\r\n\n\u2022The dot-and-cross diagram
+    of the molecule shows clearly which atom each electron originated from\r\n"
+  - <sprite="CovalentBond" index=0>
+  - <sprite="CovalentBond" index=1>
+  - "[Single Covalent Bonds]\r\n\n\u2022Many simple molecules exist in which two
+    adjacent atoms share one pair of electrons, also known as a single covalent bond
+    (or single bond)\r\n"
+  - '[Hydrogen]
+
+
+
+
+
+
+
+
+
+
+
+    <sprite="Hydrogen" index=0>
+
+'
+  - '[Chlorine]
+
+
+
+
+
+
+
+
+
+
+
+    <sprite="Chlorine" index=0>'
+  - '[Water]
+
+
+
+
+
+
+
+
+
+
+
+    <sprite="H2O" index=0>'
+  - '[Methane]
+
+
+
+
+
+
+
+
+
+
+
+    <sprite="Methane" index=0>'
+  - '[Ammonia]
+
+
+
+
+
+
+
+
+
+
+
+    <sprite="Ammonia" index=0>'
+  - '[Hydrogen Chloride]
+
+
+
+
+
+
+
+
+
+
+
+    <sprite="HCL2" index=0>'
+  - "[Covalent Bonds in Complex Covalent Molecules]\r\n\n\u2022Some atoms need to
+    share more than one pair of electrons to gain a full outer shell of electrons\r\n"
+  - "\u2022If two adjacent atoms share two pairs of electrons, two covalent bonds
+    are formed, also known as a double bond\r\n\n\n\u2022If two adjacent atoms share
+    three pairs of electrons, three covalent bonds are formed, also known as a triple
+    bond\r\n"
+  - "[Nitrogen]\n\n\u2022When 2 nitrogen atoms react they share 3 pairs of electrons
+    to form a triple bond"
+  - <sprite="Nitro" index=0>
+  - "[Ethene]\n\n\u2022In ethene, the 2 carbon atoms share 2 pairs of electrons"
+  - <sprite="Eth" index=0>
+  - '[Methanol]
+
+
+
+
+
+
+
+
+
+
+    <sprite="Mth" index=0>'
+  - '[Carbon Dioxide]
+
+
+
+
+
+
+
+
+
+
+    <sprite="C02" index=0>'
+  - "[Properties of Simple Molecular Compounds]\r\n\n\u2022Small molecules are compounds
+    made up of molecules that contain just a few atoms covalently bonded together\r\n\n\u2022They
+    have low melting and boiling points so covalent compounds are usually liquids
+    or gases at room temperature\r\n"
+  - "\u2022As the molecules increase in size, the melting and boiling points generally
+    increase\r\n\n\n\u2022Small molecules have poor electrical conductivity\r\n"
