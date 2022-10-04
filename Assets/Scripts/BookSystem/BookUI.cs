@@ -85,11 +85,9 @@ public class BookUI : MonoBehaviour, IPauser
         else
         {
             text.text = "";
-            if (!isEven) 
-            {
-                closeButton.SetActive(true);
-                rightButton.SetActive(false);
-            }
+            
+            closeButton.SetActive(true);
+            rightButton.SetActive(false);
         }
     }
 

@@ -3,22 +3,22 @@ using UnityEngine;
 public class PressurePlateSystem : MonoBehaviour
 {
     [SerializeField] private GameObject block;
-    [SerializeField] private PressurePlate[] plates;
+    [SerializeField] private BoxCollider2D boxCollider;
+    [SerializeField] private PressurePlate[] currentPlates;
 
     private void Awake()
     {
-        for (int i = 0; i < plates.Length; i++)
+        for (int i = 0; i < currentPlates.Length; i++)
         {
-            plates[i].manager = this;
+            currentPlates[i].Instance = this;
         }
     }
-
     public void Check()
     {
-        for (int i = 0; i < plates.Length; i++)
+        for (int i = 0; i < currentPlates.Length; i++)
         {
             // If any plates are not activated, end the function here.
-            if (!plates[i].activated) return;
+            if (!currentPlates[i].activated) return;
         }
 
         AllActivated();
@@ -26,6 +26,6 @@ public class PressurePlateSystem : MonoBehaviour
 
     private void AllActivated()
     {
-        block.SetActive(false);
+        boxCollider.isTrigger = true;
     }
 }

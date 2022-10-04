@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: Ionic 1
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: An ion is an ___ charged atom or group of atoms formed by the loss
+      or gain of electrons
+    options:
+    - option: Electrically
+      isAnswer: 1
+    - option: I don't know
+      isAnswer: 0
+    - option: Neutrally
+      isAnswer: 0
+    - option: Positively
+      isAnswer: 0
+  - question: To form positive Ion. it requires to lose ___
+    options:
+    - option: Proton
+      isAnswer: 0
+    - option: Neutron
+      isAnswer: 0
+    - option: Electron
+      isAnswer: 1
+    - option: Neucles
+      isAnswer: 0
+  - question: 'Positively charged ion: __
+
+      Negatively charged ion:___'
+    options:
+    - option: Cat, An
+      isAnswer: 1
+    - option: An, Cat
+      isAnswer: 0
+    - option: Cat, Cat
+      isAnswer: 0
+    - option: An, An
+      isAnswer: 0
+  - question: Chlorine is Group VII non-metal, requires to gain __ electron to have
+      full outer shell
+    options:
+    - option: Two
+      isAnswer: 0
+    - option: One
+      isAnswer: 1
+    - option: Four
+      isAnswer: 0
+    - option: Three
+      isAnswer: 0
+  - question: Ionic compounds are usually ___ at room termperature
+    options:
+    - option: Liquid
+      isAnswer: 0
+    - option: Gas
+      isAnswer: 0
+    - option: Not sure
+      isAnswer: 0
+    - option: Solid
+      isAnswer: 1

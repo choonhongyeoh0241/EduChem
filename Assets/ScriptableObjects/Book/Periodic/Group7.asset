@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Group7
+  m_EditorClassIdentifier: 
+  _color: {r: 0.5235849, g: 0.60523695, b: 1, a: 1}
+  _title: Group 7
+  _pages:
+  - "[Group 7 Basic Understanding]\r\n\u2022\tThe elements in Group 17 are Fluorine,
+    Chlorine, Bromine, Iodine, and Astatine\r\n\u2022\tThese elements are known as
+    halogens.\r\n"
+  - "\u2022\tHalogen is a Greek word which means salt-former\u2019\r\n-  Halogens
+    are reactive non-metals.\r\n-  They exist naturally in various mineral salts
+    in our earth\u2019s crust and sea water.\r\n\u2022\tHalogens exist as diatomic
+    covalent molecules: Molecular formulae \u2013\r\n- F2, Cl2, Br2, I2, At2\r\n"
+  - '[Group 7 General Physical Properties]
+
+
+    [Physical States and colours]
+
+'
+  - "\u2022\tColours of the halogens become darker going down Group 17\r\n-\tFluorine
+    \u2013 Pale yellow gas\r\n-\tChlorine \u2013 Greenish-yellow gas\r\n-\tBromine
+    \u2013 Reddish-brown liquid\r\n-\tIodine \u2013 Purplish-black solid\r\n"
+  - "\u2022\tAll halogens have low melting and boiling points\r\n-\tThe halogen molecules
+    are held together by weak intermolecular forces. Hence, small amount of heat
+    energy is needed to overcome it during melting or boiling.\r\n"
+  - "\u2022\tAll halogens have low densities.\r\n\u2022\tAll halogens do not conduct
+    electricity.\r\n\u2022\tAll halogens are weak conductors of heat.\r\n"
+  - "[Physical Properties \u2013 Trend of change]"
+  - "\u2022\tThe atomic radius (atomic size) of the halogens increases gradually
+    down the group.\r\n-\tThe number of shells occupied with electrons increases
+    down the group.\r\n\u2022\tAlthough halogens have low densities, the density
+    of the halogens increases gradually down the group.\r\n"
+  - "[Similar Chemical Properties]\n\n\u2022\tAll halogens exhibit similar chemical
+    properties.\r\n-\tThis is because all the atoms of halogens have 7 outer shell.\r\n"
+  - "[Reactivity]\r\n\u2022\tAlthough halogens exhibit similar chemical properties,
+    they differ in reactivity.\r\n"
+  - "\u2022\tThe reactivity of halogens decreases when going down Group 7.\r\n-\tAll
+    halogens have seven outer shell. Each halogen atom will gain one electron to
+    achieve a stable octet electron arrangement. Hence, an ion with a charge of -1
+    is formed. "
+  - 'When going down Group 7, the atomic size of halogens increases. The outermost
+    occupied shell becomes further away from the nucleus and is screened by more
+    inner shells containing electrons. '
+  - 'This means that the effective nuclear charge exerted on the outer shell decreases
+    when going down the group. '
+  - Hence, the attractive forces exerted by the nucleus to attract one more electron
+    into the outer shell decreases when going down the group. This causes the reactivity
+    of halogens to decrease down the group.
+  - "\u2022\tThe reactivity of a halogen is measured by how easily its atom accepts
+    one electron to achieve a stable noble gas electron arrangement (octet electron
+    arrangement).\r\n\u2022\tThe easier the atom of a halogen gains one electron,
+    the more reactive is the halogen.\r\n"
+  - '[Safety precautions when handling Group 7 elements]'
+  - "\u2022\tFluorine is not only poisonous but also a very dangerous reactive gas,
+    whereas astatine is radioactive. Therefore, these two elements are not used in
+    school laboratories."
+  - "\u2022\tChlorine gas, bromine gas and iodine vapour are poisonous.\r\n\u2022\tIodine
+    vapour is harmful to the respiratory system of living things including human
+    beings.\r\n"
+  - "\u2022\tHence, chlorine, bromine and iodine should be handled in the correct
+    ways in the laboratories."
+  - "\u2022\tThe following safety precautions must be taken when handling these halogens.\r\n-\tHandle
+    the halogens in a fume chamber.\r\n-\tWear safety goggles and gloves.\r\n"

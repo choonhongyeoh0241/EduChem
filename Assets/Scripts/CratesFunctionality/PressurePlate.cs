@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PressurePlate : MonoBehaviour
 {
-    public PressurePlateSystem manager { get; set; }
+    public PressurePlateSystem Instance { get; set; }
     public bool activated { get; private set; }
     [SerializeField] private GameObject crate;
     [SerializeField] private float acceptableDistance = 0.25f;
@@ -28,7 +28,7 @@ public class PressurePlate : MonoBehaviour
                 gameObject.GetComponentInChildren<SpriteRenderer>().color = Color.green;
                 other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
                 activated = true;
-                manager.Check();
+                Instance.Check();
                 SaveManager.Instance.SetFlag(SaveData.Flag.Crate, this.name);
             }
             else

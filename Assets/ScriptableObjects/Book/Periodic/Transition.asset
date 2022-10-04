@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Transition
+  m_EditorClassIdentifier: 
+  _color: {r: 0.124260604, g: 0.119927004, b: 0.7264151, a: 0.74509805}
+  _title: Transition
+  _pages:
+  - '[Transition Elements]'
+  - '<sprite="Transition" index=0>
+
+'
+  - "[General properties]\r\n\u2022\tThey are very hard and strong metals and are
+    good conductors of heat and electricity\r\n\u2022\tThey have very high melting
+    points and are highly dense metals\r\n"
+  - "\u2022\tFor example, the melting point of titanium is 1,688\xBAC whereas potassium
+    in Group I melts at only 63.5\xBAC, slightly warmer than the average cup of hot
+    chocolate!"
+  - "\u2022\tThe transition elements form coloured compounds and often have more
+    than one oxidation state, such as iron readily forming compounds of both Fe2+
+    and Fe3+\r\n\u2022\tThese coloured compounds are responsible for the pigments
+    in many paints and the colours of gemstones and rocks\r\n"
+  - "\u2022\tTransition elements, as elements or in compounds, are often used as
+    catalysts to improve the rate or reaction in industrial processes\n-->"
+  - "o\tTransition element catalysts of platinum or rhodium are also used in car
+    exhausts in the 'catalytic convertor' to reduce the levels of nitrous oxides
+    and carbon monoxide produced"
+  - '[Transition Elements Oxidation Numbers]
+
+    -->'
+  - "\u2022\tThe transition elements have more than one oxidation number, as they
+    can lose a different number of electrons, depending on the chemical environment
+    they are in"
+  - "\u2022\tFor example. iron either:\r\no\tLose two electrons to form Fe2+ so has
+    an oxidation number of +2\r\no\tLoses three electrons to form Fe3+ so has an
+    oxidation number of +3\r\n"
+  - "\u2022\tCompounds containing transition elements in different oxidation states
+    will have different properties and colours"

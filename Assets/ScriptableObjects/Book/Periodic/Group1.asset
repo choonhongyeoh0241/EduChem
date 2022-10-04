@@ -12,13 +12,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
   m_Name: Group1
   m_EditorClassIdentifier: 
-  _color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+  _color: {r: 0, g: 0.031704426, b: 1, a: 1}
   _title: Group1
-  _image: {fileID: 0}
   _pages:
-  - This is Group 1
-  - '<size=600><sprite="Group-2-Ionisation-Energy" index=0> </size>
-
-
-    Alkali
-    Metal'
+  - "[Group 1 Basic understanding]\r\n\n\u2022The Group I metals are also called
+    the alkali metals as they form alkaline solutions with high pH values when reacted
+    with water\r\n"
+  - "\u2022Group I metals are lithium, sodium, potassium, rubidium, caesium, and
+    francium\r\n\n\n\u2022Common Characteristic - They all contain just one electron
+    in their outer shell\r\n"
+  - "[Group 1 General Physical Properties]\r\n\n\u2022Group 1 metals are soft and
+    easy to cut, getting even softer and denser as you move down the Group (sodium
+    and potassium do not follow the trend in density)\n\n\u2022Group 1 metals have
+    shiny silvery surfaces when freshly cut"
+  - "\u2022Group 1 metals conduct heat and electricity\r\n\n\u2022Group 1 metals
+    have low melting points and low densities compared to other metals, and the melting
+    point decreases as you move down the Group; some would melt on a hot day\r\n"
+  - "\u2022Group 1 metals\u2019 surfaces turn dull when exposed to air because alkali
+    metals are very reactive. They react rapidly with oxygen and water vapour in
+    the air when exposed."
+  - "[Group 1 Physical Properties \u2013 trend of change]"
+  - "\u2022The atomic radius (atomic size) of alkali metals increases gradually down
+    the group\r\n\n\t-The number of shells occupied with electrons increases down
+    the group.\r\n\n"
+  - "\u2022Although alkali metals have low melting and boiling points, the melting
+    and boiling points decrease gradually down the group."
+  - "\u2022Although alkali metals have low densities, the densities increase gradually
+    down the group.\r\n\t-Lithium, sodium, and potassium are less dense than water.
+    Thus, these metals float on the water surface.\r\n\t-Rubidium, caesium, and francium
+    are denser than water. Thus, these metals sink in water.\r\n"
+  - "\u2022Alkali metals become softer down the group.\r\n\r\n"
+  - "[Group 1 Chemical Properties]\r\n\n\t[Similar Chemical Properties]\r\n\n\u2022All
+    alkali metal exhibit similar chemical properties because all the atoms of alkali
+    metals have one outer shell."
+  - "\u2022Alkali metals are very reactive in a way of  differing in reactivity,
+    the reactivity of alkali metals increases when going down Group 1."
+  - "\u2022Group 1 elements exhibit similar chemical properties in their reactions
+    with\r\n\t-water to liberate hydrogen gas and form metal hydroxide.\r\n\t-oxygen
+    to produce metal oxides.\r\n\t-chlorine to produce metal chloride.\r\n\t-bromine
+    to produce metal bromide.\r\n"
+  - "[Reactivity]\n -->"
+  - "\u2022The reactivity of an alkali metal is measured by how easily its atom loses
+    its single outer shell electron to achieve a stable noble gas electron arrangement
+    (duplet or octet electron arrangement). "
+  - The easier an alkali metal atom releases its single outer shell, the more reactive
+    is the alkali metal.
+  - 'All alkali metals have one outer shell. Each atom of an alkali metal will release
+    one outer shell during a chemical reaction to achieve a stable duplet or octet
+    electron arrangement. Hence, an ion with a charge of+1 is formed. '
+  - 'When going down Group 1, the atomic size of alkali metals increases. The single
+    outer shell becomes further away from the nucleus and is screened by more inner
+    shells containing electrons. This means that the effective nuclear charge felt
+    by the single outer shell decreases when going down the group. '
+  - 'This causes the attractive forces between the nucleus and the single outer shell
+    become weaker, so the single outer shell is more weakly pulled by the nucleus. '
+  - Hence, the single outer shell can be released more easily when going down the
+    group. As a result, the reactivity of alkali metals increases down the group.
+  - '[To predict the properties of rubidium, caesium, and francium]'
+  - "\u2022\tRubidium, caesium, and francium are placed below potassium in Group
+    1 of the Periodic Table."
+  - "\u2022\tHence, rubidium, caesium and francium are expected to react with water,
+    oxygen, chlorine, or bromine in a similar way as potassium, but these reactions
+    are more vigorous (more reactive) than potassium."
+  - <sprite="PeriodicEq" index=0>
+  - "[Solubility]\r\n\u2022\tCarbonate, nitrate, chloride, sulphate, bromide, and
+    iodide salts of alkali metals are white solids.\r\n\u2022\tThese salts are soluble
+    in water. They dissolve in water to form colourless solutions.\r\n"
+  - "[Safety precautions when handling Group 1 elements]\r\n\u2022\tAlkali metals
+    are very reactive.\r\n\u2022\tAlkali metals, when exposed, can react with oxygen
+    and water vapour in the air.\r\n"
+  - "\u2022\tHence, alkali metals such as lithium, sodium and potassium must be kept
+    in paraffin oil, whereas rubidium and caesium are stored in sealed glass tubes.
+    This is to prevent them from reacting with oxygen and water vapour in the air."
+  - "\u2022\tThe following safety precautions must be taken when handling alkali
+    metals.\r\n-\tAvoid holding the highly reactive alkali metals with your bare
+    hands.\r\n-\tWear safety goggles and gloves during an experiment.\r\n"

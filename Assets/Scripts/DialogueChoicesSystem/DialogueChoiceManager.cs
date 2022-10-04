@@ -13,11 +13,11 @@ public class DialogueChoiceManager : MonoBehaviour
     [SerializeField] private Image dialogueBG;
     [SerializeField] private GameObject dialogPrefab;
     [SerializeField] private GameObject responsePrefab;
-    [SerializeField] private Story myStory;
     [SerializeField] private GameObject dialogHolder;
     [SerializeField] private GameObject choiceHolder;
     [SerializeField] private ScrollRect dialogScroll;
     private TextAsset currentValue;
+    private Story myStory;
 
     private void OnEnable() => OnDialogueChoiceRequested += ActiveCanvas;
     private void OnDisable() => OnDialogueChoiceRequested -= ActiveCanvas;

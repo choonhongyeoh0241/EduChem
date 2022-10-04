@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: Group8
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: Group 8 elements are known as?
+    options:
+    - option: Noble Gase
+      isAnswer: 1
+    - option: 'Halogen '
+      isAnswer: 0
+    - option: Alkali
+      isAnswer: 0
+    - option: Earth Alkali
+      isAnswer: 0
+  - question: How many electrons do Helium atom has
+    options:
+    - option: 1
+      isAnswer: 0
+    - option: 2
+      isAnswer: 1
+    - option: 3
+      isAnswer: 0
+    - option: 4
+      isAnswer: 0
+  - question: Will Group 8 elements have chemical reaction?
+    options:
+    - option: Yes
+      isAnswer: 0
+    - option: Some
+      isAnswer: 0
+    - option: No
+      isAnswer: 1
+    - option: Most
+      isAnswer: 0
+  - question: What is the electron arrangement in Group 8 known as?
+    options:
+    - option: I don't know
+      isAnswer: 0
+    - option: Duplet
+      isAnswer: 0
+    - option: 'Octet '
+      isAnswer: 0
+    - option: Triplet
+      isAnswer: 0
+  - question: What do Group 8 elements exist as?
+    options:
+    - option: Monatomic
+      isAnswer: 1
+    - option: Atomic
+      isAnswer: 0
+    - option: Compound
+      isAnswer: 0
+    - option: Mixture
+      isAnswer: 0

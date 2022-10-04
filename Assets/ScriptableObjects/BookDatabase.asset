@@ -13,6 +13,20 @@ MonoBehaviour:
   m_Name: BookDatabase
   m_EditorClassIdentifier: 
   books:
+  - {fileID: 11400000, guid: 1a366e11ea9e9a04ebe1ab5a607820bd, type: 2}
+  - {fileID: 11400000, guid: 00dba64205db79b4bb782b52e3478fc7, type: 2}
+  - {fileID: 11400000, guid: 384533947abc9cd44abbc7497bb48f15, type: 2}
+  - {fileID: 11400000, guid: 0317dd7e566f7e9418aa066db1fe544f, type: 2}
   - {fileID: 11400000, guid: ebe30a4231b86674397d5a7e08773f47, type: 2}
+  - {fileID: 11400000, guid: 1d89c5a92d999b5468cee1b742b3b0ee, type: 2}
+  - {fileID: 11400000, guid: 8aea7e04595f7734a884eeaedd2dc866, type: 2}
+  - {fileID: 11400000, guid: 1afb098b4b7fdc84b81289d1386aea7b, type: 2}
   - {fileID: 11400000, guid: 53ae1721219f4194aa9df8063ec153c3, type: 2}
+  - {fileID: 11400000, guid: 371a4ff989dcffd43ad1dcc00eaf81ee, type: 2}
+  - {fileID: 11400000, guid: a4be0025229af8c4f9350467f7e00e7c, type: 2}
+  - {fileID: 11400000, guid: 3850606585bcabe4aaad158b1413a79c, type: 2}
+  - {fileID: 11400000, guid: d3d711065acfcfe4fb12a1a718337b41, type: 2}
+  - {fileID: 11400000, guid: c9d3a407481f0de449d1adfb7e1f926c, type: 2}
+  - {fileID: 11400000, guid: 43da77d773b359c468139541a49d6db6, type: 2}
+  - {fileID: 11400000, guid: 936bce511e33de842a396dacb624780f, type: 2}
   - {fileID: 11400000, guid: 7c5d4c07bf863d24a8a9a84c20bdc603, type: 2}

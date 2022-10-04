@@ -956,9 +956,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: VillageScene
   playerPosition: {x: 6, y: 3.5}
-  fadeInPanel: {fileID: 0}
-  fadeOutPanel: {fileID: 0}
-  fadeSeconds: 0
+  loadingScreen: {fileID: 1258480283}
+  progressBar: {fileID: 769077622}
 --- !u!61 &175093701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8409,11 +8408,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b77004c5c33e0745bc2dbbcd6b012f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: StructureTown
+  sceneToLoad: BondingTown
   playerPosition: {x: 54, y: 16}
-  fadeInPanel: {fileID: 0}
-  fadeOutPanel: {fileID: 0}
-  fadeSeconds: 0
+  loadingScreen: {fileID: 1258480283}
+  progressBar: {fileID: 769077622}
 --- !u!61 &610772362
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9597,6 +9595,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1401482683335653466, guid: 3c740b3f8affa364e83359ddd79a5f92, type: 3}
   m_PrefabInstance: {fileID: 768189504}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &769077622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6058495690502879930, guid: f7d83633a965de248acfe3db346c0baa, type: 3}
+  m_PrefabInstance: {fileID: 877515890}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &796033055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9765,7 +9774,7 @@ Animator:
   m_GameObject: {fileID: 809813645}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b53f2ce6d496ac54c91e4902bbeea96b, type: 2}
+  m_Controller: {fileID: 9100000, guid: e8db3aee4a8d68c43988a1033e494b78, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9887,7 +9896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809813645}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.27, y: 21.64, z: -4.052328}
+  m_LocalPosition: {x: 15.14, y: 20.1, z: -4.052328}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -28664,6 +28673,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1258480283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3622812668747642411, guid: f7d83633a965de248acfe3db346c0baa, type: 3}
+  m_PrefabInstance: {fileID: 877515890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1272019768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31710,7 +31724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986711414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.24, y: 25.3, z: 0}
+  m_LocalPosition: {x: 13, y: 31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31731,7 +31745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _inventory: {fileID: 11400000, guid: c0ad670485821954eabc0c0eed6136d6, type: 2}
   _restrict: {fileID: 11400000, guid: 5eb165fa3248ff04c87166f630db793f, type: 2}
-  keyCanvas: {fileID: 913729458}
+  _keyCanvas: {fileID: 913729458}
   _speed: 5
 --- !u!95 &1986711417
 Animator:

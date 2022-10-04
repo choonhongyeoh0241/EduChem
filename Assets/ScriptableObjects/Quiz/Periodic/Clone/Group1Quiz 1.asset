@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: Group1Quiz 1
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: Do all alkali metal exhibit similar chemical properties?
+    options:
+    - option: Yes
+      isAnswer: 1
+    - option: No
+      isAnswer: 0
+    - option: Some
+      isAnswer: 0
+    - option: Most
+      isAnswer: 0
+  - question: Alkali metal react with oxygen to produce __
+    options:
+    - option: Metal Oxgen
+      isAnswer: 0
+    - option: Metal Bromide
+      isAnswer: 0
+    - option: Metal Oxide
+      isAnswer: 1
+    - option: Metal Chloride
+      isAnswer: 0
+  - question: Reactivity of Alkali Metal
+    options:
+    - option: Moderate
+      isAnswer: 0
+    - option: Not sure
+      isAnswer: 0
+    - option: Little
+      isAnswer: 0
+    - option: Very
+      isAnswer: 1
+  - question: 4Cs (Solid) + O2 (Gas) ->
+    options:
+    - option: 2Cs2O
+      isAnswer: 1
+    - option: 4Cs2O2
+      isAnswer: 0
+    - option: 2CsO
+      isAnswer: 0
+    - option: Cs4O2
+      isAnswer: 0
+  - question: 2Cs + Br2 ->
+    options:
+    - option: 2CsBr2
+      isAnswer: 0
+    - option: 4CsBr2
+      isAnswer: 0
+    - option: CsBr
+      isAnswer: 0
+    - option: 2CsBr
+      isAnswer: 1

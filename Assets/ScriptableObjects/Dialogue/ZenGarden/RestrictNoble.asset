@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38095faf5c1e214aa7e663a8a66589e, type: 3}
+  m_Name: RestrictNoble
+  m_EditorClassIdentifier: 
+  _npcname: Certain Noble
+  _lines:
+  - Sorry but no more entry to this building
+  - It is where you did you last challenges
+  - Since you have done with it, just go on..
+  - Talk to others for more hint on where to go

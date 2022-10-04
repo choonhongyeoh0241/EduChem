@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: StatesOfMatter 1
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: How many states of change are there?
+    options:
+    - option: 3
+      isAnswer: 0
+    - option: 4
+      isAnswer: 0
+    - option: 6
+      isAnswer: 0
+    - option: 5
+      isAnswer: 1
+  - question: When substances are heated, what have been absorbed by the particles?
+    options:
+    - option: Heat Energy
+      isAnswer: 0
+    - option: Kinetic Energy
+      isAnswer: 0
+    - option: Thermal Energy
+      isAnswer: 1
+    - option: Energy
+      isAnswer: 0
+  - question: Name of the process from solid to liquid?
+    options:
+    - option: Melting
+      isAnswer: 1
+    - option: Boiling
+      isAnswer: 0
+    - option: Condensation
+      isAnswer: 0
+    - option: Sublimation
+      isAnswer: 0
+  - question: According to heating curve, during the state change, what is happening?
+    options:
+    - option: No temperature change
+      isAnswer: 1
+    - option: I don't know
+      isAnswer: 0
+    - option: No state change
+      isAnswer: 0
+    - option: Temperature is rising
+      isAnswer: 0
+  - question: What curve is usually referred to if a gas is reversing the heating
+      curve?
+    options:
+    - option: Freezing Curve
+      isAnswer: 0
+    - option: Cooling Curve
+      isAnswer: 1
+    - option: Bell Curve
+      isAnswer: 0
+    - option: Condensing Curve
+      isAnswer: 0

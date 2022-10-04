@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: AtomicStructure 1
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: A substance made of __ that all contain the same number of __ and cannot
+      be split into anything simpler
+    options:
+    - option: Atoms, Proton
+      isAnswer: 1
+    - option: Atoms, Electron
+      isAnswer: 0
+    - option: Particles, Proton
+      isAnswer: 0
+    - option: Particles, Electron
+      isAnswer: 0
+  - question: 'Each atom is made of subatomic particles called ___. '
+    options:
+    - option: Protons, Neutrons
+      isAnswer: 0
+    - option: Protons, Electrons
+      isAnswer: 0
+    - option: Protons, Neutrons, Electrons
+      isAnswer: 1
+    - option: Electron, Neutron
+      isAnswer: 0
+  - question: 'The electrons move very fast around the ___ in orbital paths called
+      ___. '
+    options:
+    - option: Nuecles, Shell
+      isAnswer: 1
+    - option: Neucles, Valence
+      isAnswer: 0
+    - option: Neutron, Shell
+      isAnswer: 0
+    - option: Proton, Shell
+      isAnswer: 0
+  - question: One relative atomic mass unit is equal to ___ the mass of a carbon-_
+      atom.
+    options:
+    - option: 1/11th, 11
+      isAnswer: 0
+    - option: 1/12th, 12
+      isAnswer: 1
+    - option: 1/13th, 13
+      isAnswer: 0
+    - option: 1/14th, 14
+      isAnswer: 0
+  - question: The Nucleon number (or mass number) is ?
+    options:
+    - option: Protons + Neutrons
+      isAnswer: 1
+    - option: Protons + Electrons
+      isAnswer: 0
+    - option: Neutrons + Electrons
+      isAnswer: 0
+    - option: Protons + Neutrons + Electrons
+      isAnswer: 0

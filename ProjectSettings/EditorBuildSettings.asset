@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SpawnScene/SpawnSceneT.unity
     guid: 5d92ac0b45c6de5448b483f6627050b8
   - enabled: 1
-    path: Assets/Scenes/VillageScene.unity
+    path: Assets/Scenes/Village/VillageScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Structure/StructureTown.unity
@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bonding/BondingTown.unity
     guid: 48adca4f5759cec4bb7f9eaed6b710f2
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingScene2.unity
+    guid: 9cd8db3d99a829948a046e718f21fb71
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingScene3.unity
+    guid: a09b7e854b20e4c47b6b586afc048d14
   - enabled: 1
     path: Assets/Scenes/Periodic/PeriodicTown.unity
     guid: abee6d308b093c74e91b6a94167fb730

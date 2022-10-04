@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: ElecConfig 1
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: 'Two ways to represent the structure of the atom: ___ diagram, electron
+      ___ ?'
+    options:
+    - option: Electron, Notation
+      isAnswer: 0
+    - option: I don't know
+      isAnswer: 0
+    - option: Electron Shell, Configuration
+      isAnswer: 1
+    - option: Electron, Configuration
+      isAnswer: 0
+  - question: Electrons fill the shell closest to the ___
+    options:
+    - option: Nucleus
+      isAnswer: 1
+    - option: Proton
+      isAnswer: 0
+    - option: Neutron
+      isAnswer: 0
+    - option: I don't know
+      isAnswer: 0
+  - question: The maximum of shell can hold from first to the following
+    options:
+    - option: 2 - 8 - 8...
+      isAnswer: 1
+    - option: 4 - 8 - 4...
+      isAnswer: 0
+    - option: 1 - 8 - 2...
+      isAnswer: 0
+    - option: 2 - 8 - 4...
+      isAnswer: 0
+  - question: If an element has 6 elements, what is the electron configuration?
+    options:
+    - option: 2, 4
+      isAnswer: 1
+    - option: 2 , 2, 2
+      isAnswer: 0
+    - option: 2, 3, 1
+      isAnswer: 0
+    - option: 2, 2, 1, 1
+      isAnswer: 0
+  - question: How do I know if an element belongs to which group?
+    options:
+    - option: I don't know
+      isAnswer: 0
+    - option: Last notation
+      isAnswer: 1
+    - option: Electron configuration
+      isAnswer: 0
+    - option: Count the shell
+      isAnswer: 0

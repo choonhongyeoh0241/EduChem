@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: Formation
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: How do metal loses form ions
+    options:
+    - option: Lose E-
+      isAnswer: 1
+    - option: Gain E-
+      isAnswer: 1
+    - option: Naturally
+      isAnswer: 0
+    - option: No way
+      isAnswer: 0
+  - question: Ions have melting and boiling points
+    options:
+    - option: High
+      isAnswer: 1
+    - option: Medium
+      isAnswer: 0
+    - option: Low
+      isAnswer: 0
+    - option: No
+      isAnswer: 0
+  - question: The oppositely charged ions are held together by strong __ forces of
+      attraction
+    options:
+    - option: Molecular
+      isAnswer: 0
+    - option: Gravity
+      isAnswer: 0
+    - option: 'Electrostatic '
+      isAnswer: 1
+    - option: No
+      isAnswer: 0
+  - question: 'One electron transferred from __ to __ '
+    options:
+    - option: C, H
+      isAnswer: 0
+    - option: Mg, Ag
+      isAnswer: 0
+    - option: Cl, Na
+      isAnswer: 0
+    - option: Na, Cl
+      isAnswer: 1
+  - question: Ionic __  formed when metal and non-metal atoms react
+    options:
+    - option: Atoms
+      isAnswer: 0
+    - option: Compounds
+      isAnswer: 1
+    - option: Compunds
+      isAnswer: 0
+    - option: Mixtures
+      isAnswer: 0

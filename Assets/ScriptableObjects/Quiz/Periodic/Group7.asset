@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: Group7
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: What are Group 7 elemetns known of?
+    options:
+    - option: Alkali
+      isAnswer: 0
+    - option: Noble
+      isAnswer: 0
+    - option: Halogens
+      isAnswer: 1
+    - option: Earth Alkali
+      isAnswer: 0
+  - question: Colours of the halogens become ___ going down Group 17
+    options:
+    - option: No changes
+      isAnswer: 0
+    - option: Colourful
+      isAnswer: 0
+    - option: Lighter
+      isAnswer: 0
+    - option: Darker
+      isAnswer: 1
+  - question: The atomic radius (atomic size) of the halogens __  down the group.
+    options:
+    - option: Decreases
+      isAnswer: 0
+    - option: Increases
+      isAnswer: 1
+    - option: No changes
+      isAnswer: 0
+    - option: I don't know
+      isAnswer: 0
+  - question: Do all Group 7 elements exhibit similar chemical properties?
+    options:
+    - option: Yes
+      isAnswer: 1
+    - option: No
+      isAnswer: 0
+    - option: Some
+      isAnswer: 0
+    - option: Most
+      isAnswer: 0
+  - question: The reactivity of halogens __ when going down Group 7.
+    options:
+    - option: Increase
+      isAnswer: 0
+    - option: Decrease
+      isAnswer: 1
+    - option: Stay the same
+      isAnswer: 0
+    - option: Neutral
+      isAnswer: 0

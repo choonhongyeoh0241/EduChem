@@ -12,9 +12,12 @@ public class SpawnObject : MonoBehaviour
         var minPosition = box.bounds.size.x;
         var maxPosition = box.bounds.size.y;
 
-        for (int x = 0; x < minPosition; x++)
+        Debug.Log("Min" + minPosition);
+        Debug.Log("Max" + maxPosition);
+
+        for (float x = box.bounds.min.x; x < minPosition; x++)
         {
-            for (int y = 0; y < maxPosition; y++)
+            for (float y = box.bounds.min.y; y < maxPosition; y++)
             {
                 Instantiate(water, new Vector3(x, y, 0), Quaternion.identity);
             }
