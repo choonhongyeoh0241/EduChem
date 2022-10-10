@@ -1,6 +1,7 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 using System;
+using System.Collections;
 using Pause;
 
 public class PauseMenu : MonoBehaviour, IPauser
@@ -13,7 +14,9 @@ public class PauseMenu : MonoBehaviour, IPauser
 
     [Header("Components")]
     [SerializeField] private GameObject pauseMenu;
-    [SerializeField] private Image volumeSetting;
+    [SerializeField] private GameObject waitingScreen;
+    [SerializeField] private TextMeshProUGUI savingText;
+    [SerializeField] private TextMeshProUGUI savedText;
 
     private void OnEnable() => OnPauseMenuRequested += OpenMenu;
     private void OnDisable() => OnPauseMenuRequested -= OpenMenu;
@@ -42,15 +45,11 @@ public class PauseMenu : MonoBehaviour, IPauser
         InventoryUI.RequestInventory(inventory);
     }
 
-    public void Volume()
-    {
-        pauseMenu.SetActive(false);
-        volumeSetting.gameObject.SetActive(true);
-    }
-
     public void Save()
     {
         SaveManager.Instance.Save();
+        StartCoroutine(SavingScreen());
+
     }
 
     public void Back()
@@ -62,5 +61,28 @@ public class PauseMenu : MonoBehaviour, IPauser
     {
         // Hard-coded, following logic from `MainMenu.cs`
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
+
+    private IEnumerator SavingScreen()
+    {
+        waitingScreen.SetActive(true);
+        StartCoroutine(saving());
+        yield return new WaitForSeconds(6);
+        waitingScreen.SetActive(false);
+    }
+
+    private IEnumerator saving()
+    {
+        savingText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(3);
+        savingText.gameObject.SetActive(false);
+        StartCoroutine(saved());
+    }
+
+    private IEnumerator saved()
+    {
+        savedText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(3);
+        savedText.gameObject.SetActive(false);
     }
 }

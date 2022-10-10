@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _npcname: Shaman Girl
   _lines:
-  - Seems like you have completed it
-  - How is the book? Able to learn more about atomic structures?
+  - Able to get the hint?
+  - Learn to talk to NPCs and get information, Mr. Hero!

@@ -44,7 +44,7 @@ MonoBehaviour:
       isAnswer: 0
     - option: 2 - 8 - 4...
       isAnswer: 0
-  - question: If an element has 6 elements, what is the electron configuration?
+  - question: If an element has 6 electrons, what is the electron configuration?
     options:
     - option: 2, 4
       isAnswer: 1

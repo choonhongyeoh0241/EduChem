@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _npcname: Blonde Woman
   _lines:
-  - This is not the right entrance
+  - Yes, that is my house! No Entry!
+  - And this is not the right entrance
   - Please Enter from another side of bridge

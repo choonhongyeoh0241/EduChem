@@ -42,7 +42,7 @@ MonoBehaviour:
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 0
-    m_Scale: 30
+    m_Scale: 10
     m_Name: StatesOfMatter_0
     m_HashCode: 2112990201
   m_SpriteGlyphTable:

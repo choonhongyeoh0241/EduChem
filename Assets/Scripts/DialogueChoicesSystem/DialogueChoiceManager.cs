@@ -5,7 +5,7 @@ using Ink.Runtime;
 using UnityEngine.UI;
 using Pause;
 
-public class DialogueChoiceManager : MonoBehaviour
+public class DialogueChoiceManager : MonoBehaviour, IPauser
 {
     private static Action<TextAsset> OnDialogueChoiceRequested;
     public static void RequestChoiceDialog(TextAsset inkData) => OnDialogueChoiceRequested?.Invoke(inkData);
@@ -18,6 +18,7 @@ public class DialogueChoiceManager : MonoBehaviour
     [SerializeField] private ScrollRect dialogScroll;
     private TextAsset currentValue;
     private Story myStory;
+    public bool active => dialogueChoicePanel.activeSelf;
 
     private void OnEnable() => OnDialogueChoiceRequested += ActiveCanvas;
     private void OnDisable() => OnDialogueChoiceRequested -= ActiveCanvas;

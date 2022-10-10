@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b38095faf5c1e214aa7e663a8a66589e, type: 3}
   m_Name: Yellow Hair Girl 2
   m_EditorClassIdentifier: 
-  _npcname: Yellow Hair
+  _npcname: Purple Hair
   _lines:
-  - 'Yellow Hair here again, not a blonde. '
+  - 'Purple Hair here again, not a happy one... '
   - Seems like you have collected the book. Good Luck on your journey, Mr.Hero

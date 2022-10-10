@@ -21,17 +21,18 @@ MonoBehaviour:
     location\r\n\u2022The particles are packed very closely together in a fixed and
     regular pattern\r\n"
   - "Second State: Liquids\n\n\u2022Liquids also have a fixed volume but adopt the
-    shape of the container\r\n\u2022They are generally less dense than solids (an
-    exception is water), but much denser than gases\r\n\u2022The particles move and
-    slide past each other which is why liquids adopt the shape of the container and
-    also why they are able to flow freely\r\n"
+    shape of the container\r\n"
+  - "\u2022They are generally less dense than solids (an exception is water), but
+    much denser than gases\r\n\n\u2022The particles move and slide past each other
+    which is why liquids adopt the shape of the container and also why they are able
+    to flow freely\r\n"
   - "Third State: Gases\n\n\u2022Gases do not have a fixed volume, and, like liquids,
     take up the shape of the container\r\n\u2022Gases have a very low density\r\n\u2022Since
     there is a lot of space between the particles, gases can be compressed into a
-    much smaller volume\r\n\u2022The particles are far apart and move randomly and
-    quickly (around 500 m/s) in all directions\r\n\u2022They collide with each other
-    and with the sides of the container (this is how pressure is created inside a
-    can of gas)\r\n"
+    much smaller volume\r\n"
+  - "\u2022The particles are far apart and move randomly and quickly (around 500
+    m/s) in all directions\r\n\n\u2022They collide with each other and with the sides
+    of the container (this is how pressure is created inside a can of gas)\r\n"
   - <size=600><sprite="States" index=0> </size>
   - <size=600><sprite="States" index=1> </size>
   - <size=600><sprite="States" index=2> </size>

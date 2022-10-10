@@ -3,7 +3,6 @@ using UnityEngine;
 public class PressurePlateSystem : MonoBehaviour
 {
     [SerializeField] private GameObject block;
-    [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private PressurePlate[] currentPlates;
 
     private void Awake()
@@ -26,6 +25,6 @@ public class PressurePlateSystem : MonoBehaviour
 
     private void AllActivated()
     {
-        boxCollider.isTrigger = true;
+        block.SetActive(false);
     }
 }

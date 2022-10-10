@@ -7,20 +7,12 @@ using System.IO;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject overwriteWarning;
+    [SerializeField] private GameObject noFileWarning;
     [SerializeField] private Button loadButton;
     [SerializeField] private GameObject scorePanel;
     [SerializeField] private GameObject MenuCanvas;
 
     private bool saveExists => System.IO.File.Exists(SaveManager.path);
-    
-
-    private void Awake()
-    {
-        if (!saveExists)
-        {
-            loadButton.interactable = false;
-        }
-    }
 
     public void PlayGame()
     {
@@ -47,7 +39,7 @@ public class MainMenu : MonoBehaviour
 
         if (string.IsNullOrWhiteSpace(SaveManager.Instance.location.scene))
         {
-            NewGame();
+            noFileWarning.SetActive(true);
         }
         else
         {
@@ -58,7 +50,6 @@ public class MainMenu : MonoBehaviour
 
     public void ViewScore()
     {
-        MenuCanvas.SetActive(false);
         scorePanel.SetActive(true);
     }
 

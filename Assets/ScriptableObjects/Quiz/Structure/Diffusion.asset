@@ -37,11 +37,11 @@ MonoBehaviour:
   - question: Diffusion happens faster in ___.
     options:
     - option: Gases
-      isAnswer: 0
+      isAnswer: 1
     - option: Liquids
       isAnswer: 0
     - option: Gases and Liquids
-      isAnswer: 1
+      isAnswer: 0
     - option: Solid
       isAnswer: 0
   - question: At the same temperature, ___ gases __ diffuse at the same rate

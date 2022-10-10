@@ -21,13 +21,13 @@ MonoBehaviour:
     of protons and cannot be split into anything simpler\r\n\u2022There are 118 elements
     found in the Periodic Table\r\n"
   - "[Compound]\r\n\n\n\u2022A pure substance made up of two or more elements chemically
-    combined\r\n\u2022There is an unlimited number of compounds\r\n\u2022Compounds
-    cannot be separated into their elements by physical means\r\n\u2022E.g., copper(II)
-    sulphate (CuSO4), calcium carbonate (CaCO3), carbon dioxide (CO2)\r\n"
+    combined\r\n\u2022There is an unlimited number of compounds\r\n"
+  - "\u2022Compounds cannot be separated into their elements by physical means\r\n\n\u2022E.g.,
+    copper(II) sulphate (CuSO4), calcium carbonate (CaCO3), carbon dioxide (CO2)\r\n"
   - "[Mixture]\r\n\n\n\u2022A combination of two or more substances (elements and/or
-    compounds) that are not chemically combined\r\n\u2022Mixtures can be separated
-    by physical methods such as filtration or evaporation\r\n\u2022E.g., sand and
-    water, oil and water, sulphur powder and iron filings \r\n"
+    compounds) that are not chemically combined\r\n"
+  - "\u2022Mixtures can be separated by physical methods such as filtration or evaporation\r\n\n\u2022E.g.,
+    sand and water, oil and water, sulphur powder and iron filings \r\n"
   - <sprite="Elements" index=0>
   - <sprite="Elements" index=1>
   - <sprite="Elements" index=2>
