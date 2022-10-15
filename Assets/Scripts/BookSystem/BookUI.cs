@@ -93,11 +93,12 @@ public class BookUI : MonoBehaviour, IPauser
 
     public void TurnPage(GameObject sideButton)
     {
-        if(sideButton == rightButton) index += 2;
-        if(sideButton == leftButton) index -=2;
+        if(sideButton == rightButton) index += 2; // Debug.Log("Nex Page");
+        if(sideButton == leftButton) index -=2; // Debug.Log("Previous Page");
         if(sideButton == closeButton) 
         {
             CloseBook(); 
+            // Debug.Log("Close Book");
             return;
         }
 
@@ -107,5 +108,6 @@ public class BookUI : MonoBehaviour, IPauser
     public void Detect()
     {
         if (active) CloseBook();
+        // Debug.Log("Closed forcibly");
     }
 }

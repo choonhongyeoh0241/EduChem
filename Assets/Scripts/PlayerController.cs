@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         if (PauseMovement.IsActive()) 
         {
+            // Debug.Log("Movement paused");
             keyCanvas.GetComponent<Canvas>().enabled = false;
             return;
         }

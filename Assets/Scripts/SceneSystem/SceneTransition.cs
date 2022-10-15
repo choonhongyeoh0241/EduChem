@@ -24,6 +24,7 @@ public class SceneTransition : MonoBehaviour
     {
         progressBar.fillAmount = 0;
         loadingScreen.SetActive(true);
+        // Debug.Log("Loading Screen loaded");
         
         AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneToLoad);
         asyncOperation.allowSceneActivation = false;
@@ -38,6 +39,7 @@ public class SceneTransition : MonoBehaviour
             {
                 progressBar.fillAmount = 1;
                 asyncOperation.allowSceneActivation = true;
+                // Debug.Log($"Load {sceneToLoad} now ");
             }
             yield return null;
         }

@@ -16,11 +16,11 @@ MonoBehaviour:
   _title: Isotopes
   _pages:
   - "[Isotopes]\r\n\n\u2022Isotopes are different atoms of the same element that
-    contain the same number of protons but a different number of neutrons\r\n\n\u2022The
-    symbol for an isotope is the chemical symbol (or word) followed by a dash and
-    then the mass number\r\n\n\u2022C-14 ( or carbon-14) is the isotope of carbon
-    which contains 6 protons, 6 electrons and 14 - 6 = 8 neutrons\r\n\t-It can also
-    be written as 14C or  \r\n"
+    contain the same number of protons but a different number of neutrons\r\n\n"
+  - "\u2022The symbol for an isotope is the chemical symbol (or word) followed by
+    a dash and then the mass number\r\n\n\u2022C-14 ( or carbon-14) is the isotope
+    of carbon which contains 6 protons, 6 electrons and 14 - 6 = 8 neutrons\r\n\t-It
+    can also be written as 14C or  \r\n"
   - <sprite="Isotopes" index=0>
   - '[Why Isotopes share properties?]'
   - "\u2022Isotopes of the same element display the same chemical characteristics\r\n\n\n\u2022This
@@ -29,9 +29,9 @@ MonoBehaviour:
     chemistry\r\n"
   - "\u2022The difference between isotopes is the number of neutrons which are neutral
     particles within the nucleus and add mass only\r\n\n\u2022The difference in mass
-    affects the physical properties, such as density, boiling point and melting point\r\n\n\u2022Isotopes
-    are identical in appearance, so a sample of C-14 would look no different from
-    C-12\r\n"
+    affects the physical properties, such as density, boiling point and melting point\r\n\n"
+  - "\u2022Isotopes are identical in appearance, so a sample of C-14 would look no
+    different from C-12\r\n"
   - "\u2022Water made from deuterium oxide is known as 'heavy' water, and has a relative
     formula of mass 20, compared to 18 for water, so it is 20% heavier, but it would
     look, taste, and feel just like normal water\r\n\t-However, it wouldn't be a

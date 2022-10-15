@@ -12,8 +12,8 @@ public class SpawnObject : MonoBehaviour
         var minPosition = box.bounds.size.x;
         var maxPosition = box.bounds.size.y;
 
-        Debug.Log("Min" + minPosition);
-        Debug.Log("Max" + maxPosition);
+        // Debug.Log("Min" + minPosition);
+        // Debug.Log("Max" + maxPosition);
 
         for (float x = box.bounds.min.x; x < minPosition; x++)
         {

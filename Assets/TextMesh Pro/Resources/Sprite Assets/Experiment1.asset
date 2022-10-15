@@ -79,7 +79,7 @@ MonoBehaviour:
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 0
-    m_Scale: 40
+    m_Scale: 10
     m_Name: Experiment1_0
     m_HashCode: 332401343
   - m_ElementType: 2

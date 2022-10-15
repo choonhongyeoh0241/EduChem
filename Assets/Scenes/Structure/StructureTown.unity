@@ -41128,7 +41128,7 @@ GameObject:
   - component: {fileID: 1982591356}
   m_Layer: 0
   m_Name: Guide
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41691,7 +41691,7 @@ MonoBehaviour:
   boxCollider: {fileID: 1068592545}
   playerInRange: 0
   Bubble: {fileID: 1325821469}
-  collectedBook: {fileID: 11400000, guid: 7c5d4c07bf863d24a8a9a84c20bdc603, type: 2}
+  collectedBook: {fileID: 11400000, guid: d3d711065acfcfe4fb12a1a718337b41, type: 2}
   firstDialogue: {fileID: 11400000, guid: a9ed0a9867910534982c71be1d71f509, type: 2}
   secondDialogue: {fileID: 11400000, guid: 1042a6fc8dd3c8c4885b27df97272cee, type: 2}
   inventory: {fileID: 11400000, guid: c0ad670485821954eabc0c0eed6136d6, type: 2}

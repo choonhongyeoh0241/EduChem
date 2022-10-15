@@ -36,16 +36,16 @@ MonoBehaviour:
     is made of subatomic particles called protons, neutrons, and electrons\r\n"
   - "\u2022The protons and neutrons are located at the centre of the atom, which
     is called the nucleus\r\n\n\u2022The electrons move very fast around the nucleus
-    in orbital paths called shells\r\n\n\u2022The mass of the electron is negligible;
-    hence the mass of an atom is contained within the nucleus where the protons and
-    neutrons are located\r\n"
+    in orbital paths called shells\r\n\n"
+  - "\u2022The mass of the electron is negligible; hence the mass of an atom is contained
+    within the nucleus where the protons and neutrons are located\r\n"
   - <sprite="Atomic" index=0>
   - "[Subatomic Particles]\r\n\n\u2022The size of atoms is so tiny that we can't
     really compare their masses in conventional units such as kilograms or grams,
-    so a unit called the relative atomic mass is used\r\n\n\u2022One relative atomic
-    mass unit is equal to 1/12th the mass of a carbon-12 atom.\r\n\n\u2022All other
-    elements are measured relative to the mass of a carbon-12 atom, so relative atomic
-    mass has no units \r\n"
+    so a unit called the relative atomic mass is used\r\n\n"
+  - "\u2022One relative atomic mass unit is equal to 1/12th the mass of a carbon-12
+    atom.\r\n\n\u2022All other elements are measured relative to the mass of a carbon-12
+    atom, so relative atomic mass has no units \r\n"
   - "\u2022Hydrogen for example has a relative atomic mass of 1, meaning that 12
     atoms of hydrogen would have exactly the same mass as 1 atom of carbon\r\n\n\n\u2022The
     relative mass and charge of the sub-atomic particles are shown below:\r\n"
@@ -55,18 +55,19 @@ MonoBehaviour:
     is Z\r\n\n\u2022It is also the number of electrons present in a neutral atom
     and determines the position of the element on the Periodic Table\r\n"
   - "[Mass Number]\r\n\n\u2022The Nucleon number (or mass number) is the total number
-    of protons and neutrons in the nucleus of an atom\r\n\n\u2022The symbol for nucleon
-    number is A\r\n\n\u2022The nucleon number minus the proton number gives you the
-    number of neutrons of an atom\r\n"
+    of protons and neutrons in the nucleus of an atom\r\n\n"
+  - "\u2022The symbol for nucleon number is A\r\n\n\u2022The nucleon number minus
+    the proton number gives you the number of neutrons of an atom\r\n"
   - "\u2022Note that protons and neutrons can collectively be called nucleons.\r\n\n\u2022The
-    atomic number and mass number of an element can be shown using atomic notation\r\n\n\u2022The
-    Periodic Table shows the elements together with their atomic (proton) number
-    at the top and relative atomic mass at the bottom - there is a difference between
-    relative atomic mass and mass number, but for your exam, you can use the relative
-    atomic mass as the mass number (with the exception of chlorine)\r\n"
+    atomic number and mass number of an element can be shown using atomic notation\r\n\n"
+  - "\u2022The Periodic Table shows the elements together with their atomic (proton)
+    number at the top and relative atomic mass at the bottom - there is a difference
+    between relative atomic mass and mass number, but for your exam, you can use
+    the relative atomic mass as the mass number (with the exception of chlorine)\r\n"
   - <sprite="TableEle" index=0>
   - "[Finding Protons]\r\n\nMass number = number of protons + number of neutrons\r\n\nNumber
     of protons = mass number \u2013 number of neutrons\r\n"
   - "[Finding Electrons]\r\n\nAn atom is neutral and therefore has the same number
     of protons and electrons\r\n\n[Finding neutrons]\r\n\nNumber of neutrons = mass
     number \u2013 number of protons\r\n"
+  - 

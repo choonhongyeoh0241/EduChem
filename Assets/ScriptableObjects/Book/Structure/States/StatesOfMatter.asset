@@ -20,25 +20,29 @@ MonoBehaviour:
 
 '
   - <sprite="StatesOfMatter" index=0>
-  - "[Melting]\n\n\u2022Melting is when a solid changes into a liquid\r\n\u2022Requires
-    heat energy which transforms into kinetic energy, allowing the particles to move\r\n\u2022Occurs
-    at a specific temperature known as the melting point (m.p.) \r\n"
-  - "[Boiling]\n\n\u2022Boiling is when a liquid changes into a gas\r\n\u2022Requires
-    heat which causes bubbles of gas to form below the surface of a liquid, allowing
-    for liquid particles to escape from the surface and within the liquid\r\n\u2022Occurs
-    at a specific temperature known as the boiling point (b.p.)\r\n"
-  - "[Freezing]\n\n\u2022Freezing is when a liquid changes into a solid\r\n\u2022This
-    is the reverse of melting and occurs at exactly the same temperature as melting,
-    hence the melting point and freezing point of a pure substance are the same.
-    Water, for example, freezes and melts at 0 \xBAC\r\n\u2022Requires a significant
-    decrease in temperature (or loss of thermal energy) and occurs at a specific
-    temperature \r\n"
+  - "[Melting]\n\n\u2022Melting is when a solid changes into a liquid\r\n\n"
+  - "\u2022Requires heat energy which transforms into kinetic energy, allowing the
+    particles to move\r\n\n\u2022Occurs at a specific temperature known as the melting
+    point (m.p.) \r"
+  - "[Boiling]\n\n\u2022Boiling is when a liquid changes into a gas\r\n\n"
+  - "\u2022Requires heat which causes bubbles of gas to form below the surface of
+    a liquid, allowing for liquid particles to escape from the surface and within
+    the liquid\r\n\n\u2022Occurs at a specific temperature known as the boiling point
+    (b.p.)\r"
+  - "[Freezing]\n\n\u2022Freezing is when a liquid changes into a solid\r\n\n"
+  - "\u2022This is the reverse of melting and occurs at exactly the same temperature
+    as melting, hence the melting point and freezing point of a pure substance are
+    the same. Water, for example, freezes and melts at 0 \xBAC\r\n\n"
+  - "\u2022Requires a significant decrease in temperature (or loss of thermal energy)
+    and occurs at a specific temperature \r"
   - "[Evaporation]\n\n\u2022Evaporation occurs when a liquid changes into a gas and
-    occurs over a range of temperatures\r\n\u2022Evaporation occurs only at the surface
-    of liquids where high energy particles can escape from the liquid's surface at
-    low temperatures, below the b.p. of the liquid\r\n\u2022The larger the surface
-    area and the warmer the liquid surface, the more quickly a liquid can evaporate\r\n"
+    occurs over a range of temperatures\r\n quickly a liquid can evaporate\r\n"
+  - "\u2022Evaporation occurs only at the surface of liquids where high energy particles
+    can escape from the liquid's surface at low temperatures, below the b.p. of the
+    liquid\r\n\n\u2022The larger the surface area and the warmer the liquid surface,
+    the more"
   - "[Condensation]\n\n\u2022Condensation occurs when a gas changes into a liquid
-    on cooling and it takes place over a range of temperatures\r\n\u2022When a gas
-    is cooled its particles lose energy and when they bump into each other they lack
-    the energy to bounce away again, instead they group together to form a liquid\r\n"
+    on cooling and it takes place over a range of temperatures\r\n"
+  - "\n\u2022When a gas is cooled its particles lose energy and when they bump into
+    each other they lack the energy to bounce away again, instead they group together
+    to form a liquid\r\n"

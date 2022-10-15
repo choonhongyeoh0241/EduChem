@@ -685,7 +685,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4244988474508635952, guid: 4355d7742fe6d91428621c2a6e8d9f04, type: 3}
       propertyPath: m_Name
-      value: Element
+      value: CL-CLCrate
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 4355d7742fe6d91428621c2a6e8d9f04, type: 3}
       propertyPath: m_RootOrder
@@ -693,11 +693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 4355d7742fe6d91428621c2a6e8d9f04, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.17
+      value: 16.81
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 4355d7742fe6d91428621c2a6e8d9f04, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.41
+      value: -2.17
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 4355d7742fe6d91428621c2a6e8d9f04, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1017,7 +1017,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4244988474508635952, guid: 1a18244fb51425a45becc48604f6c4f8, type: 3}
       propertyPath: m_Name
-      value: Movable
+      value: BlueCL
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 1a18244fb51425a45becc48604f6c4f8, type: 3}
       propertyPath: m_RootOrder
@@ -1025,11 +1025,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 1a18244fb51425a45becc48604f6c4f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.68
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 1a18244fb51425a45becc48604f6c4f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69
+      value: -3.2
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 1a18244fb51425a45becc48604f6c4f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8222,7 +8222,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4244988474508635952, guid: 5f0d048317fb2a242b25edf0e4715894, type: 3}
       propertyPath: m_Name
-      value: Movable 1
+      value: RedCL
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 5f0d048317fb2a242b25edf0e4715894, type: 3}
       propertyPath: m_RootOrder
@@ -8230,11 +8230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 5f0d048317fb2a242b25edf0e4715894, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.98
+      value: 9.42
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 5f0d048317fb2a242b25edf0e4715894, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.21
+      value: -3.43
       objectReference: {fileID: 0}
     - target: {fileID: 4244988474508635965, guid: 5f0d048317fb2a242b25edf0e4715894, type: 3}
       propertyPath: m_LocalPosition.z

@@ -32,7 +32,7 @@ namespace Pause {
 
         public static bool IsActive() { 
             foreach (var pauser in pausers) { 
-                Debug.Log(pauser);
+                // Debug.Log(pauser);
                 if (pauser.active) {  
                     return true; 
                 }

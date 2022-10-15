@@ -26,6 +26,7 @@ public class PauseMenu : MonoBehaviour, IPauser
 
     private void OpenMenu()
     {
+        // Debug.Log("Escape key pressed and Pause Menu Opened");
         pauseMenu.SetActive(true);
         activeFrame = Time.frameCount;
     }
@@ -37,16 +38,22 @@ public class PauseMenu : MonoBehaviour, IPauser
 
     private void LateUpdate() 
     {
-        if (active && notActivated && Input.GetKeyDown(KeyCode.Escape)) CloseMenu();
+        if (active && notActivated && Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            CloseMenu(); 
+            // Debug.Log("Close Menu and Resume Game");
+        }
     }
     public void Inventory()
     {
+        // Debug.Log("Open Inventory");
         CloseMenu(); // To close pause menu first then request for Inventory
         InventoryUI.RequestInventory(inventory);
     }
 
     public void Save()
     {
+        // Debug.Log("Pressed Save Game");
         SaveManager.Instance.Save();
         StartCoroutine(SavingScreen());
 
@@ -54,11 +61,13 @@ public class PauseMenu : MonoBehaviour, IPauser
 
     public void Back()
     {
+        // Debug.Log("Resume Game");
         CloseMenu();
     }
 
     public void Exit()
     {
+        // Debug.Log("Exit game");
         // Hard-coded, following logic from `MainMenu.cs`
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }

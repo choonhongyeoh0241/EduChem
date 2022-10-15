@@ -11,6 +11,7 @@ public class KeysManager : MonoBehaviour
     {
         if (Input.GetKey(key))
         {
+            // Debug.Log($"{key} is pressed");
             animator.SetBool("isPressed", true);
         }
         else

@@ -3,8 +3,6 @@ NPC: Greeting Mr.Hero! Can I help you with anything?
 *[Scenes] Player: I would like to ask more about the maps
 -> Scenes
 
-*[Play method] Player: I would like to know more about this game
-
 == Scenes == 
 NPC: Options available
 
@@ -74,7 +72,6 @@ NPC: Final Scene is for player to deal with the gods' questions. Try to complete
 ==Zen==
 NPC: Player should be reaching the garden after completing the challenges. Player shall be freed by the gods by then. 
 *[Need more?]-> Scenes
-
 
 == EndPart == 
 Player: Thank you for the information I will take my leave now

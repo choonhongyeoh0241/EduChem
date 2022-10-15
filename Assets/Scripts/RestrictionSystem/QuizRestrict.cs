@@ -32,8 +32,11 @@ public class QuizRestrict : MonoBehaviour
         {
             if (quizScriptable.Contains(requiredQuiz[i]))
             {
+                // Debug.Log($"You have completed {requiredQuiz[i].name}");
                 requiredQuiz.Remove(requiredQuiz[i]);
             }
+
+            // Debug.Log($"You need to complete {requiredQuiz[i].name}");
         }
     }
 

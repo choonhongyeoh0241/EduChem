@@ -16,7 +16,7 @@ public class SceneAnchor : MonoBehaviour
     private void Start()
     {
         if (_transitionPosition.HasValue) { // If vector2 not null, means that player need repositioned
-        Debug.Log(_transitionPosition.Value);
+        // Debug.Log($"New Position Value: {_transitionPosition.Value}");
             OnSceneTransition?.Invoke(_transitionPosition.Value); // If event has subscription will Invoke Vector2 value
             _transitionPosition = null; // Set Vector2 as null
         }

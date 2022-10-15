@@ -5656,6 +5656,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8633916385099683287, guid: f7d83633a965de248acfe3db346c0baa, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 980184574}
     - target: {fileID: 8633916385372906387, guid: f7d83633a965de248acfe3db346c0baa, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 2.6362305
@@ -8783,7 +8787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: PeriodicCampus
-  playerPosition: {x: 5.4, y: 14.5}
+  playerPosition: {x: 40, y: 13.5}
   loadingScreen: {fileID: 1357419186}
   progressBar: {fileID: 988377214}
 --- !u!61 &1986418767

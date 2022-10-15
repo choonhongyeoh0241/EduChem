@@ -26,13 +26,14 @@ MonoBehaviour:
 '
   - "[Electron Shell Diagrams]\r\n\n\u2022Electrons orbit the nucleus in shells (or
     energy levels) and each shell has a different amount of energy associated with
-    it\r\n\n\u2022The further away from the nucleus, the more energy a shell has\r\n\n\u2022Electrons
-    fill the shell closest to the nucleus \r\n"
+    it\r\n\n\n"
+  - "\u2022The further away from the nucleus, the more energy a shell has\r\n\n\u2022Electrons
+    fill the shell closest to the nucleus \r"
   - "\u2022When a shell becomes full of electrons, additional electrons have to be
-    added to the next shell\r\n\n\u2022The first shell can hold 2 electrons\r\n\n\u2022The
-    second shell can hold 8 electrons \r\n\n\u2022The outermost shell of an atom
-    is called the outer shell and an atom is much more stable if it can manage to
-    completely fill this shell with electrons \r\n"
+    added to the next shell\r\n\n\u2022The first shell can hold 2 electrons\r\n\n"
+  - "\u2022The second shell can hold 8 electrons \r\n\n\u2022The outermost shell
+    of an atom is called the outer shell and an atom is much more stable if it can
+    manage to completely fill this shell with electrons \r\n"
   - '[Electron Shell Diagram]
 
 
@@ -42,22 +43,24 @@ MonoBehaviour:
   - "[Writing electronic configuration]\r\n\n\u2022The arrangement of electrons in
     shells can also be explained using numbers\r\n\n\u2022Instead of drawing electron
     shell diagrams, the number of electrons in each electron shell can be written
-    down, separated by commas\r\n\n\u2022This notation is called the electronic configuration
-    (or electronic structure)\r\n\t-E.g., Carbon has 6 electrons, 2 in the 1st shell
-    and 4 in the 2nd shell\r\n"
+    down, separated by commas\r\n\n"
+  - "\u2022This notation is called the electronic configuration (or electronic structure)\r\n\t-E.g.,
+    Carbon has 6 electrons, 2 in the 1st shell and 4 in the 2nd shell\r\n"
   - "\u2022Its electronic configuration is 2,4\r\n\n\u2022Electronic configurations
-    can also be written for ions\r\n\t-E.g., A sodium atom has 11 electrons, a sodium
-    ion has lost one electron, therefore has 10 electrons: 2 in the first shell and
-    8 in the 2nd shell\r\n\n\u2022Its electronic configuration is 2,8\r\n"
+    can also be written for ions\r\n\t\n"
+  - "-E.g., A sodium atom has 11 electrons, a sodium ion has lost one electron, therefore
+    has 10 electrons: 2 in the first shell and 8 in the 2nd shell\r\n\n\u2022Its
+    electronic configuration is 2,8\r"
   - '[Relationship between Electron Shells and Periodic Table]'
   - '-There is a clear relationship between the electronic configuration and how
     the Periodic Table is designed
 
 
 
-    -The number of notations in the electronic
-    configuration will show the number of occupied shells of electrons the atom has,
-    showing the period in which, that element is in
+'
+  - '-The number of notations in the electronic configuration will show the number
+    of occupied shells of electrons the atom has, showing the period in which, that
+    element is in
 
 '
   - "-The last notation shows the number of outer electrons the atom has, showing

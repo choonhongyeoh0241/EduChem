@@ -121,6 +121,7 @@ public class QuizManager : MonoBehaviour, IPauser
             questionCounter.text = questionIndex + "/" + currentQuiz.MCQ.Length;
             questionText.text = currentQuiz.MCQ[i].question;
             SetResponses(currentQuiz.MCQ[i]);
+            // Debug.Log("Question Generated");
             remainingQuestions.Remove(i);
         }
         else
@@ -143,6 +144,7 @@ public class QuizManager : MonoBehaviour, IPauser
 
         if (option.response.isAnswer) score++;
         option.AnswerColor(option.response.isAnswer);
+        // Debug.Log("Checked Answer");
         activeCoroutine = StartCoroutine(NextQuestionDelay());
     }
 
@@ -162,6 +164,7 @@ public class QuizManager : MonoBehaviour, IPauser
             }
         }
         resultPanel.SetActive(false); 
+        // Debug.Log("Exit button clicked, score panel deactivated");
         ClearData(); 
     }
 

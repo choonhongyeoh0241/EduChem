@@ -42,13 +42,12 @@ MonoBehaviour:
     gas particles can travel faster and hence further, therefore the lower its relative
     mass the faster a gas will diffuse\r\n"
   - "\u2022This can be demonstrated in the reaction between ammonia, NH3, and hydrogen
-    chloride gas, HCl, inside a long glass tube\r\n\u2022Where the two gases meet
-    a white smoke of ammonium chloride, NH4Cl, is formed\r\n\u2022This does not occur
-    in the middle of the tube as you might expect, but much closer to the end with
-    the hydrogen chloride (Mr = 36.5) and the ammonia (Mr = 17) molecules are smaller
-    and lighter\r\n"
+    chloride gas, HCl, inside a long glass tube\r\n"
+  - "\u2022Where the two gases meet a white smoke of ammonium chloride, NH4Cl, is
+    formed\r\n\u2022This does not occur in the middle of the tube as you might expect,
+    but much closer to the end with the hydrogen chloride (Mr = 36.5) and the ammonia
+    (Mr = 17) molecules are smaller and lighter\r\n"
   - '[EXPERIMENT]'
-  - -->
   - <sprite="Molecular" index=0>
   - <sprite="Molecular" index=1>
   - '[Why?]'

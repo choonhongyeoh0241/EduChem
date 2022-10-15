@@ -24,6 +24,7 @@ public class BoxColliderActivation : MonoBehaviour
     private void setBridge3rd()
     {
         bridge.GetComponent<SpriteRenderer>().sortingLayerID = SortingLayer.NameToID("3rd");
+        Debug.Log("Walk under bridge now");
 
             foreach(var box in boxCollider2Ds)
             {

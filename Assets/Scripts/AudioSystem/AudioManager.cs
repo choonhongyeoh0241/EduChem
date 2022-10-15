@@ -19,6 +19,7 @@ public class AudioManager : MonoBehaviour
     private void Start() 
     {
         _music.loop = true;
+        // Debug.Log($"Music {_music.name} is now looping");
 
         var value = PlayerPrefs.GetFloat("Volume");
         AudioListener.volume = value;    

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b38095faf5c1e214aa7e663a8a66589e, type: 3}
   m_Name: Worshipper
   m_EditorClassIdentifier: 
-  _npcname: Worshipper
+  _npcname: Helper
   _lines:
-  - Read the books can undestand more about the Gods!
+  - Read the books can undestand more about the Wisdoms!
   - 'Feel free to do so!
 
 '

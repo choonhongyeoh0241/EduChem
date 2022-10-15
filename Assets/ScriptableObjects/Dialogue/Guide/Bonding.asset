@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b38095faf5c1e214aa7e663a8a66589e, type: 3}
-  m_Name: Periodic
+  m_Name: Bonding
   m_EditorClassIdentifier: 
-  _npcname: PeriodicTownGuide
+  _npcname: Bonding Guide
   _lines:
-  - Welcome to the Periodic Town!
-  - Here you will need to enter the campus and complete the activities inside.
-  - Once you are done, you can go back to Village Scene from the entrance at the
-    North side!
+  - Welcome to the Bonding Town
+  - In here, you will need to complete the Bonding Campuses scenes!
+  - Figure out how to reach the Bonding campuses, here is a hint, go for the bridge
+  - Go back to Structure Town from where you came from
+  - To the East side is the path to next town, Periodic Town
+  - Good Luck on your journey!

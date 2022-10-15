@@ -30033,7 +30033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: FinalScene
-  playerPosition: {x: -8.5, y: -12}
+  playerPosition: {x: 21, y: -12}
   loadingScreen: {fileID: 1494826012}
   progressBar: {fileID: 1871104795}
 --- !u!61 &1443692905

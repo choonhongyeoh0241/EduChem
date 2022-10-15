@@ -8,5 +8,6 @@ public class PlaySound : MonoBehaviour
     public void PlaySFX()
     {
         AudioManager.Instance.PlaySound(_clip);
+        // Debug.Log($"{_clip.name} played");
     }
 }

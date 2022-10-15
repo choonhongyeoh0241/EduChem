@@ -32,6 +32,7 @@ public class BookRestrict : MonoBehaviour
         {
             if (inventory.Contains(requiredBook[i]))
             {
+                // Debug.Log($"You have collected {requiredBook[i].name}");
                 requiredBook.Remove(requiredBook[i]);
             }
         }
