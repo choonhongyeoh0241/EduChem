@@ -28,7 +28,7 @@ MonoBehaviour:
     options:
     - option: Yes, Higher
       isAnswer: 0
-    - option: No Higher
+    - option: No,  Higher
       isAnswer: 1
     - option: No, Lower
       isAnswer: 0

@@ -50,7 +50,7 @@ MonoBehaviour:
     - option: Duplet
       isAnswer: 0
     - option: 'Octet '
-      isAnswer: 0
+      isAnswer: 1
     - option: Triplet
       isAnswer: 0
   - question: What do Group 8 elements exist as?

@@ -170,6 +170,6 @@ public class QuizManager : MonoBehaviour, IPauser
 
     public void Detect()
     {
-        if (active) quizPanel.SetActive(false);
+        if (active) quizPanel.SetActive(false); detect.gameObject.SetActive(false);
     }
 }

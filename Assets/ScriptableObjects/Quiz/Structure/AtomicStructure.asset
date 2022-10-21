@@ -37,9 +37,9 @@ MonoBehaviour:
   - question: 'The electrons move very fast around the ___ in orbital paths called
       ___. '
     options:
-    - option: Nuecles, Shell
+    - option: Nucleus, Shell
       isAnswer: 1
-    - option: Neucles, Valence
+    - option: Nucleus, Valence
       isAnswer: 0
     - option: Neutron, Shell
       isAnswer: 0

@@ -23,7 +23,7 @@ MonoBehaviour:
       isAnswer: 1
     - option: Earth Alkali
       isAnswer: 0
-  - question: Colours of the halogens become ___ going down Group 17
+  - question: Colours of the halogens become ___ going down Group 7
     options:
     - option: No changes
       isAnswer: 0
