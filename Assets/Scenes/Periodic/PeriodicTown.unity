@@ -17407,7 +17407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: PeriodicCampus
-  playerPosition: {x: 40, y: -8}
+  playerPosition: {x: 35, y: -8}
   loadingScreen: {fileID: 1258480283}
   progressBar: {fileID: 769077622}
 --- !u!61 &888951816

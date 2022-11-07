@@ -15,6 +15,6 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _title: God7
   _pages:
-  - <sprite="FoxMask3" index=1>
-  - Wisdom 7, the halogen god. He might look scary but he is a kind god. He tends
-    not to get aggresive...
+  - <sprite="FoxMask3" index=0>
+  - Wisdom 7, the halogen wisdom. He might look scary but he is a kind wisdom. He
+    tends not to get aggresive...
