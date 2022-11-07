@@ -1,29 +1,18 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.Networking;
+using LitJson;
+using System.IO;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private Image NetworkFail;
-    [SerializeField] private Image NetworkSuccess;
-    [SerializeField] private Canvas mainCanvas;
-    [SerializeField] private Image Checking;
     [SerializeField] private GameObject overwriteWarning;
+    [SerializeField] private GameObject noFileWarning;
     [SerializeField] private Button loadButton;
+    [SerializeField] private GameObject scorePanel;
+    [SerializeField] private GameObject MenuCanvas;
 
     private bool saveExists => System.IO.File.Exists(SaveManager.path);
-    
-
-    private void Awake()
-    {
-        if (!saveExists)
-        {
-            loadButton.interactable = false;
-        }
-        
-    }
 
     public void PlayGame()
     {
@@ -40,6 +29,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         SaveManager.Instance.New();
+        PlayerPrefs.DeleteKey("timeline");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -49,7 +39,7 @@ public class MainMenu : MonoBehaviour
 
         if (string.IsNullOrWhiteSpace(SaveManager.Instance.location.scene))
         {
-            NewGame();
+            noFileWarning.SetActive(true);
         }
         else
         {
@@ -58,48 +48,14 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    public void Upload()
+    public void ViewScore()
     {
-        mainCanvas.enabled = false;
-        Checking.gameObject.SetActive(true);
-        StartCoroutine(CheckingScreen());
+        scorePanel.SetActive(true);
     }
 
     public void ExitGame()
     {
         Debug.Log("Quit");
         Application.Quit();
-    }
-
-    public IEnumerator CheckConnection()
-    {
-        UnityWebRequest request = new UnityWebRequest("https://google.com");
-
-        yield return request.SendWebRequest();
-
-        if (request.error != null)
-        {
-            NetworkFail.gameObject.SetActive(true);
-            NetworkSuccess.gameObject.SetActive(false);
-            Checking.gameObject.SetActive(false);
-        }
-        else
-        {
-            NetworkSuccess.gameObject.SetActive(true);
-            NetworkFail.gameObject.SetActive(false);
-            Checking.gameObject.SetActive(false);
-        }
-    }
-
-    public void TryAgain()
-    {
-        StartCoroutine(CheckConnection());
-    }
-
-    private IEnumerator CheckingScreen()
-    {
-        yield return new WaitForSeconds(3);
-    
-        StartCoroutine(CheckConnection());
     }
 }

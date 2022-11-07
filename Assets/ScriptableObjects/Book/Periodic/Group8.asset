@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Group8
+  m_EditorClassIdentifier: 
+  _color: {r: 0.29681382, g: 0.33043328, b: 0.5471698, a: 1}
+  _title: Group 8
+  _pages:
+  - "[Group 8 Basic Understanding]\r\n\u2022\tThe elements in Group 8 are Helium,
+    Neon, Argon, Krypton, Xenon, and Radon\r\n\u2022\tThese elements are known as
+    noble gases.\r\n"
+  - "[Unreactive (Inert) properties of noble gases]\r\n\u2022\tEach helium atom has
+    only 2 electrons in one filled electron shell.\r\nThis electron arrangement is
+    known as the duplet electron arrangement.\r\n"
+  - "\u2022\tThe outermost shells of the atoms of the other noble gases have 8 electrons.\r\nThis
+    electron arrangement is known as the octet electron arrangement.\r\n\u2022\tThe
+    duplet electron arrangement of helium and the octet electron arrangement of the
+    other noble gases are very stable.\r\n"
+  - "\u2022\tHence, atoms of noble gases do not release electrons, accept electrons
+    or share electrons among each other or with atoms of other elements."
+  - "\u2022\tThus, noble gases exist as monatomic molecules and do not react with
+    the other elements or compounds. This means that noble gases are inert chemically
+    or chemically unreactive."

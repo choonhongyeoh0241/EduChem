@@ -7,14 +7,16 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Inventory _inventory;
     public Inventory inventory => _inventory;
-    [SerializeField] private RestrictData _restrict;
-    public RestrictData restrict => _restrict;
-    [SerializeField] private Canvas keyCanvas; 
-    [SerializeField] private float speed = 5;
+    [SerializeField] private QuizScriptable _restrict;
+    public QuizScriptable restrict => _restrict;
+    [SerializeField] private Canvas _keyCanvas; 
+    public Canvas keyCanvas => _keyCanvas;
+    [SerializeField] private float _speed = 5;
+    public float speed {get => _speed; set{_speed = value;}}
 
     private new Rigidbody2D rigidbody;
     private Animator animator;
-    private Vector3 direction;
+    private Vector3 _direction;
 
     private void Awake()
     {
@@ -22,15 +24,16 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();  
     }
 
-    private void OnEnable() => SceneAnchor.OnSceneTransition += InitialisePosition; // When player is in scene and actie
+    private void OnEnable() => SceneAnchor.OnSceneTransition += InitialisePosition; // When player is in scene and active
     private void OnDisable() => SceneAnchor.OnSceneTransition -= InitialisePosition; // When player goes to another scene will deactive 
 
-    private void InitialisePosition(Vector2 position) => transform.position = position; // To get player last stop position
+    private void InitialisePosition(Vector2 position) => transform.position = position; 
 
     private void Update() 
     {
         if (PauseMovement.IsActive()) 
         {
+            // Debug.Log("Movement paused");
             keyCanvas.GetComponent<Canvas>().enabled = false;
             return;
         }
@@ -43,8 +46,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I)) InventoryUI.RequestInventory(inventory);
         else if (Input.GetKeyDown(KeyCode.Escape)) PauseMenu.RequestMenu();
         
-        direction.x = Input.GetAxisRaw("Horizontal");
-        direction.y = Input.GetAxisRaw("Vertical");
+        _direction.x = Input.GetAxisRaw("Horizontal");
+        _direction.y = Input.GetAxisRaw("Vertical");
 
         UpdateAnimator();
     }
@@ -62,9 +65,9 @@ public class PlayerController : MonoBehaviour
         }
         
         
-        if (direction != Vector3.zero)
+        if (_direction != Vector3.zero)
         {
-            var delta = direction.normalized * speed * Time.deltaTime;
+            var delta = _direction.normalized * speed * Time.deltaTime;
             rigidbody.MovePosition(transform.position + delta);
         }
         else
@@ -75,10 +78,10 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        if (direction != Vector3.zero)
+        if (_direction != Vector3.zero)
         {
-            animator.SetFloat("moveX", direction.x);
-            animator.SetFloat("moveY", direction.y);
+            animator.SetFloat("moveX", _direction.x);
+            animator.SetFloat("moveY", _direction.y);
             animator.SetBool("moving", true);
         }
         else
@@ -86,5 +89,4 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("moving", false);
         }
     }
-    
 }

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38095faf5c1e214aa7e663a8a66589e, type: 3}
+  m_Name: Spawn
+  m_EditorClassIdentifier: 
+  _npcname: Spawn Guide
+  _lines:
+  - Welcome, Mr.Hero! I have many brothers and they will also be the guides throughout
+    your journey!
+  - Look for us, the bunnies and we have guides for you
+  - First, talk to all the NPCs and learn to explore the maps
+  - Follow the hints provided by the NPCs and free yourself!
+  - By the way, here you need to collect something and pass through the transition
+    to next map at the North side
+  - Behind the lady, just walk onto it and you will see!

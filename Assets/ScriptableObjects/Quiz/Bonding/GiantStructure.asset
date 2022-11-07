@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f19e0fb81a51946bf7498e6ab69701, type: 3}
+  m_Name: GiantStructure
+  m_EditorClassIdentifier: 
+  _MCQ:
+  - question: Diamond and Graphite are __ of carbon
+    options:
+    - option: Allotropes
+      isAnswer: 1
+    - option: Isotopes
+      isAnswer: 0
+    - option: Covalent
+      isAnswer: 0
+    - option: Compound
+      isAnswer: 0
+  - question: In diamond, each carbon atom bonds with __ other carbons, forming a
+      tetrahedron
+    options:
+    - option: One
+      isAnswer: 0
+    - option: Three
+      isAnswer: 0
+    - option: Two
+      isAnswer: 0
+    - option: Four
+      isAnswer: 1
+  - question: Do covalent bonds have intermolecular forces in Diamond?
+    options:
+    - option: Yes
+      isAnswer: 0
+    - option: No
+      isAnswer: 1
+    - option: Little
+      isAnswer: 0
+    - option: Very strong
+      isAnswer: 0
+  - question: Do covalent bonds have intermolecular forces in Graphite?
+    options:
+    - option: Little
+      isAnswer: 1
+    - option: Strong
+      isAnswer: 0
+    - option: Yes
+      isAnswer: 1
+    - option: No
+      isAnswer: 0
+  - question: What is SiO (Silicon(IV) Oxide?
+    options:
+    - option: Compound
+      isAnswer: 0
+    - option: Complex Compound
+      isAnswer: 0
+    - option: Macromolecular Compound
+      isAnswer: 1
+    - option: Element
+      isAnswer: 0

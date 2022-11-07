@@ -6,7 +6,7 @@ using Pause;
 
 public class DialogueManager : MonoBehaviour, IPauser
 {
-    private static event Action<DialogueData> OnDialogueRequested;
+    private static Action<DialogueData> OnDialogueRequested;
     public static void RequestDialogue(DialogueData dialogue) => OnDialogueRequested?.Invoke(dialogue); 
 
     [SerializeField] private GameObject DialogueBox;
@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour, IPauser
     [SerializeField] private GameObject NPCBox;
     [SerializeField] private TextMeshProUGUI nameBox;
     [SerializeField] private float textSpeed = 0.05f;
+    [SerializeField] private AudioClip _clip;
 
     private DialogueData currentDialogue;   
     private int index;
@@ -111,6 +112,7 @@ public class DialogueManager : MonoBehaviour, IPauser
     {
         foreach (char c in currentDialogue.lines[index].ToCharArray())
         {
+            AudioManager.Instance.PlaySound(_clip);
             textBox.text += c; 
             yield return new WaitForSeconds(textSpeed);
         }

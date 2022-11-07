@@ -19,7 +19,7 @@ public class InventoryUI : MonoBehaviour, IPauser
     private Inventory inventory;
     private InventorySlot[] slots;
     private BookData bookSelected;
-    private static event Action<Inventory> OnInventoryRequested;
+    private static Action<Inventory> OnInventoryRequested;
     public static void RequestInventory(Inventory inventory) => OnInventoryRequested?.Invoke(inventory); 
 
     public bool active => inventoryPanel.activeSelf;
@@ -107,6 +107,7 @@ public class InventoryUI : MonoBehaviour, IPauser
 
     public void ReadBook()
     {
+        // Debug.Log($"Now Reading{bookSelected.name}");
         BookUI.ReadBook(bookSelected);
         Close();
     }
@@ -115,10 +116,12 @@ public class InventoryUI : MonoBehaviour, IPauser
     {
         if (sideButton == rightButton)
         {
+            // Debug.Log("Next page of inventory");
             offset ++;
         }
         else
         {
+            // Debug.Log("Previous page of inventory");
             offset --;
         }
 
@@ -134,6 +137,7 @@ public class InventoryUI : MonoBehaviour, IPauser
 
     public void Close()
     {
+        // Debug.Log("Close Inventory");
         inventory = null;
         bookSelected = null;
         offset = 0;

@@ -44,5 +44,9 @@ public class InventorySlot : MonoBehaviour, ISelectHandler
         }
     }
     
-    public void OnSelect(BaseEventData eventData) => manager?.Select(book);
+    public void OnSelect(BaseEventData eventData) 
+    {
+        manager?.Select(book); 
+        // Debug.Log("Book Clicked");
+    }
 }

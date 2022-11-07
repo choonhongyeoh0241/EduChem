@@ -11,7 +11,11 @@ public class NPCAI : MonoBehaviour
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private bool playerInRange;
     [SerializeField] private GameObject Bubble;
-    [SerializeField] private DialogueData dialogue;
+    [SerializeField] private BookData collectedBook;
+    [SerializeField] private DialogueData firstDialogue;
+    [SerializeField] private DialogueData secondDialogue;
+    [SerializeField] private Inventory inventory;
+    private bool bookExists;
     private void Start()
     {
         transform = GetComponent<Transform>();
@@ -19,13 +23,29 @@ public class NPCAI : MonoBehaviour
         animator = GetComponent<Animator>();
 
         ChangeDirection();
+        // Debug.Log($"NPCAI start moving at {this.transform.position}");
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
+        checkCollectedBook();
+
+        if (!bookExists)
         {
-            Bubble.SetActive(false);
-            DialogueManager.RequestDialogue(dialogue);
+            if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
+            {
+                Debug.Log("First Dialogue prompted");
+                Bubble.SetActive(false);
+                DialogueManager.RequestDialogue(firstDialogue);
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
+            {
+                Debug.Log("Second Dialogue prompted");
+                Bubble.SetActive(false);
+                DialogueManager.RequestDialogue(secondDialogue);
+            }
         }
     }
 
@@ -45,6 +65,17 @@ public class NPCAI : MonoBehaviour
         }
     }
 
+    private void checkCollectedBook()
+    {
+        for (int i = 0; i < inventory.books.Count; i++)
+        {
+            if (inventory.Contains(collectedBook))
+            {
+                bookExists = true;
+            }
+        }
+    }
+
     private void ChangeDirection()
     {
         int direction = Random.Range(0, 4);
@@ -52,15 +83,19 @@ public class NPCAI : MonoBehaviour
         {
             case 0:
                 directionVector = Vector3.right;
+                // Debug.Log($"Moving Right at {this.transform.position}");
                 break;
             case 1:
                 directionVector = Vector3.up;
+                // Debug.Log($"Moving Up at {this.transform.position}");
                 break;
             case 2:
                 directionVector = Vector3.left;
+                // Debug.Log($"Moving Left at {this.transform.position}");
                 break;
             case 3:
                 directionVector = Vector3.down;
+                // Debug.Log($"Moving Down at {this.transform.position}");
                 break;
             default:
                 break;
@@ -103,6 +138,7 @@ public class NPCAI : MonoBehaviour
         
         if (other.CompareTag("Obstacle"))
         {
+            // Debug.Log("Obstacle detected");
             ChangeDirection();
         }
         

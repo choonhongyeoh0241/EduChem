@@ -195,7 +195,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 579
-        y: 537
+        y: 538
         width: 80
         height: 120
       alignment: 0
@@ -262,7 +262,7 @@ TextureImporter:
         width: 112
         height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,6 +270,27 @@ TextureImporter:
       bones: []
       spriteID: 95cee08e70d1c134e8b9f67acb40baa3
       internalID: -1563095496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon_tilesets_remake_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 634
+        width: 112
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65241f36e744e7c4e91910d0a2b644db
+      internalID: 1481475596
       vertices: []
       indices: 
       edges: []
@@ -286,6 +307,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Pokemon_tilesets_remake_0: -1782200916
+      Pokemon_tilesets_remake_7: 1481475596
       Pokemon_tilesets_remake_6: -1563095496
       Pokemon_tilesets_remake_5: -1706074355
       Pokemon_tilesets_remake_1: -1492685837

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using TMPro;
 using Random = UnityEngine.Random;
@@ -8,7 +9,7 @@ using Pause;
 
 public class QuizManager : MonoBehaviour, IPauser
 {
-   private static event Action<QuizData, QuizNPC> OnQuizRequested;
+   private static Action<QuizData, QuizNPC> OnQuizRequested;
    public static void RequestQuiz(QuizData quiz, QuizNPC npc = null) => OnQuizRequested?.Invoke(quiz, npc);
 
    public bool active => quizPanel.activeSelf;
@@ -21,8 +22,9 @@ public class QuizManager : MonoBehaviour, IPauser
    [SerializeField] private TextMeshProUGUI scoreText;
    [SerializeField] private TextMeshProUGUI questionCounter;
    [SerializeField] private QuizOption[] options;
-   [SerializeField] private RestrictData restrictData;
    [SerializeField] private PlayerController player;
+   [SerializeField] private Inventory inventory;
+   [SerializeField] private Button detect;
 
    [Header("Feedback")]
    [SerializeField] private TextMeshProUGUI feedbackText;
@@ -49,6 +51,7 @@ public class QuizManager : MonoBehaviour, IPauser
             Initialise(quiz);
             GenerateQuestion();
             quizPanel.SetActive(true);
+            detect.gameObject.SetActive(true);
         }
         else
         {
@@ -81,6 +84,7 @@ public class QuizManager : MonoBehaviour, IPauser
     private void ShowResults()
     {
         quizPanel.SetActive(false);
+        detect.gameObject.SetActive(false);
         resultPanel.SetActive(true);
         scoreText.text = score + "/" + currentQuiz.MCQ.Length;
         passed = score >= currentQuiz.MCQ.Length;
@@ -117,6 +121,7 @@ public class QuizManager : MonoBehaviour, IPauser
             questionCounter.text = questionIndex + "/" + currentQuiz.MCQ.Length;
             questionText.text = currentQuiz.MCQ[i].question;
             SetResponses(currentQuiz.MCQ[i]);
+            // Debug.Log("Question Generated");
             remainingQuestions.Remove(i);
         }
         else
@@ -139,7 +144,13 @@ public class QuizManager : MonoBehaviour, IPauser
 
         if (option.response.isAnswer) score++;
         option.AnswerColor(option.response.isAnswer);
+        // Debug.Log("Checked Answer");
         activeCoroutine = StartCoroutine(NextQuestionDelay());
+    }
+
+    public void OpenInventory()
+    {
+        InventoryUI.RequestInventory(inventory);
     }
 
     public void Exit()
@@ -153,6 +164,12 @@ public class QuizManager : MonoBehaviour, IPauser
             }
         }
         resultPanel.SetActive(false); 
+        // Debug.Log("Exit button clicked, score panel deactivated");
         ClearData(); 
+    }
+
+    public void Detect()
+    {
+        if (active) quizPanel.SetActive(false); detect.gameObject.SetActive(false);
     }
 }

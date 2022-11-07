@@ -9,17 +9,59 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 9884dc07565265b46983947f02766ba2
   - enabled: 1
-    path: Assets/Scenes/SpawnScene.unity
+    path: Assets/Scenes/Tutorial.unity
+    guid: 608e6791a989721428db3d0d087c39b8
+  - enabled: 1
+    path: Assets/Scenes/SpawnScene/SpawnScene.unity
     guid: 78b37d709dbe1aa4bad78e157d5f3dcd
   - enabled: 1
-    path: Assets/Scenes/VillageScene.unity
+    path: Assets/Scenes/SpawnScene/SpawnSceneT.unity
+    guid: 5d92ac0b45c6de5448b483f6627050b8
+  - enabled: 1
+    path: Assets/Scenes/Village/VillageScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/PeriodicTown.unity
+    path: Assets/Scenes/Structure/StructureTown.unity
     guid: 9b7f67175d08d03409aab797227b9ba6
   - enabled: 1
-    path: Assets/Scenes/StructureTown.unity
+    path: Assets/Scenes/Structure/StructureCampus.unity
+    guid: 78c231112827ecf4a835ee9cbcd5b0be
+  - enabled: 1
+    path: Assets/Scenes/Structure/StructureBooks.unity
+    guid: 56a985894324a9e4d854e2640ab3ccbd
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingTown.unity
     guid: 48adca4f5759cec4bb7f9eaed6b710f2
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingScene1.unity
+    guid: 2df0e200783bbb84bbb8ccaee54d8097
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingScene2.unity
+    guid: 9cd8db3d99a829948a046e718f21fb71
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingScene3.unity
+    guid: a09b7e854b20e4c47b6b586afc048d14
+  - enabled: 1
+    path: Assets/Scenes/Bonding/BondingScene4.unity
+    guid: 1367e4707d12c9f43ba29aa4be939534
+  - enabled: 1
+    path: Assets/Scenes/Periodic/PeriodicTown.unity
+    guid: abee6d308b093c74e91b6a94167fb730
+  - enabled: 1
+    path: Assets/Scenes/Periodic/PeriodicCampus.unity
+    guid: 36a5f7a8aea0f4b4abee3b105ef72433
+  - enabled: 1
+    path: Assets/Scenes/Periodic/PeriodicBooks.unity
+    guid: 39ecd27966f6e6c499116399183be8c7
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 691c36f5b13741e44b2bcdd31bdad5d7
+  - enabled: 1
+    path: Assets/Scenes/ZenGarden.unity
+    guid: bb4b097f8d9c40c4ea8a8fd369002e5f
+  - enabled: 1
+    path: Assets/Scenes/Village/House.unity
+    guid: 5536d5ee152ce1343b5a5bce67d023e2
   - enabled: 1
     path: Assets/Scripts/SaveSystem/_Preload.unity
     guid: d228550b0abec7f4ca9d2fb12842f047

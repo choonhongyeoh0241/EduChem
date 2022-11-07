@@ -7,7 +7,7 @@ public class SaveManager : MonoBehaviour
 {
     public static string path => $"{Application.persistentDataPath}/save.json";
 
-    public static event Action OnLoad;
+    public static Action OnLoad;
 
     public static SaveManager Instance { get; private set; }
 
@@ -146,7 +146,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    public void LoadRestrictOverwrite(RestrictData restrictData)
+    public void LoadRestrictOverwrite(QuizScriptable restrictData)
     {
         restrictData.Clear();
 

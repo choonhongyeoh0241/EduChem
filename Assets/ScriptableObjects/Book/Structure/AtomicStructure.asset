@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: AtomicStructure
+  m_EditorClassIdentifier: 
+  _color: {r: 0.7924528, g: 0.2802953, b: 0.22801706, a: 1}
+  _title: Atomic Structure
+  _pages:
+  - "[Elements, Compounds, and Mixtures]\r\n\n\n\u2022All substances can be classified
+    into one of these three types\r\n"
+  - "[Element]\r\n\n\n\u2022A substance made of atoms that all contain the same number
+    of protons and cannot be split into anything simpler\r\n\u2022There are 118 elements
+    found in the Periodic Table\r\n"
+  - "[Compound]\r\n\n\n\u2022A pure substance made up of two or more elements chemically
+    combined\r\n\u2022There is an unlimited number of compounds\r\n"
+  - "\u2022Compounds cannot be separated into their elements by physical means\r\n\n\u2022E.g.,
+    copper(II) sulphate (CuSO4), calcium carbonate (CaCO3), carbon dioxide (CO2)\r\n"
+  - "[Mixture]\r\n\n\n\u2022A combination of two or more substances (elements and/or
+    compounds) that are not chemically combined\r\n"
+  - "\u2022Mixtures can be separated by physical methods such as filtration or evaporation\r\n\n\u2022E.g.,
+    sand and water, oil and water, sulphur powder and iron filings \r\n"
+  - <sprite="Elements" index=0>
+  - <sprite="Elements" index=1>
+  - <sprite="Elements" index=2>
+  - "[Atomic Structure]\r\n\n\u2022All substances are made of tiny particles of matter
+    called atoms which are the building blocks of all matter\r\n\n\u2022Each atom
+    is made of subatomic particles called protons, neutrons, and electrons\r\n"
+  - "\u2022The protons and neutrons are located at the centre of the atom, which
+    is called the nucleus\r\n\n\u2022The electrons move very fast around the nucleus
+    in orbital paths called shells\r\n\n"
+  - "\u2022The mass of the electron is negligible; hence the mass of an atom is contained
+    within the nucleus where the protons and neutrons are located\r\n"
+  - <sprite="Atomic" index=0>
+  - "[Subatomic Particles]\r\n\n\u2022The size of atoms is so tiny that we can't
+    really compare their masses in conventional units such as kilograms or grams,
+    so a unit called the relative atomic mass is used\r\n\n"
+  - "\u2022One relative atomic mass unit is equal to 1/12th the mass of a carbon-12
+    atom.\r\n\n\u2022All other elements are measured relative to the mass of a carbon-12
+    atom, so relative atomic mass has no units \r\n"
+  - "\u2022Hydrogen for example has a relative atomic mass of 1, meaning that 12
+    atoms of hydrogen would have exactly the same mass as 1 atom of carbon\r\n\n\n\u2022The
+    relative mass and charge of the sub-atomic particles are shown below:\r\n"
+  - <sprite="SubParticles" index=0>
+  - "[Proton Number]\n\r\n\u2022The atomic number (or proton number) is the number
+    of protons in the nucleus of an atom\r\n\n\u2022The symbol for atomic number
+    is Z\r\n\n\u2022It is also the number of electrons present in a neutral atom
+    and determines the position of the element on the Periodic Table\r\n"
+  - "[Mass Number]\r\n\n\u2022The Nucleon number (or mass number) is the total number
+    of protons and neutrons in the nucleus of an atom\r\n\n"
+  - "\u2022The symbol for nucleon number is A\r\n\n\u2022The nucleon number minus
+    the proton number gives you the number of neutrons of an atom\r\n"
+  - "\u2022Note that protons and neutrons can collectively be called nucleons.\r\n\n\u2022The
+    atomic number and mass number of an element can be shown using atomic notation\r\n\n"
+  - "\u2022The Periodic Table shows the elements together with their atomic (proton)
+    number at the top and relative atomic mass at the bottom - there is a difference
+    between relative atomic mass and mass number, but for your exam, you can use
+    the relative atomic mass as the mass number (with the exception of chlorine)\r\n"
+  - <sprite="TableEle" index=0>
+  - "[Finding Protons]\r\n\nMass number = number of protons + number of neutrons\r\n\nNumber
+    of protons = mass number \u2013 number of neutrons\r\n"
+  - "[Finding Electrons]\r\n\nAn atom is neutral and therefore has the same number
+    of protons and electrons\r\n\n[Finding neutrons]\r\n\nNumber of neutrons = mass
+    number \u2013 number of protons\r\n"
+  - 

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: GiantStructure
+  m_EditorClassIdentifier: 
+  _color: {r: 0.30882066, g: 0.5849056, b: 0.251068, a: 1}
+  _title: 
+  _pages:
+  - "[Graphite and Diamond]\n\n\u2022Diamond and graphite are allotropes of carbon
+    which have giant covalent structures"
+  - "\u2022Both substances contain only carbon atoms but due to the differences in
+    bonding arrangements they are physically completely different\r\n\n\u2022Giant
+    covalent structures contain billions of non-metal atoms, each joined to adjacent
+    atoms by covalent bonds forming a giant lattice structure\r\n"
+  - "[Diamond]\r\n\n\u2022In diamond, each carbon atom bonds with four other carbons,
+    forming a tetrahedron\r\n\n\u2022All the covalent bonds are identical, very strong
+    and there are no intermolecular forces\r\n"
+  - '<sprite="diamond" index=0>
+
+'
+  - "[Graphite]\r\n\u2022Each carbon atom in graphite is bonded to three others forming
+    layers of hexagons, leaving one free electron per carbon atom which becomes delocalised\r\n\n\u2022The
+    covalent bonds within the layers are very strong, but the layers are attracted
+    to each other by weak intermolecular forces\r\n"
+  - '<sprite="graphite" index=0>
+
+'
+  - "[Properties of Diamond]\r\n\u2022Diamond has the following physical properties:\r\n\to
+    It does not conduct electricity\r\n\to It has a very high melting point\r\n\to
+    It is extremely hard and dense\r\n"
+  - "\u2022All the outer shell electrons in carbon are held in the four covalent
+    bonds around each carbon atom, so there are no freely moving charged particles
+    to carry the current thus it cannot conduct electricity"
+  - "\u2022The four covalent bonds are very strong and extend in a giant lattice,
+    so a very large amount of heat energy is needed to break the lattice thus it
+    has a very high melting point"
+  - "\u2022Diamond \u0301s hardness makes it very useful for purposes where extremely
+    tough material is required\r\n\n\u2022Diamond is used in jewellery due to its
+    sparkly appearance and as cutting tools as it is such a hard material\r\n"
+  - "\u2022The cutting edges of discs used to cut bricks and concrete are tipped
+    with diamonds\r\n\n\u2022Heavy-duty drill bits and tooling equipment are also
+    diamond-tipped\r\n"
+  - "[Properties of Graphite]\r\n\n\u2022Each carbon atom is bonded to three others
+    forming layers of hexagonal-shaped forms, leaving one free electron per carbon
+    atom\r\n"
+  - "\u2022These free (delocalised) electrons exist in between the layers and are
+    free to move through the structure and carry charge, hence graphite can conduct
+    electricity"
+  - "\u2022The covalent bonds within the layers are very strong but the layers are
+    connected to each other by weak forces only, hence the layers can slide over
+    each other making graphite slippery and smooth"
+  - "\u2022Graphite thus:\r\n\n\to Coducts electricity\r\n\to Has a very high melting
+    point\r\n\to Is soft and slippery, less dense than diamond \r\n"
+  - "\u2022Graphite is used in pencils and as an industrial lubricant, in engines
+    and in locks\r\n\n\u2022It is also used to make non-reactive electrodes for electrolysis\r\n"
+  - "[Silicon(IV) Oxide]\r\n\n\u2022Silicon(IV) oxide (also known as silicon dioxide
+    or silica), SiO2, is a macromolecular compound which occurs naturally as sand
+    and quartz\r\n"
+  - "\u2022Each oxygen atom forms covalent bonds with 2 silicon atoms and each silicon
+    atom in turn forms covalent bonds with 4 oxygen atoms\r\n\n\u2022A tetrahedron
+    is formed with one silicon atom and four oxygen atoms, similar to diamond \r\n"
+  - <sprite="SiliOx" index=0>
+  - "[Metallic Bonding]\r\n\n\u2022Metal atoms are held together strongly by metallic
+    bonding in a giant metallic lattice\r\n\n\u2022Within the metallic lattice, the
+    atoms lose the electrons from their outer shell and become positively charged
+    ions\r\n"
+  - "\u2022The outer electrons no longer belong to a particular metal atom and are
+    said to be delocalised\r\n\n\n\u2022They move freely between the positive metal
+    ions like a 'sea of electrons'\r\n"
+  - "\u2022Metallic bonds are strong and are a result of the attraction between the
+    positive metal ions and the negatively charged delocalised electrons"
+  - '<sprite="Metallic" index=0>
+
+'
+  - '[Properties of Metals]'
+  - "\u2022Metals have high melting and boiling points\r\n\to There are many strong
+    metallic bonds in giant metallic structures between the positive metal ion and
+    delocalised electrons\r\n\to A lot of heat energy is needed to break these bonds\r\n"
+  - "\u2022Metals conduct electricity\r\n\n\t- There are free electrons available
+    to move through the structure and carry charge\r\n\t"
+  - "\t-  Electrons entering one end of the metal cause a delocalised electron to
+    displace itself from the other end\r\n\t\n\t-  Hence electrons can flow so electricity
+    is conducted\r\n"
+  - "\u2022Metals are malleable and ductile\r\n\t- Layers of positive ions can slide
+    over one another and take up different positions\r\n\t-Metallic bonding is not
+    disrupted as the outer electrons do not belong to any particular metal atom so
+    the delocalised electrons will move with them\r\n"
+  - '- Metallic bonds are thus not broken and as a result metals are strong but flexible
+
+
+    -
+    They can be hammered and bent into different shapes or drawn into wires without
+    breaking
+
+'

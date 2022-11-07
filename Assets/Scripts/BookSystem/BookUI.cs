@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using TMPro;
 using Pause;
 
 public class BookUI : MonoBehaviour, IPauser
 {
-    private static event Action<BookData> OnBookRead;
+    private static Action<BookData> OnBookRead;
     public static void ReadBook(BookData book) => OnBookRead?.Invoke(book);
     [SerializeField] private TextMeshProUGUI leftText;
     [SerializeField] private TextMeshProUGUI rightText;
@@ -60,7 +61,6 @@ public class BookUI : MonoBehaviour, IPauser
     {
         var isEven = (page % 2 == 0);
         var text = isEven ? leftText : rightText;
-
         if (page < currentBook.pages.Length)
         {
             text.text = currentBook.pages[page];
@@ -85,25 +85,29 @@ public class BookUI : MonoBehaviour, IPauser
         else
         {
             text.text = "";
-            if (!isEven) 
-            {
-                closeButton.SetActive(true);
-                rightButton.SetActive(false);
-            }
+            
+            closeButton.SetActive(true);
+            rightButton.SetActive(false);
         }
     }
 
     public void TurnPage(GameObject sideButton)
     {
-        if(sideButton == rightButton) index += 2;
-        if(sideButton == leftButton) index -=2;
+        if(sideButton == rightButton) index += 2; // Debug.Log("Nex Page");
+        if(sideButton == leftButton) index -=2; // Debug.Log("Previous Page");
         if(sideButton == closeButton) 
         {
             CloseBook(); 
+            // Debug.Log("Close Book");
             return;
         }
 
         Render();
     }
 
+    public void Detect()
+    {
+        if (active) CloseBook();
+        // Debug.Log("Closed forcibly");
+    }
 }

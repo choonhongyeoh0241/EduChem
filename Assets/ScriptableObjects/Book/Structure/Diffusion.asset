@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Diffusion
+  m_EditorClassIdentifier: 
+  _color: {r: 1, g: 0.514151, b: 0.514151, a: 1}
+  _title: Diffusion
+  _pages:
+  - '[Diffusion]
+
+'
+  - "\u2022This is the process by which different gases or different liquids mix
+    and is due to the random motion of their particles\r\n\n\n\u2022Diffusing particles
+    move from an area of high concentration to an area of low concentration\r\n"
+  - "\u2022Eventually the concentration of particles is even as they spread out to
+    occupy all of the available space\r\n\n\n\u2022Diffusion happens on its own and
+    no energy input is required although it occurs faster at higher temperatures\r\n"
+  - '[EXPERIMENT]
+
+
+    -->'
+  - <sprite="Experiment1" index=0>
+  - <sprite="Experiment1" index=1>
+  - <sprite="Experiment2" index=0>
+  - <sprite="Experiment2" index=1>
+  - <sprite="Experiment3" index=0>
+  - <sprite="Experiment3" index=1>
+  - '[Relationship between diffusion and molecular mass]'
+  - "\u2022Diffusion occurs much faster in gases than in liquids as gaseous particles
+    move much quicker than liquid particles\r\n\n\n\u2022At the same temperature,
+    different gases do not diffuse at the same rate.\r\n"
+  - "\u2022This is due to the difference in their relative molecular masses\r\n\n\n\u2022Lighter
+    gas particles can travel faster and hence further, therefore the lower its relative
+    mass the faster a gas will diffuse\r\n"
+  - "\u2022This can be demonstrated in the reaction between ammonia, NH3, and hydrogen
+    chloride gas, HCl, inside a long glass tube\r\n"
+  - "\u2022Where the two gases meet a white smoke of ammonium chloride, NH4Cl, is
+    formed\r\n\u2022This does not occur in the middle of the tube as you might expect,
+    but much closer to the end with the hydrogen chloride (Mr = 36.5) and the ammonia
+    (Mr = 17) molecules are smaller and lighter\r\n"
+  - '[EXPERIMENT]'
+  - <sprite="Molecular" index=0>
+  - <sprite="Molecular" index=1>
+  - '[Why?]'
+  - NH3 molecules have less mass than the HCl molecule, so diffuse faster, hence
+    the product (a white smoke of NH4Cl) forms closer to the end where the HCl is

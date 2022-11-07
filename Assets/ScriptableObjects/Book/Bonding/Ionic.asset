@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
+  m_Name: Ionic
+  m_EditorClassIdentifier: 
+  _color: {r: 0.2977686, g: 1, b: 0, a: 1}
+  _title: Ionic
+  _pages:
+  - "\u2022An ion is an electrically charged atom or group of atoms formed by the
+    loss or gain of electrons\r\n\n\n\u2022An atom will lose or gain electrons to
+    become more stable\r\n\n\n"
+  - "\u2022The loss or gain of electrons takes place to gain a full outer shell of
+    electrons which is a more stable arrangement of electrons\n\n\u2022The electronic
+    configuration of an ion will be the same as that of a noble gas \u2013 such as
+    helium, neon, and argon\r\n\n\n"
+  - '[Example: Positively charged sodium ion]
+
+    -->'
+  - <sprite="PositiveIon" index=0>
+  - '[Example: Negatively charged sodium ion]
+
+    -->'
+  - <sprite="NegativeIon" index=0>
+  - '[Ionisation of metals and non-metals]'
+  - "\u2022Metals: all metals can lose electrons to other atoms to become positively
+    charged ions, known as cations\r\n\n\n\u2022Non-metals: all non-metals can gain
+    electrons from other atoms to become negatively charged ions, known as anions\r\n"

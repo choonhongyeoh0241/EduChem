@@ -9,7 +9,7 @@ public class ColliderActivation2 : BoxColliderActivation
         if (playerInRange)
         {
             bridge.GetComponent<SpriteRenderer>().sortingLayerID = SortingLayer.NameToID("1st");
-
+            Debug.Log("Walk on bridge now");
             foreach(var box in boxCollider2Ds)
             {
                 box.enabled = true;

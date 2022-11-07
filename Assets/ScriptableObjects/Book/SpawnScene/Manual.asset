@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a6fccd5e37bcc4582408dce562116f, type: 3}
   m_Name: Manual
   m_EditorClassIdentifier: 
-  _color: {r: 0, g: 0.12516737, b: 1, a: 1}
+  _color: {r: 0.9916792, g: 0, b: 1, a: 1}
   _title: Manual Book
   _pages:
   - "<u><b>Controls</b></u> \n\n\n\n W   \u2191\n\n  A    \u2190  \n\nS   \u2193\n\nD   
@@ -52,12 +52,3 @@ MonoBehaviour:
 '
   - "<u><b>Reminder</b></u>\n\n\nDo remember to save your game progress whenever
     you play \n\nNo auto save system available thus you need to save it before exiting\n"
-  - '
-
-
-
-    Students are encouraged to upload your saved progression online at the
-    main menu
-
-
-    An external player also encouraged to do so'
